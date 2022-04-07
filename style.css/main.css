@@ -1,0 +1,942 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*hTML SECCIONES */
+
+html{
+    background-color: #D9D9D9;
+}
+
+
+footer .footerHome{
+    display: grid;
+    grid-template-areas:"imgE    imgP  imgS" 
+                        "envios pagos seguro";
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    background-color: #735245; 
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+header .headerHome .redesSociales{
+    display: none;
+}
+a{
+    text-decoration: none;
+}         
+            /* ESTRUCTURAS GRID */
+
+/* Estructura GRID Home */
+.headerHome{
+    display: grid;
+    grid-template-areas: "logo  nav  compra";
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #98BBD6;
+    border-width: 0.13rem;
+    
+}
+.gridHome{
+    display: grid;
+    grid-template-areas: "titulo"
+                         "seccion";               
+}
+.gridMomentos{
+    grid-template-areas: " tituloMo "
+                        "seccionMo"
+                        " subtitulo "                           
+                        " galeria" ;                                    
+}
+.gridContacto{
+    grid-template-areas: "tituloC "
+                         "mainC"
+                          "parrafoC "
+                         "formulario "
+                         "complemento "
+                         "adicional";  
+}
+.gridMateTips{
+    grid-template-areas: " tituloM "
+                          "seccionM"
+                          " curado " 
+                          " expl"
+                          " sebador" 
+                          " instruciones"; 
+}
+
+            /* CIERRE ESTRUCTURAS GRID */
+
+/* INDEX.HTML */
+/* Header */
+.logotipo{
+    grid-area: logo;
+    width: 8rem;
+}
+.carroCompra{
+    grid-area: compra;
+}
+.navHome{
+    grid-area: nav;   
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    font-size: 0.7rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+nav ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;    
+}
+nav ul ul li{
+    display: block;
+    font-size: 0.7rem;
+    background-color:#C3D9D5;
+     z-index: 1;    
+}
+nav ul li:hover ul{
+    display: block; 
+}
+
+
+/* Main */
+.aSeccion{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.tituloHome{
+    grid-area: titulo;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;  
+}
+
+/* Sescciones */
+.item{
+    width: 11rem;
+    height: 11rem;
+    overflow: hidden;
+    margin: 0.3125rem;
+    padding-top: 1rem;
+    position: relative;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+}
+.conteinerSeccion{
+    grid-area: seccion;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* personalizacion de secciones */
+.itemProductos{       
+    border-radius: 0.8rem;
+    border: 0.25rem solid #639691 ;
+    background-color:#8DD7CF;
+}
+.itemPzado{  
+    border-radius: 0.8rem;
+    border: 0.25rem solid #967D7D ;
+    background-color: #D6B1B1;   
+}
+.itemMomentos{    
+    border-radius: 0.8rem;
+    border: 0.25rem solid #8580BA ;
+    background-color: #B2ACFA ;   
+}
+.itemMateTips{    
+    border-radius: 0.8rem;
+    border: 0.25rem solid #B38E74 ;
+    background-color: #F3C19D;   
+}
+.itemContactos{    
+    border-radius: 0.8rem;
+    border: 0.25rem solid #A16FA8;
+    background-color: #DE9AE8;  
+    text-align: center;
+}
+/* Posicionamiento de iconos */ /* Iconos Phone: 32px */
+                                /* Iconos Desktop: 64px */
+
+.desktop{
+    display: none;
+}                            
+/* Iconos Contactos */
+.iconoIgram{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;                              
+}
+.iconoTtok{
+    position: absolute;
+    bottom: 7%;
+    left: 40%;
+                                
+}
+.iconoWapp{
+    position: absolute;
+    bottom: 7%;
+    left: 70%;
+                                
+}                              
+/* Iconos Productos */
+.iconoMate{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;                                 
+}
+.iconoTermo{
+    position: absolute;
+    bottom: 7%;
+    left: 40%;  
+}                               
+/* Iconos Personalizado */
+.iconoCerebro{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;                                 
+}                               
+.iconoCvidad{                              
+    position: absolute;
+    bottom: 7%;
+    left: 40%;                                  
+}                               
+.iconoOriginal{
+    position: absolute;
+    bottom: 7%;
+    left: 70%;                                 
+}                               
+/* Iconos Momentos */
+.iconoMountain{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+ }                               
+.iconoPlaya{                            
+    position: absolute;
+    bottom: 7%;
+    left: 40%;
+}                               
+.iconoBosque{
+    position: absolute;
+    bottom: 7%;
+    left: 70%;
+}                              
+/* Iconos Matetips */
+.iconoIccion{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+}                              
+.iconoPasos{
+    position: absolute;
+    bottom: 7%;
+    left: 40%;
+}                               
+.iconoExito{
+    position: absolute;
+    bottom: 7%;
+    left: 70%;
+}
+/* footer Home */
+.footerHome .pie{
+    display: none;   
+}
+footer .footerHome .imgE{
+    grid-area: imgE;
+    padding-top: 0.5rem;  
+}
+footer .footerHome .imgP{
+    grid-area: imgP;  
+    padding-top: 0.5rem; 
+}
+footer .footerHome .imgS{
+    grid-area: imgS;
+    padding-top: 0.5rem;
+}
+footer .footerHome .envios{
+    grid-area: envios;
+    font-size: 90%;
+    padding: 0.3rem;
+    font-family: 'Space Mono', monospace;
+}
+footer .footerHome .pagos{
+    grid-area: pagos;
+    font-size: 90%;
+    padding: 0.3rem;
+    font-family: 'Space Mono', monospace;
+}
+footer .footerHome .compra{
+    grid-area: seguro;
+    font-size: 90%;
+    padding: 0.3rem;
+    font-family: 'Space Mono', monospace;
+}
+/* CIERRE INDEX.HTML */
+
+/* CONTACTOS.HTML */
+/* Main Contactos */
+.tituloContacto{
+    grid-area: tituloC;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    padding: 0.5rem;
+}
+.conteinerContacos{
+    grid-area: mainC;
+}
+.areaContacto{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;  
+}
+.itemC{
+    width: 11rem;
+    height: 10rem;
+    overflow: hidden;
+    margin: 0.3125rem 0 0 0;
+    padding-top: 4rem;
+    border: 1rem 0 0.25rem 0.25rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    border-radius: 1rem 0 0 1rem; 
+    background-color: #DE9AE8;  
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.parrafoC{
+    grid-area: parrafoC;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0%;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+form{
+    grid-area: formulario;
+    padding: 2% 10% 5% 10%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.complemento{
+    grid-area: complemento;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+.adicionalConteiner{
+    grid-area: adicional;
+    text-align: center;
+    margin: 1rem;
+}
+.imgC2, .imgC1, .imgC3{
+    padding: 0.5rem;
+}
+/* Cierre Main Contactos */
+/* CIERRE CONTACTOS.HTML */
+
+/* MTETIPS.HTML */
+.tituloM{
+    grid-area: tituloM;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Space Mono', monospace;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+.conteinerMateTips{
+    grid-area: seccion;
+}
+.areaMT{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+}
+.itemM{
+    width: 11rem;
+    height: 10rem;
+    overflow: hidden;
+    margin: 0.3125rem 0 0 0;
+    padding-top: 4rem;
+    border: 1rem 0 0.25rem 0.25rem;
+    border-radius: 1rem 0 0 1rem; 
+    background-color: #F3C19D;  
+    text-align: center;
+    text-transform: uppercase; 
+    font-family: 'Space Mono', monospace; 
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.contenedorTexto{
+    display: flex;
+    width: 11rem;
+    padding: 0.5em 0 0.5rem 0;
+    margin-top: 0.3125rem;
+    height: 10rem;
+    border-radius: 0 1rem 1rem 0; 
+    align-items: center;
+    justify-content: center;
+    background-color: #F9D896;
+    
+}
+.textoMT{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+   
+}
+.redesC{
+    display: flex;
+    flex-flow: column wrap;
+    width: 11rem;
+    height: 10rem; 
+    margin-top: 0.3125rem;
+    padding: 0.1rem;
+    border-radius: 0 1rem 1rem 0; 
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(238, 196, 234);
+}
+.curado{
+    grid-area: curado;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+    font-family: 'Space Mono', monospace;
+    
+}
+.listaCurado{
+    grid-area: expl;
+}
+.cebado{
+    grid-area: sebador;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    font-family: 'Space Mono', monospace;
+}
+.listaCebado{
+    grid-area: instrucciones;  
+}
+.listaCebado li, .listaCurado li{
+    text-align: justify;
+    padding: 0.1rem 0.8rem 0.1rem 0.8rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-size: 1rem; 
+    
+}
+/* CIERRE MATETIPS.HTML */
+
+/* SECCION MOMENTOS */
+
+.aSeccion{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    color: #1F1F1F;
+    font-weight: bold;    
+}
+.tituloMo{
+    grid-area: tituloMo;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    
+}
+.subTituloMo{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+}
+.conteinerMo{
+    grid-area: seccionMo;
+}
+.areaMo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.itemMo{
+    width: 11rem;
+    height: 10rem;
+    overflow: hidden;
+    margin: 0.3125rem 0 0 0;
+    padding-top: 4rem;
+    border: 1rem 0 0.25rem 0.25rem;
+    border-radius: 1rem 0 0 1rem; 
+    background-color: #B2ACFA;  
+    text-align: center; 
+    text-transform: uppercase;  
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.contenedorImg{
+    grid-area: seccionMo;
+}
+.imgItemMo{
+    margin: 0;
+    width: 11rem;
+    height: 10rem;
+    border: 0.5rem solid #B2ACFA;
+    margin-top: 0.3125rem;
+    height: 10rem;
+    border-radius: 0 1rem 1rem 0; 
+}
+/* Galeria */
+.contenedorGaleria{
+    grid-area: galeria;
+    display: grid;
+    grid-template-areas:     "img1   p1"
+                             "p2  img2"
+                             "img3  p3"
+                             "p4    img4"
+                             "img5   p5 ";   
+  
+    margin: 0.5rem;
+    height: 100%;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+.img1{
+    grid-area: img1;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+.img2{
+    grid-area: img2;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0; 
+}
+.img3{
+    grid-area: img3;
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+    height: 100%;
+}
+.img4{
+    grid-area: img4;
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0; 
+}
+.img5{
+    grid-area: img5;
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+    height: 100%;
+}
+
+.texto1{
+    grid-area: p1; 
+    border-radius: 0 1rem 1rem 0; 
+}
+.texto2{
+    grid-area: p2;
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+    height: 100%;
+}
+.texto3{
+    grid-area: p3;  
+    border-radius: 0 1rem 1rem 0;  
+}
+.texto4{
+    grid-area: p4;  
+    border-radius: 1rem 0 0 1rem; 
+}
+.texto5{
+    grid-area: p5; 
+    border-radius: 0 1rem 1rem 0;   
+}   
+.texto1, .texto2, .texto3, .texto4,.texto5{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #FBD76E;
+    padding: 0.3rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+/* CIERRE SECCION GALERIA */
+
+/* media queries */
+
+@media only screen and (min-width: 1200px){ /* Escritorio */
+    
+    .desktop{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+
+    /* MENU NAVEGACION GLOBAL */
+    .navHome{
+        grid-area: nav;   
+    }
+    nav ul{ 
+        margin-top: 0.5rem;
+        display: flex;
+        flex-wrap: row wrap;
+        list-style: none;
+        justify-content: space-around;
+        font-size: 0; /* truco por el uso de in line-block */
+        padding: 0px;
+        background-color: white;
+        width: 100%;  
+    }
+    nav ul li{
+        list-style: none;
+        font-size: 1.5rem;
+        font-family: 'Space Mono', monospace;  
+        font-weight: bold;       
+    }
+    nav ul ul {
+        position: absolute;
+        display: none;
+        padding: 0;    
+    }
+    nav ul ul li{
+        display: block;
+        font-size: 22px;
+        z-index: 1;
+        background-color:#D9D9D9;  
+        font-family: 'Space Mono', monospace;   
+        border: solid whitesmoke;
+    }
+    ul li:hover ul{
+        display: block; 
+        z-index: 1;
+        width: 10%;
+    }
+    
+    /* FOOTER GLOBAL */
+    .footerHome .pie{
+        display: block;
+    }
+    /* Heredado del código anterior, ya modificaré con grid área */
+    footer .footerHome{
+            /* 6x2 */
+               display: grid;
+               grid-template-columns: auto auto auto auto auto auto;
+               grid-row: auto auto auto ;
+               justify-content: space-around;
+               margin-bottom: 10px;
+    }
+    footer .footerHome .envios{
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            font-size: 1.3rem;
+    }
+    footer .footerHome .pagos{
+            grid-column: 4 / 5;
+            grid-row: 1 / 2;
+            font-size: 1.3rem;
+    }
+    footer .footerHome .compra{
+            grid-column: 6 / 7;
+            grid-row: 1 / 2;
+            font-size: 1.3rem;
+    }
+    
+    footer .footerHome .enviosPie{
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            font-size: 1.2rem;   
+    }  
+    footer .footerHome .compraPie{
+            grid-column: 6 / 7;
+            grid-row: 2 / 3;
+            font-size: 1.2rem;
+    }
+    footer .footerHome .pagosPie{
+            grid-column: 4 / 5;
+            grid-row: 2 / 3;
+            font-size: 1.2rem;
+    }  
+    
+    footer .footerHome .imgP{
+            grid-column: 3 / 4;
+            grid-row: 1 / 3;       
+    }  
+    footer .footerHome .imgE{
+                grid-column: 1 / 2;
+                grid-row: 1 / 3;      
+    }      
+    footer .footerHome .imgS{
+                grid-column: 5 / 6;
+                grid-row: 1 / 3;   
+    }
+    
+                 /* SECCIONES */
+
+    /* HOME*/
+    .headerHome{
+        display: grid;
+        grid-template-areas: "logo   redes     compra"
+                             "nav    nav   nav";
+        margin: 0;
+        padding: 0;
+        background-color: #C3D9D5; 
+        position: relative;
+        
+        
+    }
+    body header .headerHome .logotipo{
+        grid-area: logo;
+        width: 80%;
+        padding: 0.5rem;
+    }
+    header .headerHome .redesSociales{
+        display: block;
+        grid-area: redes;
+        padding-top: 0.5rem;
+    }
+    header .headerHome .redesSociales .redesI{
+        padding: 0rem 0.4rem 0 0;
+        
+    }
+    .carroCompra{
+        grid-area: compra;
+    }
+    
+    /* MAIN HOME */
+    .tituloHome{
+        font-family: 'Space Mono', monospace;
+        text-align: center;
+        font-size: bold;
+        padding: 0px;
+        margin: 0;   
+        color: #1F1F1F;  
+        font-style: italic; 
+        font-size: 2rem;
+        padding: 0.3rem;
+    }
+    .item{
+        height: 50vh;
+        width: 50vh;
+        padding-top: 7%;
+        margin: 10px 20px 30px 20px;
+        overflow: hidden;
+        position: relative;  
+        font-family: 'Space Mono', monospace;
+        font-size: 1.8rem;
+    }
+    .itemProductos{       
+        border-radius: 1.5rem;
+        border: 10px solid #639691 ;
+        background-color:#8DD7CF;
+    } 
+    .itemPzado{  
+        border-radius: 1.5rem;
+        border: 10px solid #967D7D ;
+        background-color: #D6B1B1;   
+    }
+    .itemMomentos{    
+        border-radius: 1.5rem;
+        border: 10px solid #8580BA ;
+        background-color: #B2ACFA ;   
+    }
+    .itemMateTips{    
+        border-radius: 1.5rem;   
+        border: 10px solid #B38E74 ;
+        background-color: #F3C19D;   
+    }
+    .itemContactos{    
+        border-radius: 1.5rem;
+        border: 10px solid #A16FA8;
+        background-color: #DE9AE8;    
+    }
+    /* CIERRE HOME */
+
+
+    /* MOMENTOS */
+    .tituloMo{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    /* Galeria */
+    .contenedorGaleria{
+        grid-area: galeria;
+        display: flex;
+        flex-flow: row wrap; 
+        height: 100%;
+        justify-content: center;
+        gap: 0;   
+    }
+    .texto1, .texto2, .texto3, .texto4,.texto5, .texto6, .texto7, .texto8, .texto9, .texto10{
+        border-radius: 0;
+        width: 15rem;
+        height: 17rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        background-color: #FBD76E;
+        padding: 0.3rem;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10{
+        width: 15rem;
+        height: 17rem;
+        border-radius: 0%;
+        border: solid #FBD76E;
+    }
+    .areaMo{
+        display: flex;
+        justify-content: center;
+    }
+    .itemMo{
+        height: 40vh;
+        width: 40vh;
+        padding-top: 10vh;
+        overflow: hidden;
+        
+        background-color: #B2ACFA ;  
+        font-size: 2rem;
+    }
+    .imgItemMo{
+        width: 40vh;
+        height: 40vh;  
+    }
+    .subTituloMo{
+        font-size: 2rem;
+        font-family: 'Space Mono', monospace;
+        padding: 1rem;
+    }
+    /* CIERRE MOMENTOS */
+
+    /* MATETIPS */
+    .areaMT{
+       
+        display: flex;
+        flex-flow: row wrap; 
+        height: 100%;
+        justify-content: center;
+        gap: 0;   
+    }
+    .itemM{
+        height: 40vh;
+        width: 40vh;
+        padding-top: 15vh;
+        overflow: hidden;
+        
+        background-color: #F3C19D ;  
+        font-size: 2.5rem;
+    }
+    .imagenMTS{
+        margin: 0.3125rem 0 0 0;
+        width: 40vh ;
+        height: 40vh;
+        border: 0.5rem solid #F3C19D;
+    }
+    .contenedorTexto{
+        display: none;   
+    }
+    .tituloM{
+        font-size: 3rem;
+    }
+    .curado, .cebado{
+        font-size: 2.3rem;
+        margin: 1.5rem;
+    }
+    .listaCebado{
+        margin-bottom: 0.8rem;
+    }
+    .listaCebado li, .listaCurado li{
+        font-size: 1.7rem;
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    
+    /* SECCION CONTACTOS */
+    
+
+    .tituloContacto{
+        font-size: 3rem;
+    }
+    .itemC{
+        height: 40vh;
+        width: 40vh;
+        padding-top: 15vh;
+        overflow: hidden; 
+        font-size: 2.5rem; 
+        background-color: #DE9AE8;   
+    }
+
+    .redesC{
+        display: flex;
+        flex-flow: column wrap;
+        width: 40vh;
+        height: 40vh;
+        
+        margin-top: 0.3125rem;
+        
+        border-radius: 0 1rem 1rem 0; 
+        justify-content: center;
+        align-content: space-around;
+        background-color: rgb(238, 196, 234);
+    }
+    .redesCo{
+        width: 8rem;
+    }
+
+    form{
+        grid-area: formulario;
+        padding: 2% 10% 0 10%;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    .parrafoC{
+        font-size: 1.8rem;
+    }
+    .complemento{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .adicionalConteiner{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .imgC2, .imgC1, .imgC3{
+        width: 3.5rem;
+    
+    }
+} 

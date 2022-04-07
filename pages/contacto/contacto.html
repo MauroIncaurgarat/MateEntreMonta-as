@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../style.css/main.css">
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+   
+
+    <title>Home/Contactos</title>
+</head>
+
+<body class="gridAreaContacto">
+    
+    <header>
+        <div class="headerHome">
+
+                <!-- logotipo -->
+                <img class="phone logotipo" src="../../pages/main/logophone.png" alt="">
+                <img class="desktop logotipo" src="../../pages/main/logo.png" alt="">
+                <!-- Redeso sociales-->
+                <div class="redesSociales">
+                    <a class="redesI" href="http://www.instagram.com/mates.entremontanas/" target="_blank" >
+                        <img src="../../pages/contacto/img/instagram.png" alt="" class="redes">    
+                    </a>
+        
+                    <a class="redesI" href="http://www.tiktok.com/@mates.entremontanas?" target="_blank" >
+                        <img src="../../pages/contacto/img/tiktok.png" alt="" class="redes">
+                    </a>
+                
+                    <a class="redesI" href="" target="_blank">
+                        <img src="../../pages/contacto/img/whatsapp.png" alt="" class="redes">
+                    </a>
+                
+                </div>
+                <!-- Carro compras -->
+
+                <img class="phone carroCompra" src="../../pages/main/carrophone.png" alt="">
+                <img class="desktop carroCompra" src="../../pages/main/carro.png" alt="">
+
+                <nav class="navHome">   
+                    <ul class="menuNav">
+                        
+                        <li>
+                            <a href="../../index.html"> Home </a>
+                        </li>
+                        
+                        <li>
+                            <a href="../../pages/productos/productos.html">
+                            Productos
+                            </a> 
+                            <ul>
+                                <li>Mates</li>
+                                <li>Bombillas</li>
+                                <li>Termos</li>
+                            </ul>          
+                        <li>
+                            <a href="../../pages/personalizado/personalizado.html">
+                            Personalizado
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="../../pages/momentos/momentos.html">
+                            Momentos
+                        </a>
+                        </li>
+                        
+                        <li>
+                            <a href="../../pages/matetips/matetips.html">
+                            Matetips
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="../../pages/contacto/contacto.html">
+                            Contacto
+                            </a>
+                        </li>
+            
+                    </ul>               
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <div  class="gridContacto">
+            <h1 class="tituloContacto"> ¡ VISITANOS ! </h1>
+           
+            <div class="conteinerContacto">    
+                <div class="areaContacto">
+                    <div class="itemC"> 
+                        Contacto
+                    </div>
+                            
+                    <div class="redesC">
+                        <a href="http://www.instagram.com/mates.entremontanas/" target="_blank" ><img src="../../pages/contacto/img/instagram.png" alt="" class="redesCo"></a>
+                        <a href="http://www.tiktok.com/@mates.entremontanas?" target="_blank" ><img src="../../pages/contacto/img/tiktok.png" alt="" class="redesCo"></a>
+                
+                        <a href="" target="_blank"><img src="../../pages/contacto/img/whatsapp.png" alt="" class="redesCo"></a>
+                
+                    </div>
+                </div>
+            </div>
+           
+            <h2 class="parrafoC"> Para cualquier duda o consulta, comunicarse utilizando cualquier medio disponible</h2>
+
+            <form class="formulario" action="" method="POST"> 
+                <fieldset>
+                    
+                    <div> <!-- Lo utilizo para dividir la etiqueta de linea -->
+                        <label for="nombre">
+                            Nombre
+                        </label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Mauro">                         
+                    </div>
+        
+                    <div> 
+                        <label for="apellido">
+                            Apellido
+                        </label>
+                        <input id="apellido" type="text" name="apellido" placeholder="Incaurgarat">                         
+                    </div>
+        
+                    <div> 
+                        <label for="celular">
+                            Celular
+                        </label>
+                        <input type="tel" name="celular" id="celular" placeholder="(cod-area)+(Celular)">                         
+                    </div>
+                    
+                    <div> 
+                        <label for="email">
+                            Correo
+                        </label>
+                        <input type="email" name="celular" id="email" placeholder="mauroincaurgarat@...">                         
+                    </div>
+        
+                <!-- SI UTILIZO DIV EL PLACEHOLDER DEL TEXT AREA FALLA, POR ESO PUSE UN BR -->
+                    <div>
+                        <label for="comentario"> <!-- Cuando use CSS puedo mover la ubiacion de la palabra comentario. creo que utilizar otro div para separar no debe ser bueno-->
+                            Comentario
+                        </label>
+                        <textarea cols="30" rows="5" id="comentario" placeholder="Ingrese comentario"></textarea>
+                                                
+                    </div>
+                    <!-- Utilizo button porque es mas personalizable que input -->
+                    <button type="submit" value="enviar tabla">Enviar</button>
+                    <button type="reset" value="resetear tabla">Resetiar</button>
+                
+                </fieldset>
+        
+            </form>
+            
+            <h3 class="complemento">Nuestro personal de atención se encargará a la brevedad !</h3>
+            
+            <div class="adicionalConteiner">  
+                <img  class="imgC1" src="img/tlefonophone.png" alt="">
+           
+                <p class="textoC1"> 26138372985</p>
+           
+                <img class="imgC2" src="img/emailphone.png" alt="">
+           
+                <p class="textoC2">mates.mdz2019@gmail.com</p>
+           
+                <img class="imgC3" src="img/ubicacionphone.png" alt="">                
+           
+                <p class="textoC3">Chile 1840</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerHome ">
+            
+            <img class="desktop imgED"  src="../../pages/main/envios.png" alt="">
+            <img class="phone imgE"  src="../../pages/main/enviosphone.png" alt="">
+            <h3 class="envios"> Enviamos tu compra </h3>
+            <p class="pie enviosPie"> Envios a todo el pais</p>
+
+            <img class="desktop imgPD" src="../../pages/main/tarjeta.png" alt="">
+            <img class="phone imgP" src="../../pages/main/tarjetaphone.png" alt="">
+            <h3 class="pagos"> Paga como quieras</h3>
+            <p class="pie pagosPie">  Efectivo y Debito</p>
+
+            <img class="desktop imgSD" src="../../pages/main/segura.png" alt="">
+            <img class="phone imgS" src="../../pages/main/seguraphone.png" alt="">
+            <h3 class="compra"> Compra segura </h3>
+            <p class="pie compraPie"> Tus datos protegidos</p>
+        </div>
+    </footer>   
+  
+</body>
+
+</html>
