@@ -15,6 +15,7 @@ footer .footerHome{
     position: absolute;
     background-color: #735245; 
     padding: 0.5rem 0 0.5rem 0;
+    margin: 0;
 }
 
 header .headerHome .redesSociales{
@@ -24,8 +25,7 @@ a{
     text-decoration: none;
 }         
 
-            /* ESTRUCTURAS GRID */
-
+/* ESTRUCTURAS GRID */
 /* Estructura GRID Home */
 .headerHome{
     display: grid;
@@ -67,6 +67,7 @@ a{
                           " sebador" 
                           " instruciones"; 
     background-color: #D9D9D9;
+    
 }
 .gridPro{
     grid-template-areas: " tituloPro"
@@ -82,8 +83,7 @@ a{
                           " muestrarioPzado";
     background-color: #D9D9D9;
 }
-
-            /* CIERRE ESTRUCTURAS GRID */
+/* CIERRE ESTRUCTURAS GRID */
 
 /* INDEX.HTML */
 /* Header */
@@ -126,8 +126,6 @@ nav ul li:hover ul{
     font-family: 'Space Mono', monospace;
     font-size: 0.7rem;  
 }
-
-
 
 /* Main */
 .aSeccion{
@@ -445,6 +443,7 @@ form{
 }
 .listaCurado{
     grid-area: expl;
+    list-style: none;
 }
 .cebado{
     grid-area: sebador;
@@ -455,6 +454,7 @@ form{
 }
 .listaCebado{
     grid-area: instrucciones;  
+    list-style: none;
 }
 .listaCebado li, .listaCurado li{
     text-align: justify;
@@ -466,8 +466,7 @@ form{
 }
 /* CIERRE MATETIPS.HTML */
 
-/* Productos */
-
+/* PRODUCTOS.HTML */
 .tituloPro{
     grid-area: tituloPro;
     text-align: center;
@@ -518,21 +517,49 @@ form{
 
 .galeriaProductos{
     grid-area: muestrarioPro;
+    height: 100%;
+    padding-bottom: 1rem;
 }
-/* Cierre Productos */
+.phoneGaleriaPro{
+    width: 12.5rem;
+}
 
-/* Personalizado */
+.tituloCard{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'space mono', monospace;
+}
+.precioCard{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'space mono', monospace;
+}
+.textoCard{
+    padding: 0;
+    text-align: left;
+    font-size: 0.95rem;
+    font-family: 'space mono', monospace;
+    list-style: none;
+}
+.phoneGaleriaPro div div ul li{
+    padding-bottom: 0.05rem;
+}
+/* Cierre PRODUCTOS.HTML */
 
+/* PERSONALIZADO.HTML */
 .tituloPzadoo{
     grid-area: tituloPzado;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
     font-family: 'Space Mono', monospace;  
 }
 .subtituloPzadoo{
     text-align: center;
-    font-size: 1.3rem;
-    padding-top: 0.5rem;
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Space Mono', monospace; 
+    font-weight: bold;
 }
 .conteinerPzadoo{
     grid-area: seccionPzado;
@@ -558,7 +585,7 @@ form{
     font-size: 1.2rem;
 }
 .contenedorImgPzadoo{
-    grid-area: seccionPzado;
+    grid-area: seccionPzado; 
 }
 .imgPzadoo{
     margin: 0;
@@ -569,10 +596,33 @@ form{
     height: 10rem;
     border-radius: 0 1rem 1rem 0; 
 }
-/* Cierre Perzonalizado */
+.galeriaPzadoo{
+    grid-area: muestrarioPzado;
+}
+.pasosPzado{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+.listaPasos{
+    list-style: none;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+.listaPasos li{
+    padding: 0 0 0.90rem 0 ;
+}
+.diseñador{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(214, 36, 36);
+}
+/* Cierre PERSONALIZADO.HTML */
 
-/* SECCION MOMENTOS */
 
+/* SECCION MOMENTOS.HTML */
 .aSeccion{
     text-decoration: none;
     text-transform: uppercase;
@@ -706,7 +756,7 @@ form{
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
 }
-/* CIERRE SECCION GALERIA */
+/* CIERRE SECCION MOMENTOS */
 
 /* media queries */
 
@@ -965,7 +1015,10 @@ form{
         border: 0.5rem solid #8DD7CF;
         border-radius: 0 1rem 1rem 0; 
     }
-
+    .phoneGaleriaPro{
+        width: 15rem;
+    }
+    
     /* Personalizado */
     .tituloPzadoo{
         grid-area: tituloPzado;
@@ -993,6 +1046,27 @@ form{
     }
     .subtituloPzadoo{
         grid-area: subtituloPzado;
+        font-size: 2.8rem;
+    }
+    .pasosPzado{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 2rem;
+    }
+    .listaPasos{
+        list-style: none;
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+        font-size: 1.2rem;
+        font-family: 'Space Mono', monospace;
+    }
+    .listaPasos li{
+        padding: 0 0 0.90rem 0 ;
+    }
+    .diseñador{
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(214, 36, 36);
     }
 
     /* MOMENTOS */
@@ -1038,6 +1112,8 @@ form{
         height: 100%;
         justify-content: center;
         gap: 0;   
+        margin-bottom: 0;
+        padding-bottom: 1rem;
     }
     .texto1, .texto2, .texto3, .texto4,.texto5, .texto6, .texto7, .texto8, .texto9, .texto10{
         border-radius: 0;
@@ -1069,6 +1145,7 @@ form{
         justify-content: center;
         gap: 0;   
     }
+    
     .itemM{
         height: 40vh;
         width: 40vh;
@@ -1096,10 +1173,13 @@ form{
     }
     .listaCebado{
         margin-bottom: 0.8rem;
+        margin-bottom: 0;
+        list-style: none;
     }
     .listaCebado li, .listaCurado li{
         font-size: 1.7rem;
         margin: 0 1.5rem 0 1.5rem;
+        list-style: none;
     }
     
     /* SECCION CONTACTOS */
@@ -1137,6 +1217,7 @@ form{
         font-weight: bold;
         font-size: 1.5rem;
         text-align: center;   
+        
     }
     .parrafoC{
         font-size: 1.8rem;
@@ -1151,6 +1232,7 @@ form{
         justify-content: space-evenly;
         font-size: 1.5rem;
         align-items: center;
+        margin-bottom: 0;
     }
     .imgC2, .imgC1, .imgC3{
         width: 3.5rem;
