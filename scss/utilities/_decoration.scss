@@ -1,0 +1,19 @@
+// enlaces
+@import "tipografia";
+
+
+%enlaces-seccion-P {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 1rem;
+}
+%titulos-ppales{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: $tipografia-ppal;
+    padding: 0.3rem;
+    font-weight: bold;
+}

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- link animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -24,71 +26,87 @@
     <header>
         <div class="headerHome">
 
-                <!-- logotipo -->
-                <img class="phone logotipo" src="pages/main/logophone.png" alt="">
-                <img class="desktop logotipo" src="pages/main/logo.png" alt="">
-                <!-- Redeso sociales-->
-                <div class="redesSociales">
-                    <a class="redesI" href="http://www.instagram.com/mates.entremontanas/" target="_blank" >
-                        <img src="pages/contacto/img/instagram.png" alt="" class="redes animate__animated animate__pulse">    
-                    </a>
-        
-                    <a class="redesI" href="http://www.tiktok.com/@mates.entremontanas?" target="_blank" >
-                        <img src="pages/contacto/img/tiktok.png" alt="" class="redes animate__animated animate__pulse">
-                    </a>
-                
-                    <a class="redesI" href="" target="_blank">
-                        <img src="pages/contacto/img/whatsapp.png" alt="" class="redes animate__animated animate__pulse">
-                    </a>
-                
-                </div>
-                <!-- Carro compras -->
-
-                <img class="phone carroCompra" src="pages/main/carrophone.png" alt="">
-                <img class="desktop carroCompra" src="pages/main/carro.png" alt="">
-
-                <nav class="navHome">   
-                    <ul class="menuNav">
-                        
-                        <li>
-                            <a href="index.html"> Home </a>
-                        </li>
-                        
-                        <li>
-                            <a href="pages/productos/productos.html">
-                            Productos
-                            </a> 
-                            <ul>
-                                <li>Mates</li>
-                                <li>Bombillas</li>
-                                <li>Termos</li>
-                            </ul>          
-                        <li>
-                            <a href="pages/personalizado/personalizado.html">
-                            Personalizado
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="pages/momentos/momentos.html">
-                            Momentos
-                        </a>
-                        </li>
-                        
-                        <li>
-                            <a href="pages/matetips/matetips.html">
-                            Matetips
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="pages/contacto/contacto.html">
-                            Contacto
-                            </a>
-                        </li>
+            <!-- logotipo -->
+            <img class="phone logotipo" src="pages/main/logophone.png" alt="">
+            <img class="desktop logotipo" src="pages/main/logo.png" alt="">
+            <!-- Redeso sociales-->
+            <div class="redesSociales">
+                <a class="redesI" href="http://www.instagram.com/mates.entremontanas/" target="_blank" >
+                    <img src="pages/contacto/img/instagram.png" alt="" class="redes animate__animated animate__pulse">    
+                </a>
+    
+                <a class="redesI" href="http://www.tiktok.com/@mates.entremontanas?" target="_blank" >
+                    <img src="pages/contacto/img/tiktok.png" alt="" class="redes animate__animated animate__pulse">
+                </a>
             
-                    </ul>               
-                </nav>
+                <a class="redesI" href="" target="_blank">
+                    <img src="pages/contacto/img/whatsapp.png" alt="" class="redes animate__animated animate__pulse">
+                </a>
+            
+            </div>
+            <!-- Carro compras -->
+
+            <img class="phone carroCompra" src="pages/main/carrophone.png" alt="">
+            <img class="desktop carroCompra" src="pages/main/carro.png" alt="">
+
+            <div class="dropdown phone menuphone">
+                <button class="btn" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="pages/main/hamburguesa.png " alt="">
+                </button>
+                    
+                <ul style="background-color: #D9D9D9;" class="dropdown-menu "> <!-- ¿Como lo alinio al centro? Boostrap-->
+                    <li ><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="pages/productos/productos.html">Productos</a></li>
+                    <li><a class="dropdown-item" href="pages/personalizado/personalizado.html">Personallizado</a></li>
+                    <li><a class="dropdown-item" href="pages/momentos/momentos.html">Momentos</a></li>
+                    <li><a class="dropdown-item" href="pages/matetips/matetips.html">Mate Tips</a></li>
+                    <li><a class="dropdown-item" href="pages/contacto/contacto.html">Contactos</a></li>
+                </ul>
+            </div>
+
+            <nav class="navHome desktop">   
+                <ul class="menuNav">
+                    
+                    <li>
+                        <a href="index.html"> Home </a>
+                    </li>
+                    
+                    <li>
+                        <a href="pages/productos/productos.html">
+                        Productos
+                        </a> 
+                        <ul>
+                            <li>Mates</li>
+                            <li>Bombillas</li>
+                            <li>Termos</li>
+                        </ul>          
+                    <li>
+                        <a href="pages/personalizado/personalizado.html">
+                        Personalizado
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="pages/momentos/momentos.html">
+                        Momentos
+                    </a>
+                    </li>
+                    
+                    <li>
+                        <a href="pages/matetips/matetips.html">
+                        Matetips
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="pages/contacto/contacto.html">
+                        Contacto
+                        </a>
+                    </li>
+        
+                </ul>               
+            </nav>
+    
         </div>
     </header>
     <main>
@@ -99,9 +117,10 @@
                 <a  class="aSeccion" href="pages/productos/productos.html">
                     <section class="item itemProductos phoneProductos ">
                         Productos
-                        <img src="pages/productos/img/matephone.png" class="phone iconoMate" alt="">
-                        <img src="pages/productos/img/termophone.png" class="phone iconoTermo" alt="">
-                    
+                        <!-- Phone -->
+                        <img src="pages/productos/img/matephone.png" class="phone i1" alt="">
+                        <img src="pages/productos/img/termophone.png" class="phone i2" alt="">
+                        <!-- Desktop -->
                         <img src="pages/productos/img/mate.png" class="desktop iconoMate" alt="">
                         <img src="pages/productos/img/termo.png" class="desktop iconoTermo" alt="">
                     
@@ -110,24 +129,25 @@
                 <a  class="aSeccion" href="pages/personalizado/personalizado.html">
                     <section class="item itemPzado phonePzado ">
                         Personalizado
-                    <img src="pages/personalizado/img/cerebrophone.png" class="phone iconoCerebro" alt="">
-                    <img src="pages/personalizado/img/creatividadphone.png" class="phone iconoCvidad" alt="" >
-                    <img src="pages/personalizado/img/originalphone.png" class="phone iconoOriginal" alt="">
-                
-                    <img src="pages/personalizado/img/cerebro.png" class="desktop iconoCerebro" alt="">
-                    <img src="pages/personalizado/img/creatividad.png" class="desktop iconoCvidad" alt="" >
-                    <img src="pages/personalizado/img/original.png" class="desktop iconoOriginal" alt="">
+                            <!-- Phone -->
+                        <img src="pages/personalizado/img/cerebrophone.png" class="phone i1" alt="">
+                        <img src="pages/personalizado/img/creatividadphone.png" class="phone i2" alt="" >
+                        <img src="pages/personalizado/img/originalphone.png" class="phone i3" alt="">
+                            <!-- Desktop -->
+                        <img src="pages/personalizado/img/cerebro.png" class="desktop iconoCerebro" alt="">
+                        <img src="pages/personalizado/img/creatividad.png" class="desktop iconoCvidad " alt="" >
+                        <img src="pages/personalizado/img/original.png" class="desktop iconoOriginal" alt="">
                               
                     </section>
                 </a>
                 <a  class="aSeccion" href="pages/momentos/momentos.html">
                     <section class="item itemMomentos ">
                         Momentos
-                    
-                        <img src="pages/momentos/img/mountainphone.png" class="phone iconoMountain" alt="">
-                        <img src="pages/momentos/img/playaphone.png" class="phone iconoPlaya" alt="">
-                        <img src="pages/momentos/img/bosquephone.png" class="phone iconoBosque" alt="">
-                        
+                            <!-- Phone -->                    
+                        <img src="pages/momentos/img/mountainphone.png" class="phone i1" alt="">
+                        <img src="pages/momentos/img/playaphone.png" class="phone i2" alt="">
+                        <img src="pages/momentos/img/bosquephone.png" class="phone i3" alt="">
+                            <!-- Desktop -->    
                         <img src="pages/momentos/img/mountain.png" class="desktop iconoMountain" alt="">
                         <img src="pages/momentos/img/playa.png" class="desktop iconoPlaya" alt="">
                         <img src="pages/momentos/img/bosque.png" class="desktop iconoBosque" alt="">              
@@ -136,11 +156,11 @@
                 <a  class="aSeccion" href="pages/matetips/matetips.html">
                     <section class="item itemMateTips phoneMAteTips ">
                         MateTips
-                    
-                        <img src="pages/matetips/img/instruccionphone.png" class="phone iconoIccion" alt="">
-                        <img src="pages/matetips/img/pasosphone.png" class="phone iconoPasos" alt="">
-                        <img src="pages/matetips/img/exitophone.png" class="phone iconoExito" alt="">
-
+                            <!-- Phone -->                
+                        <img src="pages/matetips/img/instruccionphone.png" class="phone i1" alt="">
+                        <img src="pages/matetips/img/pasosphone.png" class="phone i2" alt="">
+                        <img src="pages/matetips/img/exitophone.png" class="phone i3" alt="">
+                            <!-- Desktop -->
                         <img src="pages/matetips/img/instruccion.png" class="desktop iconoIccion" alt="">
                         <img src="pages/matetips/img/pasos.png" class="desktop iconoPasos" alt="">
                         <img src="pages/matetips/img/exito.png" class="desktop iconoExito" alt="">
@@ -149,10 +169,11 @@
                 <a  class="aSeccion contacto" href="pages/contacto/contacto.html">
                     <section class="item itemContactos phoneContactos ">
                         Contactos
-                        <img src="pages/contacto/img/instaphone.png" class="phone iconoIgram" alt="">
-                        <img src="pages/contacto/img/tiktokphone.png" class="phone iconoTtok" alt="">
-                        <img src="pages/contacto/img/whatsapphone.png" class="phone iconoWapp" alt="">
-                        
+                            <!-- Phone -->
+                        <img src="pages/contacto/img/instaphone.png" class="phone i1" alt="">
+                        <img src="pages/contacto/img/tiktokphone.png" class="phone i2" alt="">
+                        <img src="pages/contacto/img/whatsapphone.png" class="phone iconoWapp i3" alt="">
+                            <!-- Desktop -->
                         <img class="desktop iconoIgram"  src="pages/contacto/img/instagram.png"  alt="">
                         <img class="desktop iconoTtok" src="pages/contacto/img/tiktok.png"  alt="">
                         <img class="desktop iconoWapp" src="pages/contacto/img/whatsapp.png"  alt="">
@@ -164,24 +185,24 @@
 
     <footer>
         <div class="footerHome  footerbottom">
-            
             <img class="desktop imgE"  src="pages/main/envios.png" alt="">
             <img class="phone imgE"  src="pages/main/enviosphone.png" alt="">
             <h3 class="envios"> Enviamos tu compra </h3>
-            <p class="pie enviosPie"> Envios a todo el pais</p>
+            <p class="desktop enviosPie"> Envios a todo el pais</p>
 
             <img class="desktop imgP" src="pages/main/tarjeta.png" alt="">
             <img class="phone imgP" src="pages/main/tarjetaphone.png" alt="">
             <h3 class="pagos"> Paga como quieras</h3>
-            <p class="pie pagosPie">  Efectivo y Debito</p>
+            <p class="desktop pagosPie">  Efectivo y Debito</p>
 
             <img class="desktop imgS" src="pages/main/segura.png" alt="">
             <img class="phone imgS" src="pages/main/seguraphone.png" alt="">
             <h3 class="compra"> Compra segura </h3>
-            <p class="pie compraPie"> Tus datos protegidos</p>
+            <p class="desktop compraPie"> Tus datos protegidos</p>
         </div>
     </footer>    
-    
+    <!-- javaScript Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
     
 

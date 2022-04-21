@@ -1,0 +1,127 @@
+//imports
+@import "utilities/colores";
+@import "utilities/iconos";
+@import "utilities/gridFlex";
+@import "utilities/decoration";
+@import "utilities/dimensiones";
+@import "utilities/tipografia";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.desktop{
+    display: none;
+}
+
+header{
+    background-color: $color-header;
+    .headerHome{
+        display: grid;
+        grid-template-areas: "logo navH compra";
+        justify-content: space-between;
+        .redesSociales{
+            display: none;
+        }  
+        .logotipo{
+            grid-area: logo;
+            width: 8rem;
+            padding: 0.5rem;
+        }
+        .carroCompra{
+            grid-area: compra;
+            padding: 0.5rem;
+        }
+        .menuphone{
+            grid-area: navH;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+        }    
+    }
+}
+main{
+    .tituloHome{
+        @extend %titulos-ppales;
+    }
+    .gridHome{
+        display: grid;
+        grid-template-areas: "titulo"
+                        "seccion";  
+        background-color: $color-grid;
+        .conteinerSeccion{
+            grid-area: seccion;
+            @extend %flex-1;
+            
+            .aSeccion{
+                @extend %enlaces-seccion-P;
+                //secciones
+                .itemProductos{
+                    @include color-Secciones(nth($color-ppal-s,1), nth($color-borde-s, 1) );
+                }
+                .itemPzado{
+                    @include color-Secciones(nth($color-ppal-s,2), nth($color-borde-s, 2) );
+                }
+                .itemMomentos{
+                    @include color-Secciones(nth($color-ppal-s,3), nth($color-borde-s, 3) );
+                }
+                .itemMateTips{
+                    @include color-Secciones(nth($color-ppal-s,4), nth($color-borde-s, 4) );
+                }
+                .itemContactos{
+                    @include color-Secciones(nth($color-ppal-s,5), nth($color-borde-s, 5) );
+                }
+                .item{
+                    @extend %dimension-Seccion-P;
+                    
+                    //iconos
+                    .i1{
+                        @extend %iconosIzquierda;
+                    }
+                    .i2{
+                        @extend %iconosMedio;
+                    }
+                    .i3{
+                        @extend %iconosDerecha;
+                    }
+
+                }   
+            }
+        }
+
+    }
+
+}
+
+footer{
+    div{
+        @include grid-footer;
+        .imgE{
+            grid-area: imgE;
+            @extend %padding-ic-f;
+        }
+        .imgP{
+            grid-area: imgP;
+            @extend %padding-ic-f;
+        }
+        .imgS{
+            grid-area: imgS;
+            @extend %padding-ic-f;
+        }
+        .envios{
+            grid-area: envios;
+            @extend %texto-titulo-f;
+        }
+        .pagos{
+            grid-area: pagos;
+            @extend %texto-titulo-f;
+        }
+        .compra{
+            grid-area: seguro;
+            @extend %texto-titulo-f;
+        }
+        
+    }
+}
+

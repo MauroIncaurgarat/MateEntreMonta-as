@@ -1,0 +1,36 @@
+@import "colores";
+
+@mixin grid-4{
+    display: grid;
+    grid-area: "1"
+               "2"
+               "3"
+               "4";
+    background-color: $color-grid;
+}
+@mixin grid-6{
+    display: grid;
+    grid-area: "1"
+               "2"
+               "3"
+               "4"
+               "5"
+               "6";
+    background-color: $color-grid;
+}
+%flex-1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+@mixin grid-footer {
+    display: grid;
+    grid-template-areas:"imgE    imgP  imgS" 
+                        "envios pagos seguro";
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    background-color: $color-footer; 
+    padding: 0.5rem 0 0.5rem 0;
+}

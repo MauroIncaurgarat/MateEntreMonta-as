@@ -1,0 +1,136 @@
+footer div .envios, footer div .pagos, footer div .compra {
+  font-size: 90%;
+  padding: 0.3rem;
+  font-family: "Space Mono", monospace; }
+
+main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+  position: absolute;
+  bottom: 7%;
+  left: 10%; }
+
+main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+  position: absolute;
+  bottom: 7%;
+  left: 40%; }
+
+main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+  position: absolute;
+  bottom: 7%;
+  left: 70%; }
+
+footer div .imgE, footer div .imgP, footer div .imgS {
+  padding-top: 0.5rem; }
+
+main .gridHome .conteinerSeccion {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+footer div .envios, footer div .pagos, footer div .compra {
+  font-size: 90%;
+  padding: 0.3rem;
+  font-family: "Space Mono", monospace; }
+
+main .gridHome .conteinerSeccion .aSeccion {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1F1F1F;
+  font-weight: bold;
+  font-size: 1rem; }
+
+main .tituloHome {
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: "Space Mono", monospace;
+  padding: 0.3rem;
+  font-weight: bold; }
+
+main .gridHome .conteinerSeccion .aSeccion .item {
+  width: 11rem;
+  height: 11rem;
+  overflow: hidden;
+  margin: 0.3125rem;
+  padding-top: 1rem;
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.2rem;
+  border-radius: 0.8rem;
+  border: 0.25rem solid; }
+
+footer div .envios, footer div .pagos, footer div .compra {
+  font-size: 90%;
+  padding: 0.3rem;
+  font-family: "Space Mono", monospace; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.desktop {
+  display: none; }
+
+header {
+  background-color: #98BBD6; }
+  header .headerHome {
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between; }
+    header .headerHome .redesSociales {
+      display: none; }
+    header .headerHome .logotipo {
+      grid-area: logo;
+      width: 8rem;
+      padding: 0.5rem; }
+    header .headerHome .carroCompra {
+      grid-area: compra;
+      padding: 0.5rem; }
+    header .headerHome .menuphone {
+      grid-area: navH;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem; }
+
+main .gridHome {
+  display: grid;
+  grid-template-areas: "titulo" "seccion";
+  background-color: #D9D9D9; }
+  main .gridHome .conteinerSeccion {
+    grid-area: seccion; }
+    main .gridHome .conteinerSeccion .aSeccion .itemProductos {
+      background-color: #8DD7CF;
+      border-color: #639691; }
+    main .gridHome .conteinerSeccion .aSeccion .itemPzado {
+      background-color: #D6B1B1;
+      border-color: #967D7D; }
+    main .gridHome .conteinerSeccion .aSeccion .itemMomentos {
+      background-color: #B2ACFA;
+      border-color: #8580BA; }
+    main .gridHome .conteinerSeccion .aSeccion .itemMateTips {
+      background-color: #F3C19D;
+      border-color: #B38E74; }
+    main .gridHome .conteinerSeccion .aSeccion .itemContactos {
+      background-color: #DE9AE8;
+      border-color: #A16FA8; }
+
+footer div {
+  display: grid;
+  grid-template-areas: "imgE    imgP  imgS"  "envios pagos seguro";
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+  position: absolute;
+  background-color: #735245;
+  padding: 0.5rem 0 0.5rem 0; }
+  footer div .imgE {
+    grid-area: imgE; }
+  footer div .imgP {
+    grid-area: imgP; }
+  footer div .imgS {
+    grid-area: imgS; }
+  footer div .envios {
+    grid-area: envios; }
+  footer div .pagos {
+    grid-area: pagos; }
+  footer div .compra {
+    grid-area: seguro; }

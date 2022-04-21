@@ -1,0 +1,19 @@
+//Loyout
+$color-header: #98BBD6;
+$color-nav: whitesmoke;
+$color-grid: #D9D9D9;
+$color-footer: #735245;
+$color-galeria: #FBD76E;
+
+//secciones
+// 1-Productos  2-Pzado  3-Momentos  4-MateTips  5-Contactos
+$color-ppal-s: #8DD7CF, #D6B1B1, #B2ACFA, #F3C19D, #DE9AE8;
+$color-borde-s: #639691, #967D7D, #8580BA, #B38E74, #A16FA8;
+$color-hover-s: #4D7571, #756161, #545175, #755D4C, #714D75; 
+
+//botones
+
+@mixin color-Secciones ($fondo, $borde){
+    background-color: $fondo;
+    border-color: $borde;
+}
