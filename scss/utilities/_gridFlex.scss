@@ -34,3 +34,16 @@
     background-color: $color-footer; 
     padding: 0.5rem 0 0.5rem 0;
 }
+%galeria-momentos{
+    display: grid;
+    grid-template-areas:     "img1   p1"
+                             "p2  img2"
+                             "img3  p3"
+                             "p4    img4"
+                             "img5   p5 ";   
+    margin: 0 1rem 1rem 1rem;
+    justify-content: center;
+    
+    
+    
+}

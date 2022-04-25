@@ -7,7 +7,7 @@
     <!-- Link de Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="../../style.css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <!-- link animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -52,7 +52,24 @@
             <img class="phone carroCompra" src="../../pages/main/carrophone.png" alt="">
             <img class="desktop carroCompra" src="../../pages/main/carro.png" alt="">
 
-            <nav class="navHome">   
+            <!-- Boostrap dropdown-->
+            <div class="dropdown phone menuphone">
+                <button class="btn" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../main/hamburguesa.png " alt="">
+                </button>
+                    
+                <ul style="background-color: #D9D9D9;" class="dropdown-menu "> <!-- ¿Como lo alinio al centro? Boostrap-->
+                    <li ><a class="dropdown-item" href="../../index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="../productos/productos.html">Productos</a></li>
+                    <li><a class="dropdown-item" href="../personalizado/personalizado.html">Personallizado</a></li>
+                    <li><a class="dropdown-item" href="../momentos/momentos.html">Momentos</a></li>
+                    <li><a class="dropdown-item" href="../matetips/matetips.html">Mate Tips</a></li>
+                    <li><a class="dropdown-item" href="../contacto/contacto.html">Contactos</a></li>
+                </ul>
+            </div>
+
+            <!-- Header Desktop -->
+            <nav class="navHome desktop">   
                 <ul class="menuNav">
                     
                     <li>
@@ -104,11 +121,8 @@
                 <div class="areaMT">
                     <div class="itemM">Mate Tips
                     </div>
-                    <div class="contenedorTexto">
-                        <p class="textoMT phone">"Los desafíos son los que hacen la vida interesante, y superarlos es lo que hace la vida significativa"</p>  
-                    </div>   
-                    <div class="imgMaS">
-                        <img class="desktop imagenMTS" src="img/cebado.JPG" alt="" > 
+                    <div class="contenedorImgMT">
+                        <img class="imagenMTS" src="img/cebado.JPG" alt="" > 
                     </div>
                     
                 </div>             
@@ -117,19 +131,19 @@
             <h2 class="curado"> ¿Cómo curar correctamente un MATE? </h2>
             
             <ol class="listaCurado">
-                <li>1) Colocar yerba húmeda dentro de la calabaza durante 24 horas con agua caliente.</li>
-                <li>2) Luego retirar la yerba y rasparla calabaza con una cuchara para retirar el hollejo.</li>
-                <li>3) El uso frecuente ayuda al proceso. NO lavar con agua y secar con una servilleta después de cada uso.</li>
+                <li>Colocar yerba húmeda dentro de la calabaza durante 24 horas con agua caliente.</li>
+                <li>Luego retirar la yerba y rasparla calabaza con una cuchara para retirar el hollejo.</li>
+                <li>El uso frecuente ayuda al proceso. NO lavar con agua y secar con una servilleta después de cada uso.</li>
                 
             </ol>
             
             <h3 class="cebado"> Pasos para ser un Cebador level DIOS </h3>
 
             <ol class="listaCebado">
-                <li>1) Llenar el mate en sus tres cuartas partes. Tapar con la mano y agitalo con la boca hacia abajo, logrando que los componentes de la molienda se mezclen equilibradamente y la yerba quede inclinada sobre el mate a 45° aproximadamente.</li>
-                <li>2) Humedecer la yerba con agua tibia en esa pequeña cavidad que se formó sobre uno de los costados del mate. Espera a que la yerba absorba el agua y coloca la bombilla dentro del mate. </li>
-                <li>3) Calienta el agua evitando que hierva: para cebar un buen mate es muy importante que nunca supere la temperatura de 80°C.</li>
-                <li>4) Agregar el agua caliente del lado de la bombilla hasta que se llene 3/4 partes. </li>
+                <li>Llenar el mate en sus tres cuartas partes. Tapar con la mano y agitalo con la boca hacia abajo, logrando que los componentes de la molienda se mezclen equilibradamente y la yerba quede inclinada sobre el mate a 45° aproximadamente.</li>
+                <li>Humedecer la yerba con agua tibia en esa pequeña cavidad que se formó sobre uno de los costados del mate. Espera a que la yerba absorba el agua y coloca la bombilla dentro del mate. </li>
+                <li>Calienta el agua evitando que hierva: para cebar un buen mate es muy importante que nunca supere la temperatura de 80°C.</li>
+                <li>Agregar el agua caliente del lado de la bombilla hasta que se llene 3/4 partes. </li>
             </ol>
         </div>
     </main>
