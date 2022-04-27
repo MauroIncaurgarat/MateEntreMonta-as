@@ -20,16 +20,16 @@
 header{
     background-color: $color-header;
     .headerHome{
-        display: grid;
-        grid-template-areas: "logo navH compra";
-        justify-content: space-between;
+        @extend %grid-header-phone;
         .redesSociales{
             display: none;
         }  
-        .logotipo{
+        a{
             grid-area: logo;
-            width: 8rem;
-            padding: 0.5rem;
+            .logotipo{
+                width: 8rem;
+                padding: 0.5rem;
+            }
         }
         .carroCompra{
             grid-area: compra;
@@ -88,7 +88,7 @@ body{
             background-color: $color-grid;
             .conteinerSeccion{
                 grid-area: seccion;
-                @extend %flex-1;
+                @include flex-1;
                 
                 .aSeccion{
                     @extend %enlaces-seccion-P;
@@ -142,7 +142,7 @@ body{
             .conteinerPro{
                 grid-area: 2;
                 .areaPro{
-                    @extend %flex-1;
+                    @include flex-1;
                     .itemPro{
                         @extend %dimension-Seccion-S;
                         @extend %texto-seccion-S;
@@ -176,7 +176,7 @@ body{
             .conteinerPzadoo{
                 grid-area: 2;
                 .areaPzadoo{
-                    @extend %flex-1;
+                    @include flex-1;
                     .itemPzadoo{
                         @extend %dimension-Seccion-S;
                         @extend %texto-seccion-S;
@@ -210,7 +210,7 @@ body{
             .conteinerMo{
                 grid-area: 2;
                 .areaMo{
-                    @extend %flex-1;
+                    @include flex-1;
                     .itemMo{
                         @extend %dimension-Seccion-S;
                         @extend %texto-seccion-S;
@@ -291,7 +291,7 @@ body{
             .conteinerMateTips{
                 grid-area: 2;
                 .areaMT{
-                    @extend %flex-1;
+                    @include flex-1;
                     .itemM{
                         @extend %dimension-Seccion-S;
                         @extend %texto-seccion-S;
@@ -343,7 +343,7 @@ body{
             .conteinerContacto{
                 grid-area: 2;
                 .areaContacto{
-                    @extend %flex-1;
+                    @include flex-1;
                     .itemC{
                         @extend %dimension-Seccion-S;
                         @extend %texto-seccion-S;
@@ -377,4 +377,9 @@ body{
             }
         }
     }
+}
+@media only screen and (min-width: 1200px){
+
+    @import "utilities/desktop";
+
 }

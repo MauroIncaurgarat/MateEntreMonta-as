@@ -1,9 +1,14 @@
-//seccion phone
 @import "tipografia";
 
+$ancho-bottom-S: 11rem;
+$alto-bottom-S: 10rem;
+
+        //VISTA PHONE
+
+// HOME BOTONES
 %dimension-Seccion-P{
-    width: 11rem;
-    height: 11rem;
+    width: $ancho-bottom-S;
+    height: $ancho-bottom-S;
     overflow: hidden;
     margin: 0.3125rem;
     padding-top: 1rem;
@@ -13,10 +18,10 @@
     border-radius: 0.8rem;
     border: 0.25rem solid;
 }
-
+// BOTONES HTMLS
 %dimension-Seccion-S{
-    width: 11rem;
-    height: 10rem;
+    width: $ancho-bottom-S;
+    height: $alto-bottom-S;
     overflow: hidden;
     margin: 0.3125rem 0 0 0;
     padding-top: 4rem;
@@ -58,7 +63,7 @@
     text-align: center;
 }
 
-//contactos
+//CONTACTOS
 // formulario
 %formulario{
     padding: 2% 10% 5% 10%;
@@ -72,3 +77,6 @@
     text-align: center;
     margin: 1rem;
 }
+
+        //CIERRE VISTA PHONE
+

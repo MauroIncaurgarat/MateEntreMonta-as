@@ -1,5 +1,18 @@
 @import "colores";
 
+
+@mixin flex-1{  //si uso un extend, me da error en las media queries
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+//GRIDS PHONE
+%grid-header-phone{
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between;
+}
 @mixin grid-4{
     display: grid;
     grid-area: "1"
@@ -17,11 +30,6 @@
                "5"
                "6";
     background-color: $color-grid;
-}
-%flex-1{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
 }
 @mixin grid-footer {
     display: grid;
@@ -42,8 +50,14 @@
                              "p4    img4"
                              "img5   p5 ";   
     margin: 0 1rem 1rem 1rem;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;  
+}
+
+//GRIDS DESKTOP
+@mixin grid-header-desktop{
+    display: grid;
+    grid-template-areas: "logo   redes     compra"
+                            "navd    navd   navd";
+    background-color: $color-header;
+     
 }

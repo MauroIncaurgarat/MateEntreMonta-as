@@ -1,0 +1,179 @@
+// VISTA DESKTOP
+@import "colores";
+@import "iconos";
+@import "gridFlex";
+@import "decoration";
+@import "dimensiones";
+@import "tipografia";
+// lo coloco aca, porque al ser media queries es la unica forma, sino me da error
+%seccion-P-D{
+    height: $ancho-bottom-S*1.7;
+    width: $ancho-bottom-S*1.7;
+    padding-top: 7%;
+    margin: 10px 20px 30px 20px;
+    overflow: hidden;
+    position: relative;  
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8rem;
+    border: none;
+}
+%titulos-ppales-D{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: $tipografia-ppal;
+    padding: 1.7rem;
+    font-weight: bold; 
+}
+
+
+.phone{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+
+/* NAV GLOBAL DESKTOP */
+body{ 
+    header{
+        .headerHome{
+            @include grid-header-desktop;
+            a{    
+                grid-area: logo;
+                padding: 0;
+                margin: 0;
+                .logotipo{
+                    width: 90%;
+                    padding: 1rem 0 1rem 1rem;
+                }
+            }
+            .redesSociales{
+                text-decoration: none;
+                display: block;
+                grid-area: redes;
+                align-self: center;
+                img{
+                    width: 25%;
+                }
+            }
+            .carroCompra{
+                grid-area: compra;
+                align-self: center;
+            }
+            .navHome{
+                grid-area: navd;        
+                ul{ 
+                    @include flex-1;
+                    width: 100%;
+                    justify-content: space-around;
+                    list-style: none;
+                    background-color: $color-nav;
+                    margin-bottom: 0;
+                    padding: 0.2rem;
+                    li{
+                        font-size: 1.5rem;
+                        font-family: $tipografia-ppal;
+                        font-weight: bold;
+                        z-index: 2;
+                        &:hover{
+                            transition: 0.2s;
+                            transform: scale(1.05);
+                        }
+                        &:hover ul{
+                            display: block;
+                            width: 100%;
+                            margin-top: 0;
+                            
+                        }
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                        ul{
+                            position: absolute;
+                            display: none;
+                             
+                            li{
+                                display: block;
+                                font-size: 22px;
+                                font-family: $tipografia-ppal;
+                                padding: 0.2rem;
+                                                                
+
+                                
+
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+/* FOOTER GLOBAL */
+
+
+
+
+
+                    /* SECCIONES */
+
+/* INDEX.HTML */
+body{
+    main{
+       
+        .tituloHome{
+            @extend %titulos-ppales-D;
+        }
+        .gridHome{
+            .conteinerSeccion{
+                .aSeccion{
+                    .item{
+                        @extend %seccion-P-D;
+                        &:hover{
+                            transition: 0.3s;
+                            transform: scale(1.05);
+                        }
+                        &:active{
+                            transform: scale(0.8);
+                            transition: 0.3s;
+                        }
+                    }  
+                    .itemProductos:hover{
+                        -webkit-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 1);
+                        -moz-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 1);
+                        box-shadow: 0px 0px 7px 8px nth($color-hover-s, 1);
+                    }
+                    .itemPzado:hover{
+                        -webkit-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 2);
+                        -moz-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 2);
+                        box-shadow: 0px 0px 7px 8px nth($color-hover-s, 2);
+                    }
+                    .itemMomentos:hover{
+                        -webkit-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 3);
+                        -moz-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 3);
+                        box-shadow: 0px 0px 7px 8px nth($color-hover-s, 3);
+                    }
+                    .itemMateTips:hover{
+                        -webkit-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 4);
+                        -moz-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 4);
+                        box-shadow: 0px 0px 7px 8px nth($color-hover-s, 4);
+                    }
+                    .itemContactos:hover{
+                        -webkit-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 5);
+                        -moz-box-shadow: 0px 0px 7px 8px nth($color-hover-s, 5);
+                        box-shadow: 0px 0px 7px 8px nth($color-hover-s, 5);
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+
+
+

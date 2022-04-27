@@ -14,8 +14,7 @@ $tipografia-sdaria: 'Roboto Mono', monospace;
     font-size: 1.7rem;
     font-family: $tipografia-ppal;
     padding: 0.3rem;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 %subtitulos{
@@ -27,6 +26,7 @@ $tipografia-sdaria: 'Roboto Mono', monospace;
     font-weight: bold;
     padding: 1rem;
 }
+
 %texto-titulo-f{
     font-size: 0.9rem;
     padding: 0.3rem;
