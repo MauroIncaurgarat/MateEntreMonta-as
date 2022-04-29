@@ -43,7 +43,7 @@ body{
                 padding: 0;
                 margin: 0;
                 .logotipo{
-                    width: 90%;
+                    width: map-get($map: $logo, $key: logodesktop);
                     padding: 1rem 0 1rem 1rem;
                 }
             }
@@ -113,10 +113,6 @@ body{
 }
 
 /* FOOTER GLOBAL */
-
-
-
-
 
                     /* SECCIONES */
 

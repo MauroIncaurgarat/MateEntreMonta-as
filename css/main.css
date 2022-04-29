@@ -70,6 +70,11 @@ body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
 footer div .imgE, footer div .imgP, footer div .imgS {
   padding-top: 0.5rem; }
 
+/*
+.logotipo{
+                width: 8rem;
+.logotipo{
+                    width: 90%;*/
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
@@ -326,7 +331,7 @@ header {
     padding: 0.5rem; }
   header .headerHome .menuphone {
     grid-area: navH;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
     font-size: 0.7rem; }
 
 footer div {
@@ -579,6 +584,11 @@ body main .gridContactos {
     left: 70%; }
   footer div .imgE, footer div .imgP, footer div .imgS {
     padding-top: 0.5rem; }
+  /*
+.logotipo{
+                width: 8rem;
+.logotipo{
+                    width: 90%;*/
   header .headerHome {
     display: grid;
     grid-template-areas: "logo navH compra";

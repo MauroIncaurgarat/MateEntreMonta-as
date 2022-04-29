@@ -27,7 +27,7 @@ header{
         a{
             grid-area: logo;
             .logotipo{
-                width: 8rem;
+                width: map-get($map: $logo, $key: logophone);
                 padding: 0.5rem;
             }
         }
@@ -37,7 +37,7 @@ header{
         }
         .menuphone{
             grid-area: navH;
-            font-family: 'Space Mono', monospace;
+            font-family: $tipografia-ppal;
             font-size: 0.7rem;
         }    
     }
@@ -378,6 +378,9 @@ body{
         }
     }
 }
+
+
+// VISTA DESKTOP
 @media only screen and (min-width: 1200px){
 
     @import "utilities/desktop";
