@@ -1,0 +1,37 @@
+@import "../utilities/colores";
+@import "../layaout/grid";
+@import "../layaout/flex";
+@import "../layaout/extends";
+@import "../base/mixins";
+
+
+/* Header Phone */
+// se aplica a todos los htmls
+.desktop{
+    display: none;
+}
+header{
+    background-color: $color-header;
+    .headerHome{
+        @extend %grid-header-phone;
+        .redesSociales{
+            display: none;
+        }  
+        a{
+            grid-area: logo;
+            .logotipo{
+                width: map-get($map: $logo, $key: logophone);
+                padding: 0.5rem;
+            }
+        }
+        .carroCompra{
+            grid-area: compra;
+            padding: 0.5rem;
+        }
+        .menuphone{
+            grid-area: navH;
+            font-family: $tipografia-ppal;
+            font-size: 0.7rem;
+        }    
+    }
+}

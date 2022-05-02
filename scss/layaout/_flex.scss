@@ -1,0 +1,17 @@
+@mixin flex-1{  //si uso un extend, me da error en las media queries
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+%dimension-acople-S{
+    display: flex;
+    width: 11rem;
+    padding: 0.5em 0 0.5rem 0;
+    margin-top: 0.3125rem;
+    height: 10rem;
+    border-radius: 0 1rem 1rem 0; 
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}

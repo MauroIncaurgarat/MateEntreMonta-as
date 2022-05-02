@@ -1,0 +1,122 @@
+@import "../base/typo";
+@import "../utilities/colores";
+@import "../utilities/variables";
+
+
+// <a> Botones Secciones Phone
+%enlaces-seccion-P {
+    text-decoration: none; 
+}
+// HOME BOTONES
+%dimension-Seccion-P{
+    width: $ancho-bottom-S;
+    height: $ancho-bottom-S;
+    overflow: hidden;
+    margin: 0.3125rem;
+    padding-top: 1rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+%texto-botones{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $tipografia-ppal;
+    color: $color-tipografia;
+    font-weight: bold;
+}
+// Botones de los htmls Phone
+%texto-seccion-S{
+    text-align: center; 
+    text-transform: uppercase;  
+    font-family: $tipografia-ppal;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+// <h1> Titulos principales/Encabezado Phone
+%titulos-ppales{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: $tipografia-ppal;
+    padding: 0.3rem;
+    font-weight: bold; 
+}
+// <h2> Subtitulos Phine
+%subtitulos{
+    font-family: $tipografia-ppal;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+
+//texto galeria
+%texto-galeria-M{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background-color: $color-galeria;
+    padding: 0.3rem;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+}
+
+//Matetips Textos Instructivos
+
+%listas{
+    text-align: justify;
+    padding-right: 1rem;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;  
+    list-style: none;
+    
+}
+
+// BOTONES HTMLS
+%dimension-Seccion-S{
+    width: $ancho-bottom-S;
+    height: $alto-bottom-S;
+    overflow: hidden;
+    
+    margin: 0.3125rem 0 0 0;
+    padding-top: 4rem;
+    
+    border: 1rem 0 0.25rem 0.25rem;
+    border-radius: 1rem 0 0 1rem;  
+    
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: $tipografia-ppal;
+    font-weight: bold;
+}
+
+
+//Logo
+$logo: (
+    logophone: 8rem,
+    logodesktop: 90%,
+);
+
+//CONTACTOS
+
+//contenedor adicional
+%adicionalConteiner{
+    text-align: center;
+    margin: 1rem;
+}
+
+//Galeria Momentos
+%borde-GM{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem; 
+    text-align: center;
+}
+

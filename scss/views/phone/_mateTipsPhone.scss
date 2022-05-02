@@ -1,0 +1,61 @@
+@import "../../base/mixins";
+@import "../../base/typo";
+
+@import "../../utilities/colores";
+
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+
+// MATETIPS.HTML
+body{
+    main{
+        .gridMateTips{
+            @include grid-6;
+            .tituloM{
+                grid-area: 1;
+                @extend %titulos-ppales;
+            }
+            .conteinerMateTips{
+                grid-area: 2;
+                .areaMT{
+                    @include flex-1;
+                    .itemM{
+                        @extend %dimension-Seccion-S;
+                        @extend %texto-seccion-S;
+                        background-color: nth($color-ppal-s, 4);
+                    }
+                    .contenedorImgMT{
+                        .imagenMTS{
+                            @include dimension-img-S;
+                        border-color: nth($color-ppal-s, 4);
+                        }
+                    }
+                }
+            }
+            .curado{
+                grid-area: 3;
+                @extend %subtitulos;
+            }
+            .listaCurado{
+                
+                grid-area: 4;
+                @extend %listas;
+                li{
+                    padding: 0.5rem;
+                }
+            }
+            .cebado{
+                grid-area: 5;
+                @extend %subtitulos;
+            }
+            .listaCebado{
+                grid-area: 6;
+                @extend %listas;
+                li{
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}

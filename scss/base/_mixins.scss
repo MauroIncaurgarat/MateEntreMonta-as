@@ -1,0 +1,39 @@
+//importaciones
+@import "../utilities/colores";
+@import "typo";
+
+
+// bordes Seccion Home
+@mixin bordes{
+    border: 0.25rem solid;
+    border-radius: 0.8rem;
+}
+
+// contenedor imagenes
+@mixin dimension-img-S{
+    width: 11rem;
+    height: 10rem;
+    margin-top: 0.3125rem;
+    border-radius: 0 1rem 1rem 0;
+    border: 0.5rem solid;
+}
+
+
+// Textos del Footer Phone
+@mixin texto-titulo-f{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    font-family: $tipografia-ppal;
+    text-align: center;
+    font-weight: bold;
+}
+@mixin texto-titulo-FD{
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+//subtitulo footer
+@mixin text-subt-footer{
+    font-size: 1.4rem;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+}

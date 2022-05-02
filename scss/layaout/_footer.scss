@@ -1,0 +1,57 @@
+@import "../base/typo";
+@import "grid";
+@import "../utilities/iconos";
+@import "../base/mixins";
+@import "extends";
+/* Footer Phone */
+// se aplica a todos los html
+footer{
+    div{
+        @include grid-footer;
+        .imgE{
+            grid-area: imgE;
+            @extend %padding-ic-f;
+        }
+        .imgP{
+            grid-area: imgP;
+            @extend %padding-ic-f;
+        }
+        .imgS{
+            grid-area: imgS;
+            @extend %padding-ic-f;
+        }
+        .envios{
+            grid-area: envios;
+            @include texto-titulo-f;
+        }
+        .pagos{
+            grid-area: pagos;
+            @include texto-titulo-f;
+        }
+        .compra{
+            grid-area: seguro;
+            @include texto-titulo-f;
+        }
+        .compraPie, .pagosPie, .enviosPie{
+            display: none;
+        }
+        @media only screen and (min-width: 1200px){
+            .compraPie, .pagosPie, .enviosPie{
+                display: block;
+                @include text-subt-footer;
+            }
+            .envios, .pagos, .compra{
+                @include texto-titulo-FD;
+            }
+            .compraPie{
+                grid-area: compraPie;
+            }
+            .pagosPie{
+                grid-area: pagosPie;
+            }
+            .enviosPie{
+                grid-area: enviosPie;
+            }
+        }
+    }
+}

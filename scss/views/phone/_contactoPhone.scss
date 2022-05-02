@@ -1,0 +1,58 @@
+//base imports
+@import "../../base/mixins";
+@import "../../base/typo";
+//utilities import
+@import "../../utilities/colores";
+//layout imports
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+@import "../../layaout/forms";
+
+// CONTACTOS.HTML
+body{
+    main{
+        .gridContactos{
+            @include grid-6;
+            .tituloContacto{
+                grid-area: 1;
+                @extend %titulos-ppales;
+            }
+            .conteinerContacto{
+                grid-area: 2;
+                .areaContacto{
+                    @include flex-1;
+                    .itemC{
+                        @extend %dimension-Seccion-S;
+                        @extend %texto-seccion-S;
+                        background-color: nth($color-ppal-s, 5);
+                    }
+                    .redesC{
+                        @extend %dimension-acople-S;
+                        background-color: nth($color-borde-s, 5);
+                    }
+                }
+            }
+            .parrafoC{
+                grid-area: 3;
+                @extend %subtitulos;
+            }
+            .formulario{
+                grid-area: 4;
+                @extend %formulario;
+            }
+            .complemento{
+                grid-area: 5;
+                @extend 
+                %subtitulos;
+            }
+            .adicionalConteiner{
+                grid-area: 6;
+                @extend %adicionalConteiner;
+                .textoC3, .imgC3, .textoC2, .imgC2, .textoC1, .imgC1{
+                    padding: 0.2rem 0 0.2rem 0;
+                }
+            }
+        }
+    }
+}

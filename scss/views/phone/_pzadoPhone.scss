@@ -1,0 +1,42 @@
+@import "../../base/mixins";
+@import "../../base/typo";
+
+@import "../../utilities/colores";
+
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+
+// PERSONALIZADO.HTML 
+body{
+    main{
+        .gridPzadoo{
+            @include grid-4;
+            .tituloPzadoo{
+                grid-area: 1;
+                @extend %titulos-ppales;
+            }
+            .conteinerPzadoo{
+                grid-area: 2;
+                .areaPzadoo{
+                    @include flex-1;
+                    .itemPzadoo{
+                        @extend %dimension-Seccion-S;
+                        @extend %texto-seccion-S;
+                        background-color: nth($color-ppal-s, 2);
+                    }
+                    .contenedorImgPzadoo{
+                        .imgPzadoo{
+                            @include dimension-img-S;
+                            border-color: nth($color-ppal-s, 2);
+                        }
+                    }
+                }
+            }
+            .subtituloPzadoo{
+                grid-area: 3;
+                @extend %subtitulos;
+            }
+        }
+    }
+}

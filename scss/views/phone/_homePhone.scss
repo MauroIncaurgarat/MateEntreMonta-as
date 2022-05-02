@@ -1,0 +1,77 @@
+@import "../../base/mixins";
+@import "../../base/typo";
+
+@import "../../utilities/colores";
+
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+
+@import "../../utilities/iconos";
+
+// INDEX.HTML
+body{   
+    main{
+        .tituloHome{
+            @extend %titulos-ppales;
+        }
+        .gridHome{
+            display: grid;
+            grid-template-areas: "titulo"
+                            "seccion";  
+            background-color: $color-grid;
+
+            .conteinerSeccion{
+                grid-area: seccion;
+                @include flex-1;
+                
+                .aSeccion{
+                    text-decoration: none;
+                    //secciones
+                    .item{
+                        @extend %dimension-Seccion-P;
+                        
+                        //iconos
+                        .i1{
+                            @extend %iconosIzquierda;
+                        }
+                        .i2{
+                            @extend %iconosMedio;
+                        }
+                        .i3{
+                            @extend %iconosDerecha;
+                        }
+
+                    }   
+                    .itemProductos{
+                        @extend %texto-botones;
+                        @include bordes;
+                        @include color-Secciones(nth($color-ppal-s,1), nth($color-borde-s, 1) );
+                    }
+                    .itemPzado{
+                        @extend %texto-botones;
+                        @include bordes;
+                        @include color-Secciones(nth($color-ppal-s,2), nth($color-borde-s, 2) );
+                    }
+                    .itemMomentos{
+                        @extend %texto-botones;
+                        @include bordes;
+                        @include color-Secciones(nth($color-ppal-s,3), nth($color-borde-s, 3) );
+                    }
+                    .itemMateTips{
+                        @extend %texto-botones;
+                        @include bordes;
+                        @include color-Secciones(nth($color-ppal-s,4), nth($color-borde-s, 4) );
+                    }
+                    .itemContactos{
+                        @extend %texto-botones;
+                        @include bordes;
+                        @include color-Secciones(nth($color-ppal-s,5), nth($color-borde-s, 5) );
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}

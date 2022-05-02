@@ -1,0 +1,86 @@
+@import "../utilities/colores";
+@import "../utilities/iconos";
+@import "../utilities/variables";
+@import "grid";
+@import "flex";
+@import "extends";
+@import "../base/typo";
+
+
+body{ 
+    header{
+        .headerHome{
+            @include grid-header-desktop;
+            a{    
+                grid-area: logo;
+                padding: 0;
+                margin: 0;
+                .logotipo{
+                    width: map-get($map: $logo, $key: logodesktop);
+                    padding: 1rem 0 1rem 1rem;
+                }
+            }
+            .redesSociales{
+                text-decoration: none;
+                display: block;
+                grid-area: redes;
+                align-self: center;
+                img{
+                    width: 25%;
+                }
+            }
+            .carroCompra{
+                grid-area: compra;
+                align-self: center;
+            }
+            .navHome{
+                grid-area: navd;        
+                ul{ 
+                    @include flex-1;
+                    width: 100%;
+                    justify-content: space-around;
+                    list-style: none;
+                    background-color: $color-nav;
+                    margin-bottom: 0;
+                    padding: 0.2rem;
+                    li{
+                        font-size: 1.5rem;
+                        font-family: $tipografia-ppal;
+                        font-weight: bold;
+                        z-index: 2;
+                        &:hover{
+                            transition: 0.2s;
+                            transform: scale(1.05);
+                        }
+                        &:hover ul{
+                            display: block;
+                            width: 100%;
+                            margin-top: 0;
+                            
+                        }
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                        ul{
+                            position: absolute;
+                            display: none;
+                             
+                            li{
+                                display: block;
+                                font-size: 22px;
+                                font-family: $tipografia-ppal;
+                                padding: 0.2rem;
+                                                                
+
+                                
+
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

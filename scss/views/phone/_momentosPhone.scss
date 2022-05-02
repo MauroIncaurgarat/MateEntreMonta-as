@@ -1,0 +1,90 @@
+@import "../../base/mixins";
+@import "../../base/typo";
+
+@import "../../utilities/colores";
+
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+
+// MOMENTOS.HTML 
+body{
+    main{
+        .gridMomentos{
+            @include grid-4;
+            .tituloMo{
+                grid-area: 1;
+                @extend %titulos-ppales;
+            }
+            .conteinerMo{
+                grid-area: 2;
+                .areaMo{
+                    @include flex-1;
+                    .itemMo{
+                        @extend %dimension-Seccion-S;
+                        @extend %texto-seccion-S;
+                        background-color: nth($color-ppal-s, 3);
+                    }
+                    .contenedorImg{
+                        .imgItemMo{
+                            @include dimension-img-S;
+                            border-color: nth($color-ppal-s, 3);
+                        }
+                    }
+                }
+            }
+            .subtituloMo{
+                grid-area: 3;
+                @extend %subtitulos;
+            }
+            .contenedorGaleria{
+                grid-area: 4;
+                @extend %galeria-momentos;
+                background-color: $color-galeria;
+                padding: 0.5rem ;
+                border-radius: 1rem;
+                
+                //acomodamiento grid
+                //borde radius izquierdo
+                .img1{
+                    grid-area: img1;
+                }
+                .img3{
+                    grid-area: img3;
+                }
+                .img5{
+                    grid-area: img5;
+                }
+                .texto2{
+                    grid-area: p2;
+                }
+                .texto4{
+                    grid-area: p4;
+                }          
+                //borde radius derecho
+                .img2{
+                    grid-area: img2;
+                }
+                .img4{
+                    grid-area: img4;
+                }
+                .texto1{
+                    grid-area: p1;
+                }
+                .texto3{
+                    grid-area: p3;
+                }
+                .texto5{
+                    grid-area: p5;
+                }
+                /* Atributos Globales */
+                .img2, .img4, .texto1, .texto3, .texto5, .img1, .img3, .img5, .texto2, .texto4{
+                    @extend %borde-GM;
+                }
+                .texto1, .texto2, .texto3, .texto4, .texto5{
+                    @extend %texto-galeria-M;
+                }
+            }
+        }
+    }
+}
