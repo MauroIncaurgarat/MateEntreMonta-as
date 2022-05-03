@@ -8,23 +8,6 @@ header .headerHome {
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
 
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
-
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -48,7 +31,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -82,29 +65,14 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
+/* PHONE */
+/*  DESKTOP  */
 /* Header Phone */
 .desktop {
   display: none; }
@@ -126,6 +94,8 @@ header {
     font-family: "Space Mono", monospace;
     font-size: 0.7rem; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -149,7 +119,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -183,50 +153,16 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
 
 body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
   position: absolute;
@@ -252,7 +188,11 @@ footer div .imgE, footer div .imgP, footer div .imgS {
 body main .gridHome {
   display: grid;
   grid-template-areas: "titulo" "seccion";
-  background-color: #e2e3e7; }
+  background-color: #e2e3e7;
+  height: 100%;
+  width: 100%; }
+  body main .gridHome .tituloHome {
+    grid-area: titulo; }
   body main .gridHome .conteinerSeccion {
     grid-area: seccion;
     display: flex;
@@ -286,6 +226,8 @@ body main .gridHome {
         background-color: #DE9AE8;
         border-color: #A16FA8; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -309,7 +251,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -343,50 +285,16 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
 
 body main .gridPro {
   display: grid;
@@ -401,6 +309,17 @@ body main .gridPro {
       flex-flow: row wrap;
       justify-content: center; }
       body main .gridPro .conteinerPro .areaPro .itemPro {
+        width: 11rem;
+        height: 10rem;
+        overflow: hidden;
+        margin: 0.3125rem 0 0 0;
+        padding-top: 4rem;
+        border: 1rem 0 0.25rem 0.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
         background-color: #8DD7CF; }
       body main .gridPro .conteinerPro .areaPro .contenedorImgPro .imgPro {
         width: 11rem;
@@ -412,6 +331,8 @@ body main .gridPro {
   body main .gridPro .subtituloPro {
     grid-area: 3; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -435,7 +356,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -469,50 +390,16 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
 
 body main .gridPzadoo {
   display: grid;
@@ -527,6 +414,17 @@ body main .gridPzadoo {
       flex-flow: row wrap;
       justify-content: center; }
       body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo {
+        width: 11rem;
+        height: 10rem;
+        overflow: hidden;
+        margin: 0.3125rem 0 0 0;
+        padding-top: 4rem;
+        border: 1rem 0 0.25rem 0.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
         background-color: #D6B1B1; }
       body main .gridPzadoo .conteinerPzadoo .areaPzadoo .contenedorImgPzadoo .imgPzadoo {
         width: 11rem;
@@ -538,6 +436,8 @@ body main .gridPzadoo {
   body main .gridPzadoo .subtituloPzadoo {
     grid-area: 3; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -561,7 +461,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -595,50 +495,16 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
 
 body main .gridMomentos {
   display: grid;
@@ -653,6 +519,17 @@ body main .gridMomentos {
       flex-flow: row wrap;
       justify-content: center; }
       body main .gridMomentos .conteinerMo .areaMo .itemMo {
+        width: 11rem;
+        height: 10rem;
+        overflow: hidden;
+        margin: 0.3125rem 0 0 0;
+        padding-top: 4rem;
+        border: 1rem 0 0.25rem 0.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
         background-color: #B2ACFA; }
       body main .gridMomentos .conteinerMo .areaMo .contenedorImg .imgItemMo {
         width: 11rem;
@@ -665,9 +542,11 @@ body main .gridMomentos {
     grid-area: 3; }
   body main .gridMomentos .contenedorGaleria {
     grid-area: 4;
-    background-color: #E2B9FA;
-    padding: 0.5rem;
-    border-radius: 1rem;
+    display: grid;
+    grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
+    margin: 0 2rem 2rem 2rem;
+    justify-content: center;
+    gap: 1rem;
     /* Atributos Globales */ }
     body main .gridMomentos .contenedorGaleria .img1 {
       grid-area: img1; }
@@ -690,6 +569,8 @@ body main .gridMomentos {
     body main .gridMomentos .contenedorGaleria .texto5 {
       grid-area: p5; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -713,7 +594,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -747,50 +628,16 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
 
 body main .gridMateTips {
   display: grid;
@@ -805,6 +652,17 @@ body main .gridMateTips {
       flex-flow: row wrap;
       justify-content: center; }
       body main .gridMateTips .conteinerMateTips .areaMT .itemM {
+        width: 11rem;
+        height: 10rem;
+        overflow: hidden;
+        margin: 0.3125rem 0 0 0;
+        padding-top: 4rem;
+        border: 1rem 0 0.25rem 0.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
         background-color: #F3C19D; }
       body main .gridMateTips .conteinerMateTips .areaMT .contenedorImgMT .imagenMTS {
         width: 11rem;
@@ -826,6 +684,8 @@ body main .gridMateTips {
     body main .gridMateTips .listaCebado li {
       padding: 0.5rem; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -849,7 +709,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -883,56 +743,16 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
 
-body main .gridContactos .conteinerContacto .areaContacto .redesC {
-  display: flex;
-  width: 11rem;
-  padding: 0.5em 0 0.5rem 0;
-  margin-top: 0.3125rem;
-  height: 10rem;
-  border-radius: 0 1rem 1rem 0;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap; }
-
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
-
-body main .gridContactos .formulario {
-  padding: 2% 10% 5% 10%;
-  margin: 0;
-  font-family: "Roboto Mono", monospace;
-  font-weight: bold; }
 
 body main .gridContactos {
   display: grid;
@@ -947,17 +767,43 @@ body main .gridContactos {
       flex-flow: row wrap;
       justify-content: center; }
       body main .gridContactos .conteinerContacto .areaContacto .itemC {
+        width: 11rem;
+        height: 10rem;
+        overflow: hidden;
+        margin: 0.3125rem 0 0 0;
+        padding-top: 4rem;
+        border: 1rem 0 0.25rem 0.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
         background-color: #DE9AE8; }
       body main .gridContactos .conteinerContacto .areaContacto .redesC {
+        display: flex;
+        width: 11rem;
+        padding: 0.5em 0 0.5rem 0;
+        margin-top: 0.3125rem;
+        height: 10rem;
+        border-radius: 0 1rem 1rem 0;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
         background-color: #A16FA8; }
   body main .gridContactos .parrafoC {
     grid-area: 3; }
   body main .gridContactos .formulario {
-    grid-area: 4; }
+    grid-area: 4;
+    padding: 2% 10% 5% 10%;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold; }
   body main .gridContactos .complemento {
     grid-area: 5; }
   body main .gridContactos .adicionalConteiner {
-    grid-area: 6; }
+    grid-area: 6;
+    text-align: center;
+    margin: 1rem; }
     body main .gridContactos .adicionalConteiner .textoC3, body main .gridContactos .adicionalConteiner .imgC3, body main .gridContactos .adicionalConteiner .textoC2, body main .gridContactos .adicionalConteiner .imgC2, body main .gridContactos .adicionalConteiner .textoC1, body main .gridContactos .adicionalConteiner .imgC1 {
       padding: 0.2rem 0 0.2rem 0; }
 
@@ -965,12 +811,6 @@ header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
   justify-content: space-between; }
-
-body main .gridMomentos .contenedorGaleria {
-  display: grid;
-  grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-  margin: 0 2rem 2rem 2rem;
-  justify-content: center; }
 
 body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
   position: absolute;
@@ -993,6 +833,8 @@ footer div .imgE, footer div .imgP, footer div .imgS {
 footer div .imgE, footer div .imgP, footer div .imgS {
   padding-top: 0%; }
 
+/* PHONE */
+/*  DESKTOP  */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -1016,7 +858,7 @@ body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conte
   font-weight: bold;
   font-size: 1.2rem; }
 
-body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
   text-align: center;
   font-size: 1.7rem;
   font-family: "Space Mono", monospace;
@@ -1050,23 +892,6 @@ body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   font-size: 1rem;
   list-style: none; }
 
-body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-  width: 11rem;
-  height: 10rem;
-  overflow: hidden;
-  margin: 0.3125rem 0 0 0;
-  padding-top: 4rem;
-  border: 1rem 0 0.25rem 0.25rem;
-  border-radius: 1rem 0 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: "Space Mono", monospace;
-  font-weight: bold; }
-
-body main .gridContactos .adicionalConteiner {
-  text-align: center;
-  margin: 1rem; }
-
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
   height: 100%;
@@ -1082,7 +907,7 @@ footer div {
   justify-items: center;
   position: absolute;
   background-color: #ffb6af;
-  padding: 0.5rem 0 0.5rem 0; }
+  padding: 1rem 0 0.5rem 0; }
   footer div .imgE {
     grid-area: imgE; }
   footer div .imgP {
@@ -1115,11 +940,11 @@ footer div {
   @media only screen and (min-width: 1200px) {
     footer div .compraPie, footer div .pagosPie, footer div .enviosPie {
       display: block;
-      font-size: 1.4rem;
+      font-size: 1rem;
       font-family: "Roboto Mono", monospace;
       font-weight: bold; }
     footer div .envios, footer div .pagos, footer div .compra {
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding: 0.3rem; }
     footer div .compraPie {
       grid-area: compraPie; }
@@ -1153,21 +978,6 @@ footer div {
     display: grid;
     grid-template-areas: "logo navH compra";
     justify-content: space-between; }
-  body main .gridMomentos .contenedorGaleria {
-    display: grid;
-    grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-    margin: 0 2rem 2rem 2rem;
-    justify-content: center; }
-  body main .gridContactos .conteinerContacto .areaContacto .redesC {
-    display: flex;
-    width: 11rem;
-    padding: 0.5em 0 0.5rem 0;
-    margin-top: 0.3125rem;
-    height: 10rem;
-    border-radius: 0 1rem 1rem 0;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap; }
   body main .gridHome .conteinerSeccion .aSeccion .item {
     width: 11rem;
     height: 11rem;
@@ -1188,7 +998,7 @@ footer div {
     font-family: "Space Mono", monospace;
     font-weight: bold;
     font-size: 1.2rem; }
-  body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+  body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
     text-align: center;
     font-size: 1.7rem;
     font-family: "Space Mono", monospace;
@@ -1218,26 +1028,17 @@ footer div {
     margin-bottom: 0.3rem;
     font-size: 1rem;
     list-style: none; }
-  body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-    width: 11rem;
-    height: 10rem;
-    overflow: hidden;
-    margin: 0.3125rem 0 0 0;
-    padding-top: 4rem;
-    border: 1rem 0 0.25rem 0.25rem;
-    border-radius: 1rem 0 0 1rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: "Space Mono", monospace;
-    font-weight: bold; }
-  body main .gridContactos .adicionalConteiner {
-    text-align: center;
-    margin: 1rem; }
   body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
     width: 100%;
     height: 100%;
     border-radius: 1rem;
-    text-align: center; }
+    text-align: center; } }
+
+@media only screen and (min-width: 1200px) and (min-width: 1200px) {
+  .phone {
+    display: none; }
+  .desktop {
+    display: block; }
   body header .headerHome {
     display: grid;
     grid-template-areas: "logo   redes     compra" "navd    navd   navd";
@@ -1293,7 +1094,9 @@ footer div {
               display: block;
               font-size: 22px;
               font-family: "Space Mono", monospace;
-              padding: 0.2rem; }
+              padding: 0.2rem; } }
+
+@media only screen and (min-width: 1200px) {
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -1314,21 +1117,6 @@ footer div {
     display: grid;
     grid-template-areas: "logo navH compra";
     justify-content: space-between; }
-  body main .gridMomentos .contenedorGaleria {
-    display: grid;
-    grid-template-areas: "img1   p1" "p2  img2" "img3  p3" "p4    img4" "img5   p5 ";
-    margin: 0 2rem 2rem 2rem;
-    justify-content: center; }
-  body main .gridContactos .conteinerContacto .areaContacto .redesC {
-    display: flex;
-    width: 11rem;
-    padding: 0.5em 0 0.5rem 0;
-    margin-top: 0.3125rem;
-    height: 10rem;
-    border-radius: 0 1rem 1rem 0;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap; }
   body main .gridHome .conteinerSeccion .aSeccion .item {
     width: 11rem;
     height: 11rem;
@@ -1349,7 +1137,7 @@ footer div {
     font-family: "Space Mono", monospace;
     font-weight: bold;
     font-size: 1.2rem; }
-  body main .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
+  body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
     text-align: center;
     font-size: 1.7rem;
     font-family: "Space Mono", monospace;
@@ -1379,65 +1167,411 @@ footer div {
     margin-bottom: 0.3rem;
     font-size: 1rem;
     list-style: none; }
-  body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-    width: 11rem;
-    height: 10rem;
-    overflow: hidden;
-    margin: 0.3125rem 0 0 0;
-    padding-top: 4rem;
-    border: 1rem 0 0.25rem 0.25rem;
-    border-radius: 1rem 0 0 1rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: "Space Mono", monospace;
-    font-weight: bold; }
-  body main .gridContactos .adicionalConteiner {
-    text-align: center;
-    margin: 1rem; }
   body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
     width: 100%;
     height: 100%;
     border-radius: 1rem;
     text-align: center; }
-  body main .gridHome .conteinerSeccion .aSeccion .item {
-    height: 22rem;
-    width: 22rem;
-    padding-top: 7%;
-    margin: 10px 20px 30px 20px;
-    overflow: hidden;
-    position: relative;
-    font-family: 'Space Mono', monospace;
-    font-size: 1.8rem;
-    border: none; }
+  /* PHONE */
+  /*  DESKTOP  */
   body main .gridHome .tituloHome {
     text-align: center;
     font-size: 2.5rem;
     font-family: "Space Mono", monospace;
-    padding: 1.7rem;
+    padding: 1.2rem;
     font-weight: bold; }
-  body main .gridHome .conteinerSeccion .aSeccion .item:hover {
-    transition: 0.3s;
-    transform: scale(1.05); }
-  body main .gridHome .conteinerSeccion .aSeccion .item:active {
-    transform: scale(0.8);
-    transition: 0.3s; }
-  body main .gridHome .conteinerSeccion .aSeccion .itemProductos:hover {
-    -webkit-box-shadow: 0px 0px 7px 8px #4D7571;
-    -moz-box-shadow: 0px 0px 7px 8px #4D7571;
-    box-shadow: 0px 0px 7px 8px #4D7571; }
-  body main .gridHome .conteinerSeccion .aSeccion .itemPzado:hover {
-    -webkit-box-shadow: 0px 0px 7px 8px #756161;
-    -moz-box-shadow: 0px 0px 7px 8px #756161;
-    box-shadow: 0px 0px 7px 8px #756161; }
-  body main .gridHome .conteinerSeccion .aSeccion .itemMomentos:hover {
-    -webkit-box-shadow: 0px 0px 7px 8px #545175;
-    -moz-box-shadow: 0px 0px 7px 8px #545175;
-    box-shadow: 0px 0px 7px 8px #545175; }
-  body main .gridHome .conteinerSeccion .aSeccion .itemMateTips:hover {
-    -webkit-box-shadow: 0px 0px 7px 8px #755D4C;
-    -moz-box-shadow: 0px 0px 7px 8px #755D4C;
-    box-shadow: 0px 0px 7px 8px #755D4C; }
-  body main .gridHome .conteinerSeccion .aSeccion .itemContactos:hover {
-    -webkit-box-shadow: 0px 0px 7px 8px #714D75;
-    -moz-box-shadow: 0px 0px 7px 8px #714D75;
-    box-shadow: 0px 0px 7px 8px #714D75; } }
+  body main .gridHome .conteinerSeccion .aSeccion .item {
+    height: 50vh;
+    width: 50vh;
+    padding-top: 7%;
+    margin: 10px 20px 30px 20px;
+    overflow: hidden;
+    position: relative;
+    font-family: "Space Mono", monospace;
+    font-size: 1.8rem;
+    border: none; }
+    body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+      position: absolute;
+      bottom: 7%;
+      left: 10%; }
+    body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+      position: absolute;
+      bottom: 7%;
+      left: 40%; }
+    body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+      position: absolute;
+      bottom: 7%;
+      left: 70%; }
+    body main .gridHome .conteinerSeccion .aSeccion .item:hover {
+      transition: 0.3s;
+      transform: scale(1.05); }
+    body main .gridHome .conteinerSeccion .aSeccion .item:active {
+      transform: scale(0.8);
+      transition: 0.3s; }
+  body main .gridHome .conteinerSeccion .aSeccion .itemProductos {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Space Mono", monospace;
+    color: #1F1F1F;
+    font-weight: bold; }
+    body main .gridHome .conteinerSeccion .aSeccion .itemProductos:hover {
+      -webkit-box-shadow: 0px 0px 7px 8px #4D7571;
+      -moz-box-shadow: 0px 0px 7px 8px #4D7571;
+      box-shadow: 0px 0px 7px 8px #4D7571; }
+  body main .gridHome .conteinerSeccion .aSeccion .itemPzado {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Space Mono", monospace;
+    color: #1F1F1F;
+    font-weight: bold; }
+    body main .gridHome .conteinerSeccion .aSeccion .itemPzado:hover {
+      -webkit-box-shadow: 0px 0px 7px 8px #756161;
+      -moz-box-shadow: 0px 0px 7px 8px #756161;
+      box-shadow: 0px 0px 7px 8px #756161; }
+  body main .gridHome .conteinerSeccion .aSeccion .itemMomentos {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Space Mono", monospace;
+    color: #1F1F1F;
+    font-weight: bold; }
+    body main .gridHome .conteinerSeccion .aSeccion .itemMomentos:hover {
+      -webkit-box-shadow: 0px 0px 7px 8px #545175;
+      -moz-box-shadow: 0px 0px 7px 8px #545175;
+      box-shadow: 0px 0px 7px 8px #545175; }
+  body main .gridHome .conteinerSeccion .aSeccion .itemMateTips {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Space Mono", monospace;
+    color: #1F1F1F;
+    font-weight: bold; }
+    body main .gridHome .conteinerSeccion .aSeccion .itemMateTips:hover {
+      -webkit-box-shadow: 0px 0px 7px 8px #755D4C;
+      -moz-box-shadow: 0px 0px 7px 8px #755D4C;
+      box-shadow: 0px 0px 7px 8px #755D4C; }
+  body main .gridHome .conteinerSeccion .aSeccion .itemContactos {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Space Mono", monospace;
+    color: #1F1F1F;
+    font-weight: bold; }
+    body main .gridHome .conteinerSeccion .aSeccion .itemContactos:hover {
+      -webkit-box-shadow: 0px 0px 7px 8px #714D75;
+      -moz-box-shadow: 0px 0px 7px 8px #714D75;
+      box-shadow: 0px 0px 7px 8px #714D75; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+    position: absolute;
+    bottom: 7%;
+    left: 10%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+    position: absolute;
+    bottom: 7%;
+    left: 40%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+    position: absolute;
+    bottom: 7%;
+    left: 70%; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0.5rem; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0%; }
+  header .headerHome {
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between; }
+  /* PHONE */
+  /*  DESKTOP  */
+  body main .gridMateTips .tituloM {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+    padding: 1.2rem;
+    font-weight: bold; }
+  body main .gridMateTips .conteinerMateTips .areaMT .itemM {
+    height: 40vh;
+    width: 40vh;
+    padding-top: 15vh;
+    overflow: hidden;
+    font-size: 2.5rem; }
+  body main .gridMateTips .conteinerMateTips .areaMT .contenedorImgMT .imagenMTS {
+    margin: 0.3125rem 0 0 0;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 0 1rem 1rem 0; }
+  body main .gridMateTips .curado {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    text-align: left; }
+  body main .gridMateTips .listaCurado {
+    text-align: justify;
+    padding-right: 1.5rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    list-style: none;
+    padding-right: 20rem;
+    padding-left: 3rem; }
+    body main .gridMateTips .listaCurado li {
+      margin: 0.7rem;
+      background-color: #F9D896;
+      border-radius: 1rem; }
+  body main .gridMateTips .cebado {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    text-align: left; }
+  body main .gridMateTips .listaCebado {
+    text-align: justify;
+    padding-right: 1.5rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    list-style: none;
+    padding-right: 20rem;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem; }
+    body main .gridMateTips .listaCebado li {
+      background-color: #F9D896;
+      border-radius: 1rem;
+      margin: 0.7rem; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+    position: absolute;
+    bottom: 7%;
+    left: 10%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+    position: absolute;
+    bottom: 7%;
+    left: 40%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+    position: absolute;
+    bottom: 7%;
+    left: 70%; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0.5rem; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0%; }
+  header .headerHome {
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between; }
+  /* PHONE */
+  /*  DESKTOP  */
+  body main .gridMomentos .tituloMo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+    padding: 1.2rem;
+    font-weight: bold; }
+  body main .gridMomentos .conteinerMo .areaMo .itemMo {
+    height: 40vh;
+    width: 40vh;
+    padding-top: 15vh;
+    overflow: hidden;
+    font-size: 2.5rem; }
+  body main .gridMomentos .conteinerMo .areaMo .contenedorImg .imgItemMo {
+    margin: 0.3125rem 0 0 0;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 0 1rem 1rem 0; }
+  body main .gridMomentos .subtituloMo {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem; }
+  body main .gridMomentos .contenedorGaleria {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    /* Atributos Globales */ }
+    body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .img6, body main .gridMomentos .contenedorGaleria .img7, body main .gridMomentos .contenedorGaleria .img8, body main .gridMomentos .contenedorGaleria .img9, body main .gridMomentos .contenedorGaleria .img10 {
+      width: 15rem;
+      height: 17rem;
+      border-radius: 0%; }
+    body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto4, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .texto6, body main .gridMomentos .contenedorGaleria .texto7, body main .gridMomentos .contenedorGaleria .texto8, body main .gridMomentos .contenedorGaleria .texto9, body main .gridMomentos .contenedorGaleria .texto10 {
+      border-radius: 0;
+      width: 15rem;
+      height: 17rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-size: 1rem;
+      background-color: #E2B9FA;
+      font-family: "Roboto Mono", monospace;
+      font-weight: bold; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+    position: absolute;
+    bottom: 7%;
+    left: 10%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+    position: absolute;
+    bottom: 7%;
+    left: 40%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+    position: absolute;
+    bottom: 7%;
+    left: 70%; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0.5rem; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0%; }
+  header .headerHome {
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between; }
+  /* PHONE */
+  /*  DESKTOP  */
+  body main .gridContactos .tituloContacto {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+    padding: 1.2rem;
+    font-weight: bold; }
+  body main .gridContactos .conteinerContacto .areaContacto .itemC {
+    height: 40vh;
+    width: 40vh;
+    padding-top: 15vh;
+    overflow: hidden;
+    font-size: 2.5rem; }
+  body main .gridContactos .conteinerContacto .areaContacto .redesC {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40vh;
+    height: 40vh;
+    margin-top: 0.3125rem;
+    border-radius: 0 1rem 1rem 0;
+    justify-content: space-evenly;
+    background-color: #eec4ea; }
+  body main .gridContactos .parrafoC {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    margin: 1.5rem 3.5rem 1.5rem 3.5rem; }
+  body main .gridContactos .complemento {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem; }
+  body main .gridContactos .adicionalConteiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder; }
+    body main .gridContactos .adicionalConteiner .textoC {
+      font-size: 2rem; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+    position: absolute;
+    bottom: 7%;
+    left: 10%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+    position: absolute;
+    bottom: 7%;
+    left: 40%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+    position: absolute;
+    bottom: 7%;
+    left: 70%; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0.5rem; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0%; }
+  header .headerHome {
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between; }
+  /* PHONE */
+  /*  DESKTOP  */
+  body main .gridPro {
+    display: grid;
+    grid-area: "1" "2" "3" "4";
+    background-color: #e2e3e7; }
+    body main .gridPro .tituloPro {
+      text-align: center;
+      font-size: 2.5rem;
+      font-family: "Space Mono", monospace;
+      padding: 1.2rem;
+      font-weight: bold; }
+    body main .gridPro .conteinerPro .areaPro .itemPro {
+      height: 40vh;
+      width: 40vh;
+      padding-top: 15vh;
+      overflow: hidden;
+      font-size: 2.5rem; }
+    body main .gridPro .conteinerPro .areaPro .contenedorImgPro .imgPro {
+      margin: 0.3125rem 0 0 0;
+      width: 40vh;
+      height: 40vh;
+      border-radius: 0 1rem 1rem 0; }
+    body main .gridPro .subtituloPro {
+      font-family: "Space Mono", monospace;
+      font-size: 2rem;
+      padding-top: 1.2rem;
+      padding-bottom: 1rem;
+      font-weight: bold;
+      padding-left: 2rem; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
+    position: absolute;
+    bottom: 7%;
+    left: 10%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
+    position: absolute;
+    bottom: 7%;
+    left: 40%; }
+  body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
+    position: absolute;
+    bottom: 7%;
+    left: 70%; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0.5rem; }
+  footer div .imgE, footer div .imgP, footer div .imgS {
+    padding-top: 0%; }
+  header .headerHome {
+    display: grid;
+    grid-template-areas: "logo navH compra";
+    justify-content: space-between; }
+  /* PHONE */
+  /*  DESKTOP  */
+  body main .gridPzadoo .tituloPzadoo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+    padding: 1.2rem;
+    font-weight: bold; }
+  body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo {
+    height: 40vh;
+    width: 40vh;
+    padding-top: 15vh;
+    overflow: hidden;
+    font-size: 2rem;
+    text-align: center; }
+  body main .gridPzadoo .conteinerPzadoo .areaPzadoo .contenedorImgPzadoo .imgPzadoo {
+    margin: 0.3125rem 0 0 0;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 0 1rem 1rem 0; }
+  body main .gridPzadoo .subtituloPzadoo {
+    font-family: "Space Mono", monospace;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem; } }

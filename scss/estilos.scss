@@ -31,6 +31,12 @@
     .desktop{
         display: block;
     }
+            
     @import "layaout/navegation";
     @import "views/desktop/homeDesktop";
+    @import "views/desktop/mateTipsDesktop";
+    @import "views/desktop/momentos";
+    @import "views/desktop/contacto";
+    @import "views/desktop/productos";
+    @import "views/desktop/personalizado";
 }

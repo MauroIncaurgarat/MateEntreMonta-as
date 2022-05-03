@@ -23,12 +23,12 @@ body{
                 .areaContacto{
                     @include flex-1;
                     .itemC{
-                        @extend %dimension-Seccion-S;
+                        @include dimension-Seccion-S;
                         @extend %texto-seccion-S;
                         background-color: nth($color-ppal-s, 5);
                     }
                     .redesC{
-                        @extend %dimension-acople-S;
+                        @include dimension-acople-S;
                         background-color: nth($color-borde-s, 5);
                     }
                 }
@@ -39,16 +39,15 @@ body{
             }
             .formulario{
                 grid-area: 4;
-                @extend %formulario;
+                @include formulario;
             }
             .complemento{
                 grid-area: 5;
-                @extend 
-                %subtitulos;
+                @extend %subtitulos;
             }
             .adicionalConteiner{
                 grid-area: 6;
-                @extend %adicionalConteiner;
+                @include adicionalConteiner;
                 .textoC3, .imgC3, .textoC2, .imgC2, .textoC1, .imgC1{
                     padding: 0.2rem 0 0.2rem 0;
                 }

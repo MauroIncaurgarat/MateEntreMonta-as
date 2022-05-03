@@ -1,14 +1,14 @@
 //importaciones
 @import "../utilities/colores";
 @import "typo";
+@import "../utilities/variables";
 
-
+    /* PHONE */
 // bordes Seccion Home
 @mixin bordes{
     border: 0.25rem solid;
     border-radius: 0.8rem;
 }
-
 // contenedor imagenes
 @mixin dimension-img-S{
     width: 11rem;
@@ -17,8 +17,6 @@
     border-radius: 0 1rem 1rem 0;
     border: 0.5rem solid;
 }
-
-
 // Textos del Footer Phone
 @mixin texto-titulo-f{
     font-size: 0.9rem;
@@ -27,13 +25,131 @@
     text-align: center;
     font-weight: bold;
 }
+//textos botones
+@mixin texto-botones{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $tipografia-ppal;
+    color: $color-tipografia;
+    font-weight: bold;
+}
+
+    /*  DESKTOP  */
+    
+    //GLOBALES
+//titulos footer
 @mixin texto-titulo-FD{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.3rem;
 }
 //subtitulo footer
 @mixin text-subt-footer{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-family: $tipografia-sdaria;
     font-weight: bold;
+}
+
+//htmls botones
+@mixin item{
+    height: 40vh;
+    width: 40vh;
+    padding-top: 15vh;
+    overflow: hidden;
+    font-size: 2.5rem;
+}    
+@mixin itemPzado{
+    height: 40vh;
+    width: 40vh;
+    padding-top: 15vh;
+    overflow: hidden;
+    font-size: 2rem;
+    text-align: center;
+}
+@mixin imgItem{
+    margin: 0.3125rem 0 0 0;
+    width: 40vh ;
+    height: 40vh;
+    border-radius: 0 1rem 1rem 0; 
+}
+
+
+@mixin seccion-P-D{
+    height: 50vh;
+    width: 50vh;
+    padding-top: 7%;
+    margin: 10px 20px 30px 20px;
+    overflow: hidden;
+    position: relative;  
+    font-family: $tipografia-ppal;
+    font-size: 1.8rem;
+    border: none;
+    
+}
+@mixin titulos-ppales-D{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: $tipografia-ppal;
+    padding: 1.2rem;
+    font-weight: bold; 
+}
+@mixin subtitulos{
+    font-family: $tipografia-ppal;
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+@mixin listas{
+    text-align: justify;
+    padding-right: 1.5rem;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    font-size: 1.2rem;  
+    list-style: none;
+    padding-right: 20rem;
+    padding-left: 3rem;
+}
+
+//momentos
+@mixin texto-galeria-desktop{
+    border-radius: 0;
+    width: 15rem;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: $color-galeria;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    
+}
+
+@mixin imagenes-galeria-desktop{
+    width: 15rem;
+    height: 17rem;
+    border-radius: 0%;
+}
+
+//contacto
+@mixin conteinerDatos{
+display: flex;
+justify-content: space-evenly;
+flex-flow: column;
+align-items: center;
+margin-bottom: 1.5rem;
+font-family: $tipografia-sdaria;
+font-weight: bolder;
+}
+
+@mixin acopleContacto{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40vh;
+    height: 40vh;
+    margin-top: 0.3125rem;
+    border-radius: 0 1rem 1rem 0; 
+    justify-content: space-evenly;
+    background-color: $color-acople-Contacto;
 }

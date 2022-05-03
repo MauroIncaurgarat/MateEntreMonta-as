@@ -1,7 +1,7 @@
 
 
 // formulario Contactos
-%formulario{
+@mixin formulario{
     padding: 2% 10% 5% 10%;
     margin: 0;
     font-family: $tipografia-sdaria;

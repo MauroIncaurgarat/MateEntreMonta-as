@@ -21,7 +21,7 @@ body{
                 .areaMT{
                     @include flex-1;
                     .itemM{
-                        @extend %dimension-Seccion-S;
+                        @include dimension-Seccion-S;
                         @extend %texto-seccion-S;
                         background-color: nth($color-ppal-s, 4);
                     }

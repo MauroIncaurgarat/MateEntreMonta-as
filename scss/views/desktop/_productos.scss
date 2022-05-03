@@ -1,0 +1,37 @@
+@import "../../utilities/colores";
+@import "../../utilities/iconos";
+@import "../../utilities/variables";
+@import "../../layaout/grid";
+@import "../../layaout/flex";
+@import "../../base/typo";
+@import "../../base/mixins";
+
+
+
+body{
+    main{
+        .gridPro{ 
+            @include grid-4;
+            .tituloPro{
+                @include titulos-ppales-D;
+            }
+            .conteinerPro{
+                
+                .areaPro{
+                    
+                    .itemPro{
+                        @include item;
+                    }
+                    .contenedorImgPro{
+                            .imgPro{
+                                @include imgItem;
+                        }
+                    }
+                }
+            }
+            .subtituloPro{
+                @include subtitulos;
+            }
+        }
+    }
+}

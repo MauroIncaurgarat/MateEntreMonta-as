@@ -21,7 +21,7 @@ body{
                 .areaMo{
                     @include flex-1;
                     .itemMo{
-                        @extend %dimension-Seccion-S;
+                        @include dimension-Seccion-S;
                         @extend %texto-seccion-S;
                         background-color: nth($color-ppal-s, 3);
                     }
@@ -37,13 +37,10 @@ body{
                 grid-area: 3;
                 @extend %subtitulos;
             }
+            
             .contenedorGaleria{
                 grid-area: 4;
-                @extend %galeria-momentos;
-                background-color: $color-galeria;
-                padding: 0.5rem ;
-                border-radius: 1rem;
-                
+                @include galeria-momentos;
                 //acomodamiento grid
                 //borde radius izquierdo
                 .img1{
@@ -82,9 +79,10 @@ body{
                     @extend %borde-GM;
                 }
                 .texto1, .texto2, .texto3, .texto4, .texto5{
-                    @extend %texto-galeria-M;
+                    @extend %texto-galeria-M; 
                 }
-            }
+               
+            }     
         }
     }
 }

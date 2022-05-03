@@ -12,15 +12,12 @@
 // INDEX.HTML
 body{   
     main{
-        .tituloHome{
-            @extend %titulos-ppales;
-        }
         .gridHome{
-            display: grid;
-            grid-template-areas: "titulo"
-                            "seccion";  
-            background-color: $color-grid;
-
+            @include grid-home;
+            .tituloHome{
+                grid-area: titulo;
+                @extend %titulos-ppales;
+            }
             .conteinerSeccion{
                 grid-area: seccion;
                 @include flex-1;

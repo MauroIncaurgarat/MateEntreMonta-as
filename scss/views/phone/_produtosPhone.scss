@@ -21,7 +21,7 @@ body{
                 .areaPro{
                     @include flex-1;
                     .itemPro{
-                        @extend %dimension-Seccion-S;
+                        @include dimension-Seccion-S;
                         @extend %texto-seccion-S;
                         background-color: nth($color-ppal-s, 1);
                     }

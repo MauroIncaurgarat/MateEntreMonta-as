@@ -1,0 +1,55 @@
+@import "../../utilities/colores";
+@import "../../utilities/iconos";
+@import "../../utilities/variables";
+@import "../../layaout/grid";
+@import "../../layaout/flex";
+@import "../../base/typo";
+@import "../../base/mixins";
+
+
+body{
+    main{
+        .gridMateTips{
+            .tituloM{
+                @include titulos-ppales-D;
+            }
+            .conteinerMateTips{
+                .areaMT{
+                    .itemM{
+                        @include item;    
+                    }
+                    .contenedorImgMT{
+                        .imagenMTS{
+                            @include imgItem;   
+                        }
+                    }
+                }
+            }
+            .curado{
+                @include subtitulos;
+                text-align: left;
+            }
+            .listaCurado{
+                @include listas;
+                li{
+                    margin: 0.7rem;
+                    background-color: $color-lista-MateTip;
+                    border-radius: 1rem;
+                }
+            }
+            .cebado{
+                @include subtitulos;
+                text-align: left;
+            }
+            .listaCebado{
+                @include listas;
+                margin-bottom: 1.5rem;
+                li{
+                    background-color: $color-lista-MateTip;
+                    border-radius: 1rem;
+                    margin: 0.7rem;
+                }
+            }
+        }
+    }
+}

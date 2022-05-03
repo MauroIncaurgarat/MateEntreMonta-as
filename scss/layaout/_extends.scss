@@ -80,7 +80,7 @@
 }
 
 // BOTONES HTMLS
-%dimension-Seccion-S{
+@mixin dimension-Seccion-S{
     width: $ancho-bottom-S;
     height: $alto-bottom-S;
     overflow: hidden;
@@ -107,7 +107,7 @@ $logo: (
 //CONTACTOS
 
 //contenedor adicional
-%adicionalConteiner{
+@mixin adicionalConteiner{
     text-align: center;
     margin: 1rem;
 }

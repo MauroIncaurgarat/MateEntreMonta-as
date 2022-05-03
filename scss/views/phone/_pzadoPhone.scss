@@ -21,7 +21,7 @@ body{
                 .areaPzadoo{
                     @include flex-1;
                     .itemPzadoo{
-                        @extend %dimension-Seccion-S;
+                        @include dimension-Seccion-S;
                         @extend %texto-seccion-S;
                         background-color: nth($color-ppal-s, 2);
                     }
