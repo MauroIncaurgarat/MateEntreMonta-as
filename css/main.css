@@ -78,7 +78,7 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   display: none; }
 
 header {
-  background-color: #c7f6d4; }
+  background-color: #949C8C; }
   header .headerHome .redesSociales {
     display: none; }
   header .headerHome a {
@@ -906,7 +906,7 @@ footer div {
   text-align: center;
   justify-items: center;
   position: absolute;
-  background-color: #ffb6af;
+  background-color: #949C8C;
   padding: 1rem 0 0.5rem 0; }
   footer div .imgE {
     grid-area: imgE; }
@@ -938,20 +938,33 @@ footer div {
   footer div .compraPie, footer div .pagosPie, footer div .enviosPie {
     display: none; }
   @media only screen and (min-width: 1200px) {
-    footer div .compraPie, footer div .pagosPie, footer div .enviosPie {
-      display: block;
-      font-size: 1rem;
-      font-family: "Roboto Mono", monospace;
-      font-weight: bold; }
-    footer div .envios, footer div .pagos, footer div .compra {
-      font-size: 1.5rem;
-      padding: 0.3rem; }
-    footer div .compraPie {
-      grid-area: compraPie; }
-    footer div .pagosPie {
-      grid-area: pagosPie; }
-    footer div .enviosPie {
-      grid-area: enviosPie; } }
+    footer div {
+      display: grid;
+      grid-template-areas: "imgE envios imgP pagos  imgS seguro" "imgE enviosPie imgP pagosPie  imgS compraPie";
+      width: 100%;
+      text-align: center;
+      justify-items: center;
+      position: absolute;
+      background-color: #949C8C;
+      padding: 0.5rem; }
+      footer div .compraPie, footer div .pagosPie, footer div .enviosPie {
+        display: block;
+        font-size: 1rem;
+        font-family: "Roboto Mono", monospace;
+        font-weight: bold;
+        margin: 0; }
+      footer div .envios, footer div .pagos, footer div .compra {
+        font-size: 1.2rem; }
+      footer div .imgP, footer div .imgE, footer div .imgS {
+        justify-self: right;
+        align-self: center;
+        width: 40%; }
+      footer div .compraPie {
+        grid-area: compraPie; }
+      footer div .pagosPie {
+        grid-area: pagosPie; }
+      footer div .enviosPie {
+        grid-area: enviosPie; } }
 
 @media only screen and (min-width: 1200px) {
   .phone {
@@ -1042,13 +1055,13 @@ footer div {
   body header .headerHome {
     display: grid;
     grid-template-areas: "logo   redes     compra" "navd    navd   navd";
-    background-color: #c7f6d4; }
+    background-color: #949C8C; }
     body header .headerHome a {
       grid-area: logo;
       padding: 0;
       margin: 0; }
       body header .headerHome a .logotipo {
-        width: 90%;
+        width: 75%;
         padding: 1rem 0 1rem 1rem; }
     body header .headerHome .redesSociales {
       text-decoration: none;
@@ -1069,7 +1082,7 @@ footer div {
         width: 100%;
         justify-content: space-around;
         list-style: none;
-        background-color: #fcfcda;
+        background-color: #CCCFCA;
         margin-bottom: 0;
         padding: 0.2rem; }
         body header .headerHome .navHome ul li {
@@ -1086,15 +1099,7 @@ footer div {
             margin-top: 0; }
           body header .headerHome .navHome ul li a {
             text-decoration: none;
-            color: black; }
-          body header .headerHome .navHome ul li ul {
-            position: absolute;
-            display: none; }
-            body header .headerHome .navHome ul li ul li {
-              display: block;
-              font-size: 22px;
-              font-family: "Space Mono", monospace;
-              padding: 0.2rem; } }
+            color: #1F1F1F; } }
 
 @media only screen and (min-width: 1200px) {
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {

@@ -36,12 +36,19 @@ footer{
             display: none;
         }
         @media only screen and (min-width: 1200px){
+            @include grid-footer-D;
+            
             .compraPie, .pagosPie, .enviosPie{
                 display: block;
                 @include text-subt-footer;
             }
             .envios, .pagos, .compra{
                 @include texto-titulo-FD;
+            }
+            .imgP, .imgE, .imgS{
+                justify-self: right;
+                align-self: center;
+                width: 40%;
             }
             .compraPie{
                 grid-area: compraPie;

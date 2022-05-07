@@ -39,14 +39,15 @@
     //GLOBALES
 //titulos footer
 @mixin texto-titulo-FD{
-    font-size: 1.5rem;
-    padding: 0.3rem;
+    font-size: 1.2rem;
+    
 }
 //subtitulo footer
 @mixin text-subt-footer{
     font-size: 1rem;
     font-family: $tipografia-sdaria;
     font-weight: bold;
+    margin: 0;
 }
 
 //htmls botones

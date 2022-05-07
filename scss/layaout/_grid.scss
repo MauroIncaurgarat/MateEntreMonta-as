@@ -40,6 +40,19 @@
     width: 100%;
 }
 
+@mixin grid-footer-D {
+    display: grid;
+    grid-template-areas:
+                        "imgE envios imgP pagos  imgS seguro"
+                        "imgE enviosPie imgP pagosPie  imgS compraPie";
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    background-color: $color-footer; 
+    padding: 0.5rem;
+}
+
 // le pongo extend para que en desktop no tome el estilo
 %grid-header-phone{
     display: grid;
