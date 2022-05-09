@@ -1186,8 +1186,8 @@ footer div {
     padding: 1.2rem;
     font-weight: bold; }
   body main .gridHome .conteinerSeccion .aSeccion .item {
-    height: 50vh;
-    width: 50vh;
+    height: 30rem;
+    width: 30rem;
     padding-top: 7%;
     margin: 10px 20px 30px 20px;
     overflow: hidden;
@@ -1533,6 +1533,67 @@ footer div {
       padding-bottom: 1rem;
       font-weight: bold;
       padding-left: 2rem; }
+  body main .contenedorCatalogo {
+    display: grid;
+    grid-template-areas: "izq cards";
+    background-color: #e2e3e7;
+    padding-bottom: 4rem; }
+    body main .contenedorCatalogo .contenedorcard {
+      grid-area: cards;
+      display: flex;
+      flex-flow: row wrap;
+      width: 70vw;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5rem; }
+      body main .contenedorCatalogo .contenedorcard .card {
+        width: 18.5rem;
+        margin: 0.1rem;
+        padding: 0; }
+        body main .contenedorCatalogo .contenedorcard .card .img {
+          margin: 0;
+          padding: 0; }
+          body main .contenedorCatalogo .contenedorcard .card .img img {
+            width: 100%;
+            height: 32.774375rem;
+            padding: 0;
+            margin: 0; }
+        body main .contenedorCatalogo .contenedorcard .card .texto {
+          height: 21rem; }
+          body main .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 0.4rem 0.2rem 0.2rem 0.2rem;
+            margin: 0;
+            text-transform: uppercase;
+            font-family: "Space Mono", monospace;
+            height: 3.599375rem; }
+          body main .contenedorCatalogo .contenedorcard .card .texto .precio {
+            font-size: 1.3rem;
+            text-align: center; }
+          body main .contenedorCatalogo .contenedorcard .card .texto ul {
+            font-size: 1.2rem;
+            font-family: "Roboto Mono", monospace;
+            font-weight: bold;
+            font-style: oblique;
+            margin: 0;
+            padding-bottom: 0.7rem; }
+            body main .contenedorCatalogo .contenedorcard .card .texto ul li {
+              font-size: 1rem;
+              font-family: "Roboto Mono", monospace;
+              font-weight: bold;
+              align-items: end;
+              margin: 0; }
+        body main .contenedorCatalogo .contenedorcard .card button {
+          background-color: #e2e3e7;
+          font-family: "Space Mono", monospace;
+          padding: 0.2rem;
+          border-radius: 0.3rem;
+          margin: 0.2rem; }
+    body main .contenedorCatalogo .izq {
+      grid-area: izq;
+      background-color: beige;
+      width: 28vw; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;

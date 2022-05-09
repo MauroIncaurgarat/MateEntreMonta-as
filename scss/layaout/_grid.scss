@@ -73,6 +73,7 @@
 }
 
 //GRIDS DESKTOP
+//Header
 @mixin grid-header-desktop{
     display: grid;
     grid-template-areas: "logo   redes     compra"
@@ -80,5 +81,10 @@
     background-color: $color-header;  
 }
 
-
-
+//Galeria Productos
+@mixin grid-productos{
+    display: grid;
+    grid-template-areas: "izq cards";
+    background-color: $color-grid;
+    padding-bottom: 4rem;
+}
