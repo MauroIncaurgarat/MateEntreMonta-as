@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+@import "utilities/colores";
 
             //PHONE
 // HEADER
@@ -31,7 +32,7 @@
     .desktop{
         display: block;
     }
-            
+   
     @import "layaout/navegation";
     @import "views/desktop/homeDesktop";
     @import "views/desktop/mateTipsDesktop";

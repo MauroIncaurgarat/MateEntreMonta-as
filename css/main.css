@@ -1181,13 +1181,13 @@ footer div {
   /*  DESKTOP  */
   body main .gridHome .tituloHome {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: "Space Mono", monospace;
     padding: 1.2rem;
     font-weight: bold; }
   body main .gridHome .conteinerSeccion .aSeccion .item {
-    height: 30rem;
-    width: 30rem;
+    height: 20rem;
+    width: 20rem;
     padding-top: 7%;
     margin: 10px 20px 30px 20px;
     overflow: hidden;
@@ -1287,28 +1287,30 @@ footer div {
   /*  DESKTOP  */
   body main .gridMateTips .tituloM {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: "Space Mono", monospace;
     padding: 1.2rem;
     font-weight: bold; }
   body main .gridMateTips .conteinerMateTips .areaMT .itemM {
-    height: 40vh;
-    width: 40vh;
-    padding-top: 15vh;
+    height: 35vh;
+    width: 35vh;
+    padding-top: 10vh;
     overflow: hidden;
-    font-size: 2.5rem; }
+    font-size: 2rem;
+    text-align: center; }
   body main .gridMateTips .conteinerMateTips .areaMT .contenedorImgMT .imagenMTS {
     margin: 0.3125rem 0 0 0;
-    width: 40vh;
-    height: 40vh;
+    width: 35vh;
+    height: 35vh;
     border-radius: 0 1rem 1rem 0; }
   body main .gridMateTips .curado {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
-    padding-top: 1.2rem;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
     font-weight: bold;
     padding-left: 2rem;
+    margin: 0;
     text-align: left; }
   body main .gridMateTips .listaCurado {
     text-align: justify;
@@ -1325,11 +1327,12 @@ footer div {
       border-radius: 1rem; }
   body main .gridMateTips .cebado {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
-    padding-top: 1.2rem;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
     font-weight: bold;
     padding-left: 2rem;
+    margin: 0;
     text-align: left; }
   body main .gridMateTips .listaCebado {
     text-align: justify;
@@ -1369,28 +1372,30 @@ footer div {
   /*  DESKTOP  */
   body main .gridMomentos .tituloMo {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: "Space Mono", monospace;
     padding: 1.2rem;
     font-weight: bold; }
   body main .gridMomentos .conteinerMo .areaMo .itemMo {
-    height: 40vh;
-    width: 40vh;
-    padding-top: 15vh;
+    height: 35vh;
+    width: 35vh;
+    padding-top: 10vh;
     overflow: hidden;
-    font-size: 2.5rem; }
+    font-size: 2rem;
+    text-align: center; }
   body main .gridMomentos .conteinerMo .areaMo .contenedorImg .imgItemMo {
     margin: 0.3125rem 0 0 0;
-    width: 40vh;
-    height: 40vh;
+    width: 35vh;
+    height: 35vh;
     border-radius: 0 1rem 1rem 0; }
   body main .gridMomentos .subtituloMo {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
-    padding-top: 1.2rem;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
     font-weight: bold;
-    padding-left: 2rem; }
+    padding-left: 2rem;
+    margin: 0; }
   body main .gridMomentos .contenedorGaleria {
     display: flex;
     flex-flow: row wrap;
@@ -1439,40 +1444,43 @@ footer div {
   /*  DESKTOP  */
   body main .gridContactos .tituloContacto {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: "Space Mono", monospace;
     padding: 1.2rem;
     font-weight: bold; }
   body main .gridContactos .conteinerContacto .areaContacto .itemC {
-    height: 40vh;
-    width: 40vh;
-    padding-top: 15vh;
+    height: 35vh;
+    width: 35vh;
+    padding-top: 10vh;
     overflow: hidden;
-    font-size: 2.5rem; }
+    font-size: 2rem;
+    text-align: center; }
   body main .gridContactos .conteinerContacto .areaContacto .redesC {
     display: flex;
     flex-flow: column wrap;
-    width: 40vh;
-    height: 40vh;
+    width: 35vh;
+    height: 35vh;
     margin-top: 0.3125rem;
     border-radius: 0 1rem 1rem 0;
     justify-content: space-evenly;
     background-color: #eec4ea; }
   body main .gridContactos .parrafoC {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
-    padding-top: 1.2rem;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
     font-weight: bold;
     padding-left: 2rem;
+    margin: 0;
     margin: 1.5rem 3.5rem 1.5rem 3.5rem; }
   body main .gridContactos .complemento {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
-    padding-top: 1.2rem;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
     font-weight: bold;
-    padding-left: 2rem; }
+    padding-left: 2rem;
+    margin: 0; }
   body main .gridContactos .adicionalConteiner {
     display: flex;
     justify-content: space-evenly;
@@ -1511,89 +1519,106 @@ footer div {
     background-color: #e2e3e7; }
     body main .gridPro .tituloPro {
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       font-family: "Space Mono", monospace;
       padding: 1.2rem;
       font-weight: bold; }
     body main .gridPro .conteinerPro .areaPro .itemPro {
-      height: 40vh;
-      width: 40vh;
-      padding-top: 15vh;
+      height: 35vh;
+      width: 35vh;
+      padding-top: 10vh;
       overflow: hidden;
-      font-size: 2.5rem; }
+      font-size: 2rem;
+      text-align: center; }
     body main .gridPro .conteinerPro .areaPro .contenedorImgPro .imgPro {
       margin: 0.3125rem 0 0 0;
-      width: 40vh;
-      height: 40vh;
+      width: 35vh;
+      height: 35vh;
       border-radius: 0 1rem 1rem 0; }
     body main .gridPro .subtituloPro {
       font-family: "Space Mono", monospace;
-      font-size: 2rem;
-      padding-top: 1.2rem;
+      font-size: 2.1rem;
+      padding-top: 1.3rem;
       padding-bottom: 1rem;
       font-weight: bold;
-      padding-left: 2rem; }
+      padding-left: 2rem;
+      margin: 0; }
   body main .contenedorCatalogo {
     display: grid;
     grid-template-areas: "izq cards";
     background-color: #e2e3e7;
-    padding-bottom: 4rem; }
+    padding-bottom: 4rem;
+    padding-top: 3rem; }
     body main .contenedorCatalogo .contenedorcard {
       grid-area: cards;
       display: flex;
       flex-flow: row wrap;
-      width: 70vw;
-      justify-content: center;
+      width: 80vw;
+      justify-content: space-evenly;
       margin: 0;
-      padding: 0.5rem; }
+      row-gap: 2rem; }
       body main .contenedorCatalogo .contenedorcard .card {
-        width: 18.5rem;
-        margin: 0.1rem;
-        padding: 0; }
+        width: 13rem;
+        margin: 0.1rem; }
         body main .contenedorCatalogo .contenedorcard .card .img {
           margin: 0;
           padding: 0; }
           body main .contenedorCatalogo .contenedorcard .card .img img {
             width: 100%;
-            height: 32.774375rem;
+            height: 16.5rem;
             padding: 0;
             margin: 0; }
         body main .contenedorCatalogo .contenedorcard .card .texto {
-          height: 21rem; }
+          width: 13rem;
+          height: 19rem; }
           body main .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
-            font-size: 1.5rem;
+            font-size: 1rem;
             text-align: center;
-            padding: 0.4rem 0.2rem 0.2rem 0.2rem;
+            padding-top: 1rem;
             margin: 0;
             text-transform: uppercase;
             font-family: "Space Mono", monospace;
-            height: 3.599375rem; }
+            height: 2.7rem; }
           body main .contenedorCatalogo .contenedorcard .card .texto .precio {
-            font-size: 1.3rem;
-            text-align: center; }
-          body main .contenedorCatalogo .contenedorcard .card .texto ul {
-            font-size: 1.2rem;
+            font-size: 1rem;
+            text-align: center;
+            font-family: "Space Mono", monospace;
+            margin: 0;
+            padding-bottom: 0.5rem; }
+          body main .contenedorCatalogo .contenedorcard .card .texto ul span {
+            font-size: 0.8rem;
+            font-family: "Space Mono", monospace;
+            text-transform: uppercase;
+            text-decoration: underline;
+            padding-bottom: 0.5rem; }
+          body main .contenedorCatalogo .contenedorcard .card .texto ul li {
+            font-size: 0.8rem;
             font-family: "Roboto Mono", monospace;
             font-weight: bold;
-            font-style: oblique;
+            align-items: end;
             margin: 0;
-            padding-bottom: 0.7rem; }
-            body main .contenedorCatalogo .contenedorcard .card .texto ul li {
-              font-size: 1rem;
-              font-family: "Roboto Mono", monospace;
-              font-weight: bold;
-              align-items: end;
-              margin: 0; }
+            padding-right: 1rem; }
         body main .contenedorCatalogo .contenedorcard .card button {
           background-color: #e2e3e7;
           font-family: "Space Mono", monospace;
           padding: 0.2rem;
           border-radius: 0.3rem;
-          margin: 0.2rem; }
+          margin: 1rem; }
     body main .contenedorCatalogo .izq {
       grid-area: izq;
-      background-color: beige;
-      width: 28vw; }
+      text-align: center; }
+      body main .contenedorCatalogo .izq ul span {
+        font-family: "Space Mono", monospace;
+        font-size: 1.2rem;
+        background-color: #8AE3A8;
+        padding: 0.2rem;
+        border-radius: 0.3rem; }
+      body main .contenedorCatalogo .izq ul li {
+        padding: 0.5rem 0 0 0;
+        list-style: none;
+        font-family: "Roboto Mono", monospace;
+        font-weight: bold;
+        font-size: 1rem; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -1618,26 +1643,27 @@ footer div {
   /*  DESKTOP  */
   body main .gridPzadoo .tituloPzadoo {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: "Space Mono", monospace;
     padding: 1.2rem;
     font-weight: bold; }
   body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo {
-    height: 40vh;
-    width: 40vh;
+    height: 35vh;
+    width: 35vh;
     padding-top: 15vh;
     overflow: hidden;
     font-size: 2rem;
     text-align: center; }
   body main .gridPzadoo .conteinerPzadoo .areaPzadoo .contenedorImgPzadoo .imgPzadoo {
     margin: 0.3125rem 0 0 0;
-    width: 40vh;
-    height: 40vh;
+    width: 35vh;
+    height: 35vh;
     border-radius: 0 1rem 1rem 0; }
   body main .gridPzadoo .subtituloPzadoo {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
-    padding-top: 1.2rem;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
     font-weight: bold;
-    padding-left: 2rem; } }
+    padding-left: 2rem;
+    margin: 0; } }
