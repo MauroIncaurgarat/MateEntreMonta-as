@@ -1650,9 +1650,9 @@ footer div {
   body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo {
     height: 35vh;
     width: 35vh;
-    padding-top: 15vh;
+    padding-top: 11vh;
     overflow: hidden;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center; }
   body main .gridPzadoo .conteinerPzadoo .areaPzadoo .contenedorImgPzadoo .imgPzadoo {
     margin: 0.3125rem 0 0 0;
