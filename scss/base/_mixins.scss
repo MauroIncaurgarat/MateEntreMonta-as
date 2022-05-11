@@ -3,6 +3,10 @@
 @import "typo";
 @import "../utilities/variables";
 
+@mixin margin-lat($left,$right){
+    margin-left: $right;
+    margin-right: $right;
+}
     /* PHONE */
 // bordes Seccion Home
 @mixin bordes{
@@ -33,6 +37,10 @@
     color: $color-tipografia;
     font-weight: bold;
 }
+//PERSONALIZADO.HTML
+
+
+
 
     /*  DESKTOP  */
     
@@ -49,7 +57,37 @@
     font-weight: bold;
     margin: 0;
 }
+//htmls
+@mixin seccion-P-D{
+    height: 20rem;
+    width: 20rem;
+    padding-top: 7%;
+    margin: 10px 20px 30px 20px;
+    overflow: hidden;
+    position: relative;  
+    font-family: $tipografia-ppal;
+    font-size: 1.8rem;
+    border: none; 
+}
+@mixin titulos-ppales-D{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: $tipografia-ppal;
+    padding: 1.2rem;
+    font-weight: bold; 
+}
+@mixin subtitulos{
+    font-family: $tipografia-ppal;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    margin: 0;
+}
+//CIERRE GLOBALES
 
+/* INDEX.HTML */
 //htmls botones
 @mixin item{
     height: 35vh;
@@ -73,37 +111,7 @@
     height: 35vh;
     border-radius: 0 1rem 1rem 0; 
 }
-
-
-@mixin seccion-P-D{
-    height: 20rem;
-    width: 20rem;
-    padding-top: 7%;
-    margin: 10px 20px 30px 20px;
-    overflow: hidden;
-    position: relative;  
-    font-family: $tipografia-ppal;
-    font-size: 1.8rem;
-    border: none;
-    
-}
-@mixin titulos-ppales-D{
-    text-align: center;
-    font-size: 2.3rem;
-    font-family: $tipografia-ppal;
-    padding: 1.2rem;
-    font-weight: bold; 
-   
-}
-@mixin subtitulos{
-    font-family: $tipografia-ppal;
-    font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
-    margin: 0;
-}
+//CIERRE INDEX.HTML
 
 @mixin listas{
     text-align: justify;
@@ -116,7 +124,7 @@
     padding-left: 3rem;
 }
 
-//momentos
+//MOMENTOS.HTML
 @mixin texto-galeria-desktop{
     border-radius: 0;
     width: 15rem;
@@ -136,7 +144,7 @@
     border-radius: 0%;
 }
 
-//contacto
+//CONTACTO.HTML
 @mixin conteinerDatos{
 display: flex;
 justify-content: space-evenly;
@@ -158,7 +166,7 @@ font-weight: bolder;
     background-color: $color-acople-Contacto;
 }
 
-//Productos Desktop
+//PRODUCTOS.HTML
 @mixin contenedor-catalogo{ 
     display: flex;
     flex-flow: row wrap;
@@ -167,9 +175,7 @@ font-weight: bolder;
     margin: 0;
     row-gap: 2rem;
 }
-
-//cards                                 /*width: 12rem; height: 16rem */
-                            
+//cards                                                           
 @mixin card{
     width: 13rem ;
     margin: 0.1rem;
@@ -208,4 +214,74 @@ font-weight: bolder;
     padding: 0.2rem; 
     border-radius: 0.3rem;
     margin: 1rem;
+}
+
+//PERSONALIZADO.HTML
+
+@mixin titulo-catalogo{
+    text-align: left;
+    font-family: $tipografia-ppal;
+    padding-bottom: 0;
+    font-weight: bold;
+    padding-left: 10rem;
+}
+
+@mixin alineacion-pasos{
+    text-align: left;
+    padding-left: 10rem;
+    padding-right: 5rem;
+}
+@mixin titulo-pasos{
+    font-family: $tipografia-ppal;
+    font-size: 1.5rem;
+    background-color: $color-bg-listaPzado;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+@mixin lista-pasos{
+    text-align: left;
+    list-style: none;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: $color-bg-listaPzado2;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+@mixin enlaces-pasos{
+    text-decoration: none;
+    font-family: $tipografia-ppal;
+    color: $color-tipografia;
+    font-weight: bold;
+}
+@mixin img-Pzado{
+    grid-area: img;
+    width: 30vw;
+    text-align: center;
+}
+@mixin img-Pzado-Dimension{
+    
+    width: 80%;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: #A38787; 
+}
+@mixin alineacion-pieCatalogo{
+    grid-area: pie;
+    margin-left: 9rem;
+    margin-right: 4rem;
+    margin-bottom: 0;
+}
+
+@mixin texto-catalogo{
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    text-align: justify;
+    background-color: $color-bg-listaPzado;
+    border-radius: 1rem;
 }

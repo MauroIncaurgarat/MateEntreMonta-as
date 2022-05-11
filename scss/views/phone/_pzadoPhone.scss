@@ -11,7 +11,7 @@
 body{
     main{
         .gridPzadoo{
-            @include grid-4;
+            @include grid-3;
             .tituloPzadoo{
                 grid-area: 1;
                 @extend %titulos-ppales;
@@ -33,9 +33,48 @@ body{
                     }
                 }
             }
-            .subtituloPzadoo{
-                grid-area: 3;
-                @extend %subtitulos;
+            .catalogoPzado{
+                grid-area: 4;   
+                h2{
+                    grid-area: 1;
+                    @extend %titulo-catalogo;
+                }
+                .pasosPzado{
+                    grid-area: 2;
+
+                    ul{
+                        @extend %alineacion-pasos-phone;
+                        .tituloLista{
+                            @extend %titulo-pasos;
+                        }
+
+                        li{
+                            @extend %lista-pasos;
+                            a{
+                                @include enlaces-pasos; 
+                            }
+                        }
+                    }
+                }
+                .imgPzado{
+                    grid-area: 3;
+                    text-align: center;
+                    img{
+                        width: 40%;
+                        border-radius: 2rem;
+                        padding: 1rem;
+                    }
+                }
+
+                .pieCatalogo{
+                    grid-area: 4;
+                    margin-top: 1.5rem;
+                    padding-bottom: 1.5rem;
+                    .textoPiePzado{
+                    @extend %textoPiePzado;
+                    @include margin-lat(3rem,3rem);
+                    }
+                }
             }
         }
     }

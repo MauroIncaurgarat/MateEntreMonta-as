@@ -25,8 +25,47 @@ body{
                     }
                 }
             }
-            .subtituloPzadoo{
-                @include subtitulos;
+            .catalogoPzado{
+                @include grid-personalizado;
+                h2{
+                    grid-area: titulo;
+                    @include titulo-catalogo;
+                    margin-bottom: 0;
+
+                }
+                .pasosPzado{
+                    
+                    width: 70vw;  
+
+                    ul{
+                        grid-area: expl;
+                        @include alineacion-pasos;
+
+                        .tituloLista{
+                        @include titulo-pasos;
+                        }
+
+                        li{
+                            @include lista-pasos;
+                            
+                            a{
+                                @include enlaces-pasos; 
+                            }
+                        }
+                    }
+                }
+                .imgPzado{    
+                    @include img-Pzado;       
+                    img{
+                        @include img-Pzado-Dimension; 
+                    }
+                }
+                .pieCatalogo{
+                    @include alineacion-pieCatalogo;
+                    .textoPiePzado{
+                    @include texto-catalogo;
+                    }
+                }
             }
         }
     }

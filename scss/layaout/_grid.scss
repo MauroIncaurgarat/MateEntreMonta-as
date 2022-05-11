@@ -1,6 +1,14 @@
 @import "../utilities/colores";
 
 
+@mixin grid-3{
+    display: grid;
+    grid-area: "1"
+               "2"
+               "3";
+    background-color: $color-grid;
+
+}
 @mixin grid-4{
     display: grid;
     grid-area: "1"
@@ -40,18 +48,6 @@
     width: 100%;
 }
 
-@mixin grid-footer-D {
-    display: grid;
-    grid-template-areas:
-                        "imgE envios imgP pagos  imgS seguro"
-                        "imgE enviosPie imgP pagosPie  imgS compraPie";
-    width: 100%;
-    text-align: center;
-    justify-items: center;
-    position: absolute;
-    background-color: $color-footer; 
-    padding: 0.5rem;
-}
 
 // le pongo extend para que en desktop no tome el estilo
 %grid-header-phone{
@@ -80,12 +76,35 @@
                             "navd    navd   navd";
     background-color: $color-header;  
 }
+//footer
+@mixin grid-footer-D {
+    display: grid;
+    grid-template-areas:
+                        "imgE envios imgP pagos  imgS seguro"
+                        "imgE enviosPie imgP pagosPie  imgS compraPie";
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    background-color: $color-footer; 
+    padding: 0.5rem;
+}
 
-//Galeria Productos
+//Catalogo productos Productos
 @mixin grid-productos{
     display: grid;
     grid-template-areas: "izq cards";
     background-color: $color-grid;
     padding-bottom: 4rem;
     padding-top: 3rem;
+}
+
+//Catalogo Personalizado
+@mixin grid-personalizado{
+    display: grid;
+    grid-template-areas:"titulo img" 
+                        "expl  img"
+                        "pie img";
+    margin-top: 2rem;
+    margin-bottom:  2rem;
 }

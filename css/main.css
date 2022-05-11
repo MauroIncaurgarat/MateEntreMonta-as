@@ -38,7 +38,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -71,8 +71,49 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   border-radius: 1rem;
   text-align: center; }
 
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
+
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 /* Header Phone */
 .desktop {
   display: none; }
@@ -96,6 +137,7 @@ header {
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -126,7 +168,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -158,6 +200,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
+
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
 
 header .headerHome {
   display: grid;
@@ -228,6 +310,7 @@ body main .gridHome {
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -258,7 +341,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -290,6 +373,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
+
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
 
 header .headerHome {
   display: grid;
@@ -333,6 +456,7 @@ body main .gridPro {
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -363,7 +487,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -396,6 +520,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   border-radius: 1rem;
   text-align: center; }
 
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
+
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
@@ -403,7 +567,7 @@ header .headerHome {
 
 body main .gridPzadoo {
   display: grid;
-  grid-area: "1" "2" "3" "4";
+  grid-area: "1" "2" "3";
   background-color: #e2e3e7; }
   body main .gridPzadoo .tituloPzadoo {
     grid-area: 1; }
@@ -433,11 +597,35 @@ body main .gridPzadoo {
         border-radius: 0 1rem 1rem 0;
         border: 0.5rem solid;
         border-color: #D6B1B1; }
-  body main .gridPzadoo .subtituloPzadoo {
-    grid-area: 3; }
+  body main .gridPzadoo .catalogoPzado {
+    grid-area: 4; }
+    body main .gridPzadoo .catalogoPzado h2 {
+      grid-area: 1; }
+    body main .gridPzadoo .catalogoPzado .pasosPzado {
+      grid-area: 2; }
+      body main .gridPzadoo .catalogoPzado .pasosPzado ul li a {
+        text-decoration: none;
+        font-family: "Space Mono", monospace;
+        color: #1F1F1F;
+        font-weight: bold; }
+    body main .gridPzadoo .catalogoPzado .imgPzado {
+      grid-area: 3;
+      text-align: center; }
+      body main .gridPzadoo .catalogoPzado .imgPzado img {
+        width: 40%;
+        border-radius: 2rem;
+        padding: 1rem; }
+    body main .gridPzadoo .catalogoPzado .pieCatalogo {
+      grid-area: 4;
+      margin-top: 1.5rem;
+      padding-bottom: 1.5rem; }
+      body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+        margin-left: 3rem;
+        margin-right: 3rem; }
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -468,7 +656,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -500,6 +688,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
+
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
 
 header .headerHome {
   display: grid;
@@ -571,6 +799,7 @@ body main .gridMomentos {
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -601,7 +830,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -633,6 +862,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
+
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
 
 header .headerHome {
   display: grid;
@@ -686,6 +955,7 @@ body main .gridMateTips {
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -716,7 +986,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -748,6 +1018,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
+
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
 
 header .headerHome {
   display: grid;
@@ -835,6 +1145,7 @@ footer div .imgE, footer div .imgP, footer div .imgS {
 
 /* PHONE */
 /*  DESKTOP  */
+/* INDEX.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -865,7 +1176,7 @@ body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridP
   padding: 0.3rem;
   font-weight: bold; }
 
-body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 1.3rem;
@@ -897,6 +1208,46 @@ body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .conte
   height: 100%;
   border-radius: 1rem;
   text-align: center; }
+
+body main .gridPzadoo .catalogoPzado h2 {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  background-color: #EDC1B9;
+  padding: 0.3rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: #FFEDED;
+  padding: 0.2rem;
+  border-radius: 1rem; }
+
+body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: justify;
+  background-color: #EDC1B9;
+  border-radius: 1rem;
+  padding: 0.3rem; }
 
 /* Footer Phone */
 footer div {
@@ -1017,7 +1368,7 @@ footer div {
     font-family: "Space Mono", monospace;
     padding: 0.3rem;
     font-weight: bold; }
-  body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+  body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
     font-family: "Space Mono", monospace;
     text-align: center;
     font-size: 1.3rem;
@@ -1045,7 +1396,42 @@ footer div {
     width: 100%;
     height: 100%;
     border-radius: 1rem;
-    text-align: center; } }
+    text-align: center; }
+  body main .gridPzadoo .catalogoPzado h2 {
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem; }
+  body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center; }
+  body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+    font-family: "Space Mono", monospace;
+    font-size: 1.2rem;
+    background-color: #EDC1B9;
+    padding: 0.3rem;
+    border-radius: 1rem; }
+  body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+    text-align: center;
+    list-style: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: #FFEDED;
+    padding: 0.2rem;
+    border-radius: 1rem; }
+  body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: #EDC1B9;
+    border-radius: 1rem;
+    padding: 0.3rem; } }
 
 @media only screen and (min-width: 1200px) and (min-width: 1200px) {
   .phone {
@@ -1148,7 +1534,7 @@ footer div {
     font-family: "Space Mono", monospace;
     padding: 0.3rem;
     font-weight: bold; }
-  body main .gridPro .subtituloPro, body main .gridPzadoo .subtituloPzadoo, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
+  body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
     font-family: "Space Mono", monospace;
     text-align: center;
     font-size: 1.3rem;
@@ -1177,8 +1563,44 @@ footer div {
     height: 100%;
     border-radius: 1rem;
     text-align: center; }
+  body main .gridPzadoo .catalogoPzado h2 {
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem; }
+  body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center; }
+  body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+    font-family: "Space Mono", monospace;
+    font-size: 1.2rem;
+    background-color: #EDC1B9;
+    padding: 0.3rem;
+    border-radius: 1rem; }
+  body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+    text-align: center;
+    list-style: none;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: #FFEDED;
+    padding: 0.2rem;
+    border-radius: 1rem; }
+  body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: #EDC1B9;
+    border-radius: 1rem;
+    padding: 0.3rem; }
   /* PHONE */
   /*  DESKTOP  */
+  /* INDEX.HTML */
   body main .gridHome .tituloHome {
     text-align: center;
     font-size: 2.3rem;
@@ -1285,6 +1707,7 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* INDEX.HTML */
   body main .gridMateTips .tituloM {
     text-align: center;
     font-size: 2.3rem;
@@ -1370,6 +1793,7 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* INDEX.HTML */
   body main .gridMomentos .tituloMo {
     text-align: center;
     font-size: 2.3rem;
@@ -1442,6 +1866,7 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* INDEX.HTML */
   body main .gridContactos .tituloContacto {
     text-align: center;
     font-size: 2.3rem;
@@ -1513,6 +1938,7 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* INDEX.HTML */
   body main .gridPro {
     display: grid;
     grid-area: "1" "2" "3" "4";
@@ -1641,6 +2067,7 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* INDEX.HTML */
   body main .gridPzadoo .tituloPzadoo {
     text-align: center;
     font-size: 2.3rem;
@@ -1659,11 +2086,68 @@ footer div {
     width: 35vh;
     height: 35vh;
     border-radius: 0 1rem 1rem 0; }
-  body main .gridPzadoo .subtituloPzadoo {
-    font-family: "Space Mono", monospace;
-    font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
-    margin: 0; } }
+  body main .gridPzadoo .catalogoPzado {
+    display: grid;
+    grid-template-areas: "titulo img"  "expl  img" "pie img";
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    body main .gridPzadoo .catalogoPzado h2 {
+      grid-area: titulo;
+      text-align: left;
+      font-family: "Space Mono", monospace;
+      padding-bottom: 0;
+      font-weight: bold;
+      padding-left: 10rem;
+      margin-bottom: 0; }
+    body main .gridPzadoo .catalogoPzado .pasosPzado {
+      width: 70vw; }
+      body main .gridPzadoo .catalogoPzado .pasosPzado ul {
+        grid-area: expl;
+        text-align: left;
+        padding-left: 10rem;
+        padding-right: 5rem; }
+        body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
+          font-family: "Space Mono", monospace;
+          font-size: 1.5rem;
+          background-color: #EDC1B9;
+          padding: 0.3rem;
+          border-radius: 1rem; }
+        body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
+          text-align: left;
+          list-style: none;
+          font-family: "Roboto Mono", monospace;
+          font-weight: bold;
+          font-size: 1.2rem;
+          margin-top: 1.2rem;
+          margin-bottom: 1.2rem;
+          background-color: #FFEDED;
+          padding: 0.2rem;
+          border-radius: 1rem; }
+          body main .gridPzadoo .catalogoPzado .pasosPzado ul li a {
+            text-decoration: none;
+            font-family: "Space Mono", monospace;
+            color: #1F1F1F;
+            font-weight: bold; }
+    body main .gridPzadoo .catalogoPzado .imgPzado {
+      grid-area: img;
+      width: 30vw;
+      text-align: center; }
+      body main .gridPzadoo .catalogoPzado .imgPzado img {
+        width: 80%;
+        margin: 0.5rem;
+        border-radius: 2rem;
+        padding: 0.5rem;
+        background-color: #A38787; }
+    body main .gridPzadoo .catalogoPzado .pieCatalogo {
+      grid-area: pie;
+      margin-left: 9rem;
+      margin-right: 4rem;
+      margin-bottom: 0; }
+      body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
+        font-family: "Roboto Mono", monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding-bottom: 0;
+        text-align: justify;
+        background-color: #EDC1B9;
+        border-radius: 1rem; } }

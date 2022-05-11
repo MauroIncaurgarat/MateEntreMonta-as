@@ -53,8 +53,6 @@
     padding: 1rem;
 }
 
-
-
 //texto galeria
 %texto-galeria-M{
     display: flex;
@@ -97,7 +95,6 @@
     font-weight: bold;
 }
 
-
 //Logo
 $logo: (
     logophone: 8rem,
@@ -105,7 +102,6 @@ $logo: (
 );
 
 //CONTACTOS
-
 //contenedor adicional
 @mixin adicionalConteiner{
     text-align: center;
@@ -120,3 +116,48 @@ $logo: (
     text-align: center;
 }
 
+//Personalizado.html
+%titulo-catalogo{
+    text-align: center;
+    font-family: $tipografia-ppal;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+%alineacion-pasos-phone{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+%titulo-pasos{
+    font-family: $tipografia-ppal;
+    font-size: 1.2rem;
+    background-color: $color-bg-listaPzado;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+%lista-pasos{
+    text-align: center;
+    list-style: none;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: $color-bg-listaPzado2;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+
+%textoPiePzado{
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: $color-bg-listaPzado;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
