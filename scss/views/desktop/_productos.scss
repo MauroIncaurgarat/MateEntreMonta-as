@@ -11,14 +11,11 @@
 body{
     main{
         .gridPro{ 
-            @include grid-4;
             .tituloPro{
                 @include titulos-ppales-D;
             }
-            .conteinerPro{
-                
-                .areaPro{
-                    
+            .conteinerPro{            
+                .areaPro{                   
                     .itemPro{
                         @include item;
                     }
@@ -31,72 +28,58 @@ body{
             }
             .subtituloPro{
                 @include subtitulos;
-            }
-        }
-        .contenedorCatalogo{
-            @include grid-productos;
-            .contenedorcard{     
-                grid-area: cards;
-                @include contenedor-catalogo;
-                .card{
-                    
-                    @include card;
-                   
-                    .img{
-                        margin: 0;
-                        padding: 0;
-                        img{
-                            width: 100%;
-                            height: 16.5rem;
-                            padding: 0;
-                            margin: 0;
-                        }
-                    }
-                    .texto{
-                        width: 13rem;
-                        height: 19rem;
-                        .tituloCard{
-                            @include card-title;
-                        }
-                        .precio{
-                            @include card-prise;
-                        }
-                        ul{
-                            span{
-                                font-size: 0.8rem;
-                                font-family: $tipografia-ppal;
-                                text-transform: uppercase;
-                                text-decoration: underline; 
-                                padding-bottom: 0.5rem;
+            } 
+            .contenedorCatalogo{
+                @include grid-productos;
+                .contenedorcard{   
+                    @include contenedor-card;
+                    .card{  
+                        @include card;
+                        .texto{
+                            @include contenedor-texto;
+                            .tituloCard{
+                                @include card-title;
                             }
-                            
-                            li{
-                            @include descripcion;
+                            .precio{
+                                @include card-prise;
+                            }
+                            .caracteristicas{
+                                @include caracteristicas;
+                                
+                                span{
+                                    @include titulo-descripcion;
+                                }   
                             }
                         }
-                    }
-                    button{
-                        @include comprar-b;
+                        div{
+                            button{
+                                margin: 0.5rem;
+                                
+                            }
+                        }
                     }
                 }
-            }
-            .izq{
-                grid-area: izq;  
-                text-align: center;
-                ul{ 
-                    span{
-                        font-family: $tipografia-ppal;
-                        font-size: 1.2rem;
-                        background-color: #8AE3A8;
-                        padding: 0.2rem;
-                        border-radius: 0.3rem;
-                    }
-                    li{
-                        padding: 0.5rem 0 0 0;
-                        list-style: none;
-                        font-family: $tipografia-sdaria;
-                        font-weight: bold;
-                        font-size: 1rem;
+                .izq{
+                    grid-area: izq;  
+                    text-align: center;
+                    ul{ 
+                        padding: 0;
+                        margin-top: 0.5rem;
+                        span{
+                            font-family: $tipografia-ppal;
+                            font-size: 1.2rem;
+                            padding: 0.2rem;  
+                            background-color: #DAE8CC;
+                            border: 2px solid nth($color-borde-s, 1 );
+                            border-radius: 0.3rem;
+                        }
+                        li{
+                            margin-top: 1.1rem;
+                            list-style: none;
+                            font-family: $tipografia-ppal;
+                            font-weight: bold;
+                            font-size: 1rem;
+                        }
                     }
                 }
             }

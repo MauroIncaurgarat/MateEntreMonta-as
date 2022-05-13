@@ -92,15 +92,20 @@
 @mixin item{
     height: 35vh;
     width: 35vh;
-    padding-top: 10vh;
     overflow: hidden;
     font-size: 2rem;
-    text-align: center;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
 }    
 @mixin itemPzado{
     height: 35vh;
     width: 35vh;
-    padding-top: 11vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     font-size: 1.7rem;
     text-align: center;
@@ -126,22 +131,34 @@
 
 //MOMENTOS.HTML
 @mixin texto-galeria-desktop{
-    border-radius: 0;
-    width: 15rem;
-    height: 17rem;
+    //space
+    width: 17rem;
+    height: 20rem;
     display: flex;
+    border-radius: 1rem;
     align-items: center;
+    background-color: #8580BA;
+    //tipo
     text-align: center;
-    font-size: 1rem;
-    background-color: $color-galeria;
-    font-family: $tipografia-sdaria;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: $tipografia-ppal;
     font-weight: bold;
+    //shadow
+    -webkit-box-shadow: 0px 0px 4px 5px #545175;
+    -moz-box-shadow: 0px 0px 4px 5px #545175;
+    box-shadow: 0px 0px 4px 5px #545175;
 }
 
 @mixin imagenes-galeria-desktop{
-    width: 15rem;
-    height: 17rem;
-    border-radius: 0%;
+    //space
+    width: 17rem;
+    height: 20rem;
+    border-radius: 1rem;
+    //shadow
+    -webkit-box-shadow: 0px 0px 4px 5px #545175;
+    -moz-box-shadow: 0px 0px 4px 5px #545175;
+    box-shadow: 0px 0px 4px 5px #545175;
 }
 
 //CONTACTO.HTML
@@ -168,6 +185,7 @@ font-weight: bolder;
 
 //PRODUCTOS.HTML
 @mixin contenedor-catalogo{ 
+    grid-area: cards;
     display: flex;
     flex-flow: row wrap;
     width: 80vw;
@@ -175,20 +193,28 @@ font-weight: bolder;
     margin: 0;
     row-gap: 2rem;
 }
-//cards                                                           
+//catalogo   
+@mixin contenedor-card{
+    grid-area: cards;  
+    justify-content: left;
+    margin: 0;
+}                                                       
 @mixin card{
-    width: 13rem ;
-    margin: 0.1rem;
+    margin: 0;
+    width: 12rem; 
+    border-radius: 0.8rem; 
+    
 }
-
+@mixin contenedor-texto{
+    width: 12rem;
+    height: 19rem;
+}
 @mixin card-title{
     font-size: 1rem;
-    text-align: center;
-    padding-top: 1rem;
-    margin: 0;
-    text-transform: uppercase;
-    font-family: $tipografia-ppal;
-    height: 2.7rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 @mixin card-prise{
@@ -199,22 +225,50 @@ font-weight: bolder;
     padding-bottom: 0.5rem;
 }
 
-@mixin descripcion {
+@mixin caracteristicas {
     font-size: 0.8rem;
     font-family: $tipografia-sdaria;
     font-weight: bold;
     align-items: end;
     margin: 0;
     padding-right: 1rem;
+   
 }
-
+@mixin titulo-descripcion{
+    font-size: 0.8rem;
+    font-family: $tipografia-ppal;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    padding-bottom: 0.5rem;
+}
 @mixin comprar-b{
     background-color: $color-grid; 
     font-family: $tipografia-ppal; 
+    font-weight: bold;
     padding: 0.2rem; 
+    font-size: 0.9rem;
     border-radius: 0.3rem;
     margin: 1rem;
+    border-color:nth($color-hover-s, 1 );
+    background-color: nth($color-ppal-s, 1 );
 }
+
+//filtros
+@mixin titulo-filtros{
+    font-family: $tipografia-ppal;
+    font-size: 1.2rem;
+    background-color: #8AE3A8;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+@mixin lista-filtros{
+    padding: 0.5rem 0 0 0;
+    list-style: none;
+    font-family: $tipografia-sdaria;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 
 //PERSONALIZADO.HTML
 
@@ -270,9 +324,9 @@ font-weight: bolder;
     background-color: #A38787; 
 }
 @mixin alineacion-pieCatalogo{
-    grid-area: pie;
-    margin-left: 9rem;
-    margin-right: 4rem;
+    
+    margin-left: 7rem;
+    margin-right: 2rem;
     margin-bottom: 0;
 }
 

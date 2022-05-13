@@ -111,6 +111,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   border-radius: 1rem;
   padding: 0.3rem; }
 
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
+
 /* PHONE */
 /*  DESKTOP  */
 /* INDEX.HTML */
@@ -240,6 +290,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   background-color: #EDC1B9;
   border-radius: 1rem;
   padding: 0.3rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
 
 header .headerHome {
   display: grid;
@@ -414,6 +514,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   border-radius: 1rem;
   padding: 0.3rem; }
 
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
+
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
@@ -453,6 +603,14 @@ body main .gridPro {
         border-color: #8DD7CF; }
   body main .gridPro .subtituloPro {
     grid-area: 3; }
+  body main .gridPro .contenedorCatalogo {
+    grid-area: 4; }
+    body main .gridPro .contenedorCatalogo .contenedorcard .card .img {
+      grid-area: img; }
+    body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+      grid-area: texto; }
+    body main .gridPro .contenedorCatalogo .contenedorcard .card div {
+      grid-area: button; }
 
 /* PHONE */
 /*  DESKTOP  */
@@ -559,6 +717,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   background-color: #EDC1B9;
   border-radius: 1rem;
   padding: 0.3rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
 
 header .headerHome {
   display: grid;
@@ -728,6 +936,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   background-color: #EDC1B9;
   border-radius: 1rem;
   padding: 0.3rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
 
 header .headerHome {
   display: grid;
@@ -903,6 +1161,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   border-radius: 1rem;
   padding: 0.3rem; }
 
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
+
 header .headerHome {
   display: grid;
   grid-template-areas: "logo navH compra";
@@ -1058,6 +1366,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   background-color: #EDC1B9;
   border-radius: 1rem;
   padding: 0.3rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
 
 header .headerHome {
   display: grid;
@@ -1249,6 +1607,56 @@ body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
   border-radius: 1rem;
   padding: 0.3rem; }
 
+body main .gridPro .contenedorCatalogo .contenedorcard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  gap: 1.5rem; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card {
+  display: grid;
+  grid-template-areas: "img" "texto" "button";
+  border-radius: 0.5rem;
+  background-color: #DAE8CC; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+  margin: 0;
+  width: 100%;
+  height: 15rem;
+  padding: 0;
+  border-radius: 0.5rem 0.5rem 0 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+  width: 12rem;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.2rem;
+  font-weight: bold; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Space Mono", monospace; }
+
+body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+  font-family: "Space Mono", monospace;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #4D7571;
+  background-color: #8DD7CF;
+  margin: 0.5rem; }
+
 /* Footer Phone */
 footer div {
   display: grid;
@@ -1431,7 +1839,50 @@ footer div {
     text-align: justify;
     background-color: #EDC1B9;
     border-radius: 1rem;
-    padding: 0.3rem; } }
+    padding: 0.3rem; }
+  body main .gridPro .contenedorCatalogo .contenedorcard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    gap: 1.5rem; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card {
+    display: grid;
+    grid-template-areas: "img" "texto" "button";
+    border-radius: 0.5rem;
+    background-color: #DAE8CC; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+    margin: 0;
+    width: 100%;
+    height: 15rem;
+    padding: 0;
+    border-radius: 0.5rem 0.5rem 0 0; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+    width: 12rem;
+    height: 100%;
+    margin: 0;
+    padding: 0; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+    font-family: "Space Mono", monospace;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.2rem;
+    font-weight: bold; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    font-family: "Space Mono", monospace; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+    font-family: "Space Mono", monospace;
+    width: 5rem;
+    height: 1.6rem;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    border-color: #4D7571;
+    background-color: #8DD7CF;
+    margin: 0.5rem; } }
 
 @media only screen and (min-width: 1200px) and (min-width: 1200px) {
   .phone {
@@ -1598,6 +2049,49 @@ footer div {
     background-color: #EDC1B9;
     border-radius: 1rem;
     padding: 0.3rem; }
+  body main .gridPro .contenedorCatalogo .contenedorcard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    gap: 1.5rem; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card {
+    display: grid;
+    grid-template-areas: "img" "texto" "button";
+    border-radius: 0.5rem;
+    background-color: #DAE8CC; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
+    margin: 0;
+    width: 100%;
+    height: 15rem;
+    padding: 0;
+    border-radius: 0.5rem 0.5rem 0 0; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+    width: 12rem;
+    height: 100%;
+    margin: 0;
+    padding: 0; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+    font-family: "Space Mono", monospace;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.2rem;
+    font-weight: bold; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    font-family: "Space Mono", monospace; }
+  body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+    font-family: "Space Mono", monospace;
+    width: 5rem;
+    height: 1.6rem;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+    border-color: #4D7571;
+    background-color: #8DD7CF;
+    margin: 0.5rem; }
   /* PHONE */
   /*  DESKTOP  */
   /* INDEX.HTML */
@@ -1717,10 +2211,12 @@ footer div {
   body main .gridMateTips .conteinerMateTips .areaMT .itemM {
     height: 35vh;
     width: 35vh;
-    padding-top: 10vh;
     overflow: hidden;
     font-size: 2rem;
-    text-align: center; }
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center; }
   body main .gridMateTips .conteinerMateTips .areaMT .contenedorImgMT .imagenMTS {
     margin: 0.3125rem 0 0 0;
     width: 35vh;
@@ -1803,10 +2299,12 @@ footer div {
   body main .gridMomentos .conteinerMo .areaMo .itemMo {
     height: 35vh;
     width: 35vh;
-    padding-top: 10vh;
     overflow: hidden;
     font-size: 2rem;
-    text-align: center; }
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center; }
   body main .gridMomentos .conteinerMo .areaMo .contenedorImg .imgItemMo {
     margin: 0.3125rem 0 0 0;
     width: 35vh;
@@ -1825,25 +2323,33 @@ footer div {
     flex-flow: row wrap;
     height: 100%;
     justify-content: center;
-    gap: 0;
+    gap: 1.3rem;
+    margin-top: 1.5rem;
     margin-bottom: 0;
     padding-bottom: 3rem;
     /* Atributos Globales */ }
     body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .img6, body main .gridMomentos .contenedorGaleria .img7, body main .gridMomentos .contenedorGaleria .img8, body main .gridMomentos .contenedorGaleria .img9, body main .gridMomentos .contenedorGaleria .img10 {
-      width: 15rem;
-      height: 17rem;
-      border-radius: 0%; }
+      width: 17rem;
+      height: 20rem;
+      border-radius: 1rem;
+      -webkit-box-shadow: 0px 0px 4px 5px #545175;
+      -moz-box-shadow: 0px 0px 4px 5px #545175;
+      box-shadow: 0px 0px 4px 5px #545175; }
     body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto4, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .texto6, body main .gridMomentos .contenedorGaleria .texto7, body main .gridMomentos .contenedorGaleria .texto8, body main .gridMomentos .contenedorGaleria .texto9, body main .gridMomentos .contenedorGaleria .texto10 {
-      border-radius: 0;
-      width: 15rem;
-      height: 17rem;
+      width: 17rem;
+      height: 20rem;
       display: flex;
+      border-radius: 1rem;
       align-items: center;
+      background-color: #8580BA;
       text-align: center;
-      font-size: 1rem;
-      background-color: #E2B9FA;
-      font-family: "Roboto Mono", monospace;
-      font-weight: bold; }
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-family: "Space Mono", monospace;
+      font-weight: bold;
+      -webkit-box-shadow: 0px 0px 4px 5px #545175;
+      -moz-box-shadow: 0px 0px 4px 5px #545175;
+      box-shadow: 0px 0px 4px 5px #545175; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -1876,10 +2382,12 @@ footer div {
   body main .gridContactos .conteinerContacto .areaContacto .itemC {
     height: 35vh;
     width: 35vh;
-    padding-top: 10vh;
     overflow: hidden;
     font-size: 2rem;
-    text-align: center; }
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center; }
   body main .gridContactos .conteinerContacto .areaContacto .redesC {
     display: flex;
     flex-flow: column wrap;
@@ -1939,112 +2447,100 @@ footer div {
   /* PHONE */
   /*  DESKTOP  */
   /* INDEX.HTML */
-  body main .gridPro {
-    display: grid;
-    grid-area: "1" "2" "3" "4";
-    background-color: #e2e3e7; }
-    body main .gridPro .tituloPro {
-      text-align: center;
-      font-size: 2.3rem;
-      font-family: "Space Mono", monospace;
-      padding: 1.2rem;
-      font-weight: bold; }
-    body main .gridPro .conteinerPro .areaPro .itemPro {
-      height: 35vh;
-      width: 35vh;
-      padding-top: 10vh;
-      overflow: hidden;
-      font-size: 2rem;
-      text-align: center; }
-    body main .gridPro .conteinerPro .areaPro .contenedorImgPro .imgPro {
-      margin: 0.3125rem 0 0 0;
-      width: 35vh;
-      height: 35vh;
-      border-radius: 0 1rem 1rem 0; }
-    body main .gridPro .subtituloPro {
-      font-family: "Space Mono", monospace;
-      font-size: 2.1rem;
-      padding-top: 1.3rem;
-      padding-bottom: 1rem;
-      font-weight: bold;
-      padding-left: 2rem;
-      margin: 0; }
-  body main .contenedorCatalogo {
+  body main .gridPro .tituloPro {
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "Space Mono", monospace;
+    padding: 1.2rem;
+    font-weight: bold; }
+  body main .gridPro .conteinerPro .areaPro .itemPro {
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    font-size: 2rem;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center; }
+  body main .gridPro .conteinerPro .areaPro .contenedorImgPro .imgPro {
+    margin: 0.3125rem 0 0 0;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 0 1rem 1rem 0; }
+  body main .gridPro .subtituloPro {
+    font-family: "Space Mono", monospace;
+    font-size: 2.1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    margin: 0; }
+  body main .gridPro .contenedorCatalogo {
     display: grid;
     grid-template-areas: "izq cards";
     background-color: #e2e3e7;
-    padding-bottom: 4rem;
-    padding-top: 3rem; }
-    body main .contenedorCatalogo .contenedorcard {
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1.5rem 1rem 1.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #8DD7CF; }
+    body main .gridPro .contenedorCatalogo .contenedorcard {
       grid-area: cards;
-      display: flex;
-      flex-flow: row wrap;
-      width: 80vw;
-      justify-content: space-evenly;
-      margin: 0;
-      row-gap: 2rem; }
-      body main .contenedorCatalogo .contenedorcard .card {
-        width: 13rem;
-        margin: 0.1rem; }
-        body main .contenedorCatalogo .contenedorcard .card .img {
-          margin: 0;
-          padding: 0; }
-          body main .contenedorCatalogo .contenedorcard .card .img img {
-            width: 100%;
-            height: 16.5rem;
-            padding: 0;
-            margin: 0; }
-        body main .contenedorCatalogo .contenedorcard .card .texto {
-          width: 13rem;
+      justify-content: left;
+      margin: 0; }
+      body main .gridPro .contenedorCatalogo .contenedorcard .card {
+        margin: 0;
+        width: 12rem;
+        border-radius: 0.8rem; }
+        body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
+          width: 12rem;
           height: 19rem; }
-          body main .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
+          body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
             font-size: 1rem;
-            text-align: center;
-            padding-top: 1rem;
-            margin: 0;
+            font-weight: bold;
             text-transform: uppercase;
-            font-family: "Space Mono", monospace;
-            height: 2.7rem; }
-          body main .contenedorCatalogo .contenedorcard .card .texto .precio {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem; }
+          body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
             font-size: 1rem;
             text-align: center;
             font-family: "Space Mono", monospace;
             margin: 0;
             padding-bottom: 0.5rem; }
-          body main .contenedorCatalogo .contenedorcard .card .texto ul span {
-            font-size: 0.8rem;
-            font-family: "Space Mono", monospace;
-            text-transform: uppercase;
-            text-decoration: underline;
-            padding-bottom: 0.5rem; }
-          body main .contenedorCatalogo .contenedorcard .card .texto ul li {
+          body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .caracteristicas {
             font-size: 0.8rem;
             font-family: "Roboto Mono", monospace;
             font-weight: bold;
             align-items: end;
             margin: 0;
             padding-right: 1rem; }
-        body main .contenedorCatalogo .contenedorcard .card button {
-          background-color: #e2e3e7;
-          font-family: "Space Mono", monospace;
-          padding: 0.2rem;
-          border-radius: 0.3rem;
-          margin: 1rem; }
-    body main .contenedorCatalogo .izq {
+            body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .caracteristicas span {
+              font-size: 0.8rem;
+              font-family: "Space Mono", monospace;
+              text-transform: uppercase;
+              text-decoration: underline;
+              padding-bottom: 0.5rem; }
+        body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
+          margin: 0.5rem; }
+    body main .gridPro .contenedorCatalogo .izq {
       grid-area: izq;
       text-align: center; }
-      body main .contenedorCatalogo .izq ul span {
-        font-family: "Space Mono", monospace;
-        font-size: 1.2rem;
-        background-color: #8AE3A8;
-        padding: 0.2rem;
-        border-radius: 0.3rem; }
-      body main .contenedorCatalogo .izq ul li {
-        padding: 0.5rem 0 0 0;
-        list-style: none;
-        font-family: "Roboto Mono", monospace;
-        font-weight: bold;
-        font-size: 1rem; }
+      body main .gridPro .contenedorCatalogo .izq ul {
+        padding: 0;
+        margin-top: 0.5rem; }
+        body main .gridPro .contenedorCatalogo .izq ul span {
+          font-family: "Space Mono", monospace;
+          font-size: 1.2rem;
+          padding: 0.2rem;
+          background-color: #DAE8CC;
+          border: 2px solid #639691;
+          border-radius: 0.3rem; }
+        body main .gridPro .contenedorCatalogo .izq ul li {
+          margin-top: 1.1rem;
+          list-style: none;
+          font-family: "Space Mono", monospace;
+          font-weight: bold;
+          font-size: 1rem; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -2077,7 +2573,10 @@ footer div {
   body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo {
     height: 35vh;
     width: 35vh;
-    padding-top: 11vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     font-size: 1.7rem;
     text-align: center; }
@@ -2140,8 +2639,8 @@ footer div {
         background-color: #A38787; }
     body main .gridPzadoo .catalogoPzado .pieCatalogo {
       grid-area: pie;
-      margin-left: 9rem;
-      margin-right: 4rem;
+      margin-left: 7rem;
+      margin-right: 2rem;
       margin-bottom: 0; }
       body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
         font-family: "Roboto Mono", monospace;

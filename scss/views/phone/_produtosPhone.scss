@@ -8,6 +8,7 @@
 @import "../../layaout/grid";
 
 // PRODUCTOS.HTML
+
 body{
     main{
         .gridPro{ 
@@ -36,6 +37,40 @@ body{
             .subtituloPro{
                 grid-area: 3;
                 @extend %subtitulos;
+            }
+            .contenedorCatalogo{
+                grid-area: 4;
+                .contenedorcard{    
+                    @extend %contenedor-card;
+                    .card{
+                        @extend %card;
+                        .img{
+                            grid-area: img;
+                            img{
+                                @extend %card-img;
+                            }
+                        }
+                        .texto{
+                            grid-area: texto;
+                            @extend %card-text;            
+                            .tituloCard{
+                                @extend %titulo-card;
+                            }
+                            .precio{
+                                @extend %card-precio;
+                            }         
+                        }
+                        div{
+                            grid-area: button;
+                            button{
+                                @extend %card-button;
+                            }
+                        }
+                        
+                    }
+
+                }
+
             }
         }
     }
