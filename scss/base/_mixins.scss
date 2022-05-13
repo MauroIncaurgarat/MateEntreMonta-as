@@ -39,6 +39,9 @@
 }
 //PERSONALIZADO.HTML
 
+//Contacto
+//Form
+
 
 
 
@@ -78,6 +81,7 @@
 }
 @mixin subtitulos{
     font-family: $tipografia-ppal;
+    text-transform: uppercase;
     font-size: 2.1rem;
     padding-top: 1.3rem;
     padding-bottom: 1rem;
@@ -196,8 +200,9 @@ font-weight: bolder;
 //catalogo   
 @mixin contenedor-card{
     grid-area: cards;  
-    justify-content: left;
+    justify-content: center;
     margin: 0;
+    
 }                                                       
 @mixin card{
     margin: 0;

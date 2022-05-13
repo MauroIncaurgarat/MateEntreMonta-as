@@ -39,7 +39,34 @@ body{
             }
             .formulario{
                 grid-area: 4;
-                @include formulario;
+                @include flex-2;
+                div{
+                    @extend %contenedor-form;
+                    .tituloForm{    
+                        @extend %titulo-form;
+                    }
+                    input{
+                        @extend %text-form;
+                        
+                    }
+                    textarea{
+                        @extend %text-form;
+                        margin-bottom: 1rem;
+                    }
+                    .formButton{
+                        margin-bottom: 0.5rem;
+                        @include flex-2;
+                        button{
+                            @extend %buttom-form;
+                        }
+                        .enviar{
+                            background-color: $color-form-enviar;
+                        }
+                        .restear{
+                            background-color: $color-form-reset;
+                        }
+                    }
+                }    
             }
             .complemento{
                 grid-area: 5;

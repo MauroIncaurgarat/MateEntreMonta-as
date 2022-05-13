@@ -5,6 +5,10 @@
     flex-flow: row wrap;
     justify-content: center;
 }
+@mixin flex-2{
+    display: flex;
+    justify-content: center;
+}
 
 @mixin dimension-acople-S{
     display: flex;

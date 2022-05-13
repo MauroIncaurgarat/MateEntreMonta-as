@@ -47,7 +47,12 @@
     height: 100%;
     width: 100%;
 }
-
+//form
+@mixin grid-form{
+    display: grid;
+    grid-template-areas: "title input"
+                        " button button";
+}
 
 // le pongo extend para que en desktop no tome el estilo
 %grid-header-phone{
@@ -93,7 +98,8 @@
 //Catalogo productos Productos
 @mixin grid-productos{
     display: grid;
-    grid-template-areas: "izq cards";
+    grid-template-areas: "izq cards"
+                        ;
     background-color: $color-grid;
     gap: 1rem;
     padding: 1rem;
