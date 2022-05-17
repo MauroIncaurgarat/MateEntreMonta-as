@@ -91,12 +91,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -196,7 +202,19 @@ body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 /* Header Phone */
 .desktop {
   display: none; }
@@ -220,7 +238,19 @@ header {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -304,12 +334,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -476,7 +512,19 @@ body main .gridHome {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -560,12 +608,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -713,7 +767,19 @@ body main .gridPro {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -797,12 +863,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -965,7 +1037,19 @@ body main .gridPzadoo {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -1049,12 +1133,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -1222,7 +1312,19 @@ body main .gridMomentos {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -1306,12 +1408,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -1417,7 +1525,8 @@ header .headerHome {
 body main .gridMateTips {
   display: grid;
   grid-area: "1" "2" "3" "4" "5" "6";
-  background-color: #e2e3e7; }
+  background-color: #e2e3e7;
+  justify-content: center; }
   body main .gridMateTips .tituloM {
     grid-area: 1; }
   body main .gridMateTips .conteinerMateTips {
@@ -1450,18 +1559,26 @@ body main .gridMateTips {
     grid-area: 3; }
   body main .gridMateTips .listaCurado {
     grid-area: 4; }
-    body main .gridMateTips .listaCurado li {
-      padding: 0.5rem; }
   body main .gridMateTips .cebado {
     grid-area: 5; }
   body main .gridMateTips .listaCebado {
     grid-area: 6; }
-    body main .gridMateTips .listaCebado li {
-      padding: 0.5rem; }
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -1545,12 +1662,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -1656,7 +1779,8 @@ header .headerHome {
 body main .gridContactos {
   display: grid;
   grid-area: "1" "2" "3" "4" "5" "6";
-  background-color: #e2e3e7; }
+  background-color: #e2e3e7;
+  justify-content: center; }
   body main .gridContactos .tituloContacto {
     grid-area: 1; }
   body main .gridContactos .conteinerContacto {
@@ -1742,7 +1866,19 @@ footer div .imgE, footer div .imgP, footer div .imgS {
 
 /* PHONE */
 /*  DESKTOP  */
+/* ATRIBUTOS GLOBALES */
+/*CIERRE GLOBALES*/
 /* INDEX.HTML */
+/* MATETIPS.HTML */
+/* CIERRE MATETIPS.HTML*/
+/*MOMENTOS.HTML*/
+/* CIERRE MOMENTOS.HTML */
+/*CONTACTO.HTML*/
+/* CIERRE CONTACTOS.HTML */
+/*PRODUCTOS.HTML*/
+/* CIERRE PRODUCTOS.HTML */
+/*PERSONALIZADO.HTML*/
+/* CIERRE PERSONALIZADO.HTML */
 body main .gridHome .conteinerSeccion .aSeccion .item {
   width: 11rem;
   height: 11rem;
@@ -1826,12 +1962,18 @@ body main .gridContactos .formulario div .formButton button {
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
   text-align: justify;
-  padding-right: 1rem;
+  width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
   list-style: none; }
+
+body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+  padding: 0.5rem;
+  background-color: #F9D896;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem; }
 
 body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
   width: 100%;
@@ -1997,6 +2139,12 @@ footer div {
       footer div .enviosPie {
         grid-area: enviosPie; } }
 
+@media only screen and (min-width: 768px) {
+  .phone {
+    display: none; }
+  .desktop {
+    display: block; } }
+
 @media only screen and (min-width: 1200px) {
   .phone {
     display: none; }
@@ -2095,250 +2243,17 @@ footer div {
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
     text-align: justify;
-    padding-right: 1rem;
+    width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
     list-style: none; }
-  body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
-    width: 100%;
-    height: 100%;
+  body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
+    padding: 0.5rem;
+    background-color: #F9D896;
     border-radius: 1rem;
-    text-align: center; }
-  body main .gridPzadoo .catalogoPzado h2 {
-    text-align: center;
-    font-family: "Space Mono", monospace;
-    margin-bottom: 1.5rem;
-    font-weight: bold;
-    margin-top: 1.5rem; }
-  body main .gridPzadoo .catalogoPzado .pasosPzado ul {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    text-align: center; }
-  body main .gridPzadoo .catalogoPzado .pasosPzado ul .tituloLista {
-    font-family: "Space Mono", monospace;
-    font-size: 1.2rem;
-    background-color: #EDC1B9;
-    padding: 0.3rem;
-    border-radius: 1rem; }
-  body main .gridPzadoo .catalogoPzado .pasosPzado ul li {
-    text-align: center;
-    list-style: none;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-    background-color: #FFEDED;
-    padding: 0.2rem;
-    border-radius: 1rem; }
-  body main .gridPzadoo .catalogoPzado .pieCatalogo .textoPiePzado {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    font-size: 1rem;
-    text-align: justify;
-    background-color: #EDC1B9;
-    border-radius: 1rem;
-    padding: 0.3rem; }
-  body main .gridPro .contenedorCatalogo .contenedorcard {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 1rem 0.5rem 1rem 0.5rem;
-    gap: 1.5rem; }
-  body main .gridPro .contenedorCatalogo .contenedorcard .card {
-    display: grid;
-    grid-template-areas: "img" "texto" "button";
-    border-radius: 0.5rem;
-    background-color: #DAE8CC; }
-  body main .gridPro .contenedorCatalogo .contenedorcard .card .img img {
-    margin: 0;
-    width: 100%;
-    height: 15rem;
-    padding: 0;
-    border-radius: 0.5rem 0.5rem 0 0; }
-  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
-    width: 12rem;
-    height: 100%;
-    margin: 0;
-    padding: 0; }
-  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .tituloCard {
-    font-family: "Space Mono", monospace;
-    font-size: 1rem;
-    text-align: center;
-    margin: 0;
-    padding-top: 0.2rem;
-    font-weight: bold; }
-  body main .gridPro .contenedorCatalogo .contenedorcard .card .texto .precio {
-    font-size: 1rem;
-    text-align: center;
-    margin: 0;
-    font-family: "Space Mono", monospace; }
-  body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
-    font-family: "Space Mono", monospace;
-    width: 5rem;
-    height: 1.6rem;
-    font-size: 0.9rem;
-    border-radius: 0.3rem;
-    border-color: #4D7571;
-    background-color: #8DD7CF;
-    margin: 0.5rem; } }
-
-@media only screen and (min-width: 1200px) and (min-width: 1200px) {
-  .phone {
-    display: none; }
-  .desktop {
-    display: block; }
-  body header .headerHome {
-    display: grid;
-    grid-template-areas: "logo   redes     compra" "navd    navd   navd";
-    background-color: #949C8C; }
-    body header .headerHome a {
-      grid-area: logo;
-      padding: 0;
-      margin: 0; }
-      body header .headerHome a .logotipo {
-        width: 75%;
-        padding: 1rem 0 1rem 1rem; }
-    body header .headerHome .redesSociales {
-      text-decoration: none;
-      display: block;
-      grid-area: redes;
-      align-self: center; }
-      body header .headerHome .redesSociales img {
-        width: 25%; }
-    body header .headerHome .carroCompra {
-      grid-area: compra;
-      align-self: center; }
-    body header .headerHome .navHome {
-      grid-area: navd; }
-      body header .headerHome .navHome ul {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        width: 100%;
-        justify-content: space-around;
-        list-style: none;
-        background-color: #CCCFCA;
-        margin-bottom: 0;
-        padding: 0.2rem; }
-        body header .headerHome .navHome ul li {
-          font-size: 1.5rem;
-          font-family: "Space Mono", monospace;
-          font-weight: bold;
-          z-index: 2; }
-          body header .headerHome .navHome ul li:hover {
-            transition: 0.2s;
-            transform: scale(1.05); }
-          body header .headerHome .navHome ul li:hover ul {
-            display: block;
-            width: 100%;
-            margin-top: 0; }
-          body header .headerHome .navHome ul li a {
-            text-decoration: none;
-            color: #1F1F1F; } }
-
-@media only screen and (min-width: 1200px) {
-  body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
-    position: absolute;
-    bottom: 7%;
-    left: 10%; }
-  body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
-    position: absolute;
-    bottom: 7%;
-    left: 40%; }
-  body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
-    position: absolute;
-    bottom: 7%;
-    left: 70%; }
-  footer div .imgE, footer div .imgP, footer div .imgS {
-    padding-top: 0.5rem; }
-  footer div .imgE, footer div .imgP, footer div .imgS {
-    padding-top: 0%; }
-  header .headerHome {
-    display: grid;
-    grid-template-areas: "logo navH compra";
-    justify-content: space-between; }
-  body main .gridHome .conteinerSeccion .aSeccion .item {
-    width: 11rem;
-    height: 11rem;
-    overflow: hidden;
-    margin: 0.3125rem;
-    padding-top: 1rem;
-    position: relative;
-    font-size: 1.2rem; }
-  body main .gridHome .conteinerSeccion .aSeccion .itemProductos, body main .gridHome .conteinerSeccion .aSeccion .itemPzado, body main .gridHome .conteinerSeccion .aSeccion .itemMomentos, body main .gridHome .conteinerSeccion .aSeccion .itemMateTips, body main .gridHome .conteinerSeccion .aSeccion .itemContactos {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Space Mono", monospace;
-    color: #1F1F1F;
-    font-weight: bold; }
-  body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Space Mono", monospace;
-    font-weight: bold;
-    font-size: 1.2rem; }
-  body main .gridHome .tituloHome, body main .gridPro .tituloPro, body main .gridPzadoo .tituloPzadoo, body main .gridMomentos .tituloMo, body main .gridMateTips .tituloM, body main .gridContactos .tituloContacto {
-    text-align: center;
-    font-size: 1.7rem;
-    font-family: "Space Mono", monospace;
-    padding: 0.3rem;
-    font-weight: bold; }
-  body main .gridPro .subtituloPro, body main .gridMomentos .subtituloMo, body main .gridMateTips .curado, body main .gridMateTips .cebado, body main .gridContactos .parrafoC, body main .gridContactos .complemento {
-    font-family: "Space Mono", monospace;
-    text-align: center;
-    font-size: 1.3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding: 1rem; }
-  body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto4, body main .gridMomentos .contenedorGaleria .texto5 {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    background-color: #E2B9FA;
-    padding: 0.3rem;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold; }
-  body main .gridContactos .formulario div {
-    display: flex;
-    flex-flow: column nowrap;
-    background-color: #DE9AE8;
-    padding: 0 1rem 0rem 1rem;
-    border-radius: 1rem;
-    text-align: center; }
-  body main .gridContactos .formulario div .tituloForm {
-    font-family: "Space Mono", monospace;
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    font-weight: bold;
-    padding-bottom: 0.25rem; }
-  body main .gridContactos .formulario div input, body main .gridContactos .formulario div textarea {
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    font-size: 0.8rem;
-    padding: 0.2rem;
-    border-radius: 0.5rem;
-    width: 100%;
-    border-style: none; }
-  body main .gridContactos .formulario div .formButton button {
-    width: 100%;
-    font-family: "Space Mono", monospace;
-    font-weight: bold;
-    font-size: 1rem;
-    padding: 0.2rem;
-    margin-bottom: 0.5rem;
-    border: 2px solid #714D75; }
-  body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
-    text-align: justify;
-    padding-right: 1rem;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    margin-bottom: 0.3rem;
-    font-size: 1rem;
-    list-style: none; }
+    margin-bottom: 0.5rem; }
   body main .gridMomentos .contenedorGaleria .img2, body main .gridMomentos .contenedorGaleria .img4, body main .gridMomentos .contenedorGaleria .texto1, body main .gridMomentos .contenedorGaleria .texto3, body main .gridMomentos .contenedorGaleria .texto5, body main .gridMomentos .contenedorGaleria .img1, body main .gridMomentos .contenedorGaleria .img3, body main .gridMomentos .contenedorGaleria .img5, body main .gridMomentos .contenedorGaleria .texto2, body main .gridMomentos .contenedorGaleria .texto4 {
     width: 100%;
     height: 100%;
@@ -2424,7 +2339,19 @@ footer div {
     margin: 0.5rem; }
   /* PHONE */
   /*  DESKTOP  */
+  /* ATRIBUTOS GLOBALES */
+  /*CIERRE GLOBALES*/
   /* INDEX.HTML */
+  /* MATETIPS.HTML */
+  /* CIERRE MATETIPS.HTML*/
+  /*MOMENTOS.HTML*/
+  /* CIERRE MOMENTOS.HTML */
+  /*CONTACTO.HTML*/
+  /* CIERRE CONTACTOS.HTML */
+  /*PRODUCTOS.HTML*/
+  /* CIERRE PRODUCTOS.HTML */
+  /*PERSONALIZADO.HTML*/
+  /* CIERRE PERSONALIZADO.HTML */
   body main .gridHome .tituloHome {
     text-align: center;
     font-size: 2.3rem;
@@ -2531,74 +2458,83 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* ATRIBUTOS GLOBALES */
+  /*CIERRE GLOBALES*/
   /* INDEX.HTML */
-  body main .gridMateTips .tituloM {
-    text-align: center;
-    font-size: 2.3rem;
-    font-family: "Space Mono", monospace;
-    padding: 1.2rem;
-    font-weight: bold; }
-  body main .gridMateTips .conteinerMateTips .areaMT .itemM {
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    font-size: 2rem;
-    display: flex;
-    padding: 0;
-    align-items: center;
-    justify-content: center; }
-  body main .gridMateTips .conteinerMateTips .areaMT .contenedorImgMT .imagenMTS {
-    margin: 0.3125rem 0 0 0;
-    width: 35vh;
-    height: 35vh;
-    border-radius: 0 1rem 1rem 0; }
-  body main .gridMateTips .curado {
-    font-family: "Space Mono", monospace;
-    text-transform: uppercase;
-    font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
+  /* MATETIPS.HTML */
+  /* CIERRE MATETIPS.HTML*/
+  /*MOMENTOS.HTML*/
+  /* CIERRE MOMENTOS.HTML */
+  /*CONTACTO.HTML*/
+  /* CIERRE CONTACTOS.HTML */
+  /*PRODUCTOS.HTML*/
+  /* CIERRE PRODUCTOS.HTML */
+  /*PERSONALIZADO.HTML*/
+  /* CIERRE PERSONALIZADO.HTML */
+  body main .gridMateTips {
+    display: grid;
+    grid-template-areas: "tituloMT tituloMT" "conteiner  conteiner" "curado       video" "lista1      video" "cebado      video" "lista2      video";
     margin: 0;
-    text-align: left; }
-  body main .gridMateTips .listaCurado {
-    text-align: justify;
-    padding-right: 1.5rem;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    font-size: 1.2rem;
-    list-style: none;
-    padding-right: 20rem;
-    padding-left: 3rem; }
-    body main .gridMateTips .listaCurado li {
-      margin: 0.7rem;
-      background-color: #F9D896;
-      border-radius: 1rem; }
-  body main .gridMateTips .cebado {
-    font-family: "Space Mono", monospace;
-    text-transform: uppercase;
-    font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
-    margin: 0;
-    text-align: left; }
-  body main .gridMateTips .listaCebado {
-    text-align: justify;
-    padding-right: 1.5rem;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bold;
-    font-size: 1.2rem;
-    list-style: none;
-    padding-right: 20rem;
-    padding-left: 3rem;
-    margin-bottom: 1.5rem; }
-    body main .gridMateTips .listaCebado li {
-      background-color: #F9D896;
-      border-radius: 1rem;
-      margin: 0.7rem; }
+    padding: 0; }
+    body main .gridMateTips .tituloM {
+      grid-area: tituloMT;
+      text-align: center;
+      font-size: 2.3rem;
+      font-family: "Space Mono", monospace;
+      padding: 1.2rem;
+      font-weight: bold; }
+    body main .gridMateTips .conteinerMateTips {
+      grid-area: conteiner; }
+      body main .gridMateTips .conteinerMateTips .areaMT .itemM {
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        font-size: 2rem;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center; }
+      body main .gridMateTips .conteinerMateTips .areaMT .contenedorImgMT .imagenMTS {
+        margin: 0.3125rem 0 0 0;
+        width: 35vh;
+        height: 35vh;
+        border-radius: 0 1rem 1rem 0; }
+    body main .gridMateTips .curado {
+      grid-area: curado;
+      text-transform: uppercase;
+      font-size: 2rem;
+      padding: 1.3rem 0 1rem 2rem;
+      text-align: left; }
+    body main .gridMateTips .listaCurado {
+      grid-area: lista1;
+      text-align: left;
+      font-size: 1.2rem;
+      width: 65vw;
+      justify-items: left; }
+      body main .gridMateTips .listaCurado li {
+        padding: 0.2rem;
+        margin-right: 2.5rem;
+        background-color: #F9D896; }
+    body main .gridMateTips .cebado {
+      grid-area: cebado;
+      text-transform: uppercase;
+      font-size: 2rem;
+      padding: 1.3rem 0 1rem 2rem;
+      text-align: left; }
+    body main .gridMateTips .listaCebado {
+      grid-area: lista2;
+      text-align: left;
+      font-size: 1.2rem;
+      width: 65vw;
+      justify-items: left;
+      margin-bottom: 1.5rem; }
+      body main .gridMateTips .listaCebado li {
+        padding: 0.2rem;
+        margin-right: 2.5rem;
+        background-color: #F9D896; }
+    body main .gridMateTips .videoInsta {
+      grid-area: video;
+      width: 50%; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -2621,7 +2557,19 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* ATRIBUTOS GLOBALES */
+  /*CIERRE GLOBALES*/
   /* INDEX.HTML */
+  /* MATETIPS.HTML */
+  /* CIERRE MATETIPS.HTML*/
+  /*MOMENTOS.HTML*/
+  /* CIERRE MOMENTOS.HTML */
+  /*CONTACTO.HTML*/
+  /* CIERRE CONTACTOS.HTML */
+  /*PRODUCTOS.HTML*/
+  /* CIERRE PRODUCTOS.HTML */
+  /*PERSONALIZADO.HTML*/
+  /* CIERRE PERSONALIZADO.HTML */
   body main .gridMomentos .tituloMo {
     text-align: center;
     font-size: 2.3rem;
@@ -2683,6 +2631,9 @@ footer div {
       -webkit-box-shadow: 0px 0px 4px 5px #545175;
       -moz-box-shadow: 0px 0px 4px 5px #545175;
       box-shadow: 0px 0px 4px 5px #545175; }
+    body main .gridMomentos .contenedorGaleria img:hover, body main .gridMomentos .contenedorGaleria div:hover {
+      transition: 0.2s;
+      transform: scale(1.05); }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -2705,60 +2656,96 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* ATRIBUTOS GLOBALES */
+  /*CIERRE GLOBALES*/
   /* INDEX.HTML */
-  body main .gridContactos .tituloContacto {
-    text-align: center;
-    font-size: 2.3rem;
-    font-family: "Space Mono", monospace;
-    padding: 1.2rem;
-    font-weight: bold; }
-  body main .gridContactos .conteinerContacto .areaContacto .itemC {
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    font-size: 2rem;
-    display: flex;
-    padding: 0;
-    align-items: center;
-    justify-content: center; }
-  body main .gridContactos .conteinerContacto .areaContacto .redesC {
-    display: flex;
-    flex-flow: column wrap;
-    width: 35vh;
-    height: 35vh;
-    margin-top: 0.3125rem;
-    border-radius: 0 1rem 1rem 0;
-    justify-content: space-evenly;
-    background-color: #eec4ea; }
-  body main .gridContactos .parrafoC {
-    font-family: "Space Mono", monospace;
-    text-transform: uppercase;
-    font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
-    margin: 0;
-    margin: 1.5rem 3.5rem 1.5rem 3.5rem; }
-  body main .gridContactos .complemento {
-    font-family: "Space Mono", monospace;
-    text-transform: uppercase;
-    font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
-    margin: 0; }
-  body main .gridContactos .adicionalConteiner {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: column;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bolder; }
-    body main .gridContactos .adicionalConteiner .textoC {
-      font-size: 2rem; }
+  /* MATETIPS.HTML */
+  /* CIERRE MATETIPS.HTML*/
+  /*MOMENTOS.HTML*/
+  /* CIERRE MOMENTOS.HTML */
+  /*CONTACTO.HTML*/
+  /* CIERRE CONTACTOS.HTML */
+  /*PRODUCTOS.HTML*/
+  /* CIERRE PRODUCTOS.HTML */
+  /*PERSONALIZADO.HTML*/
+  /* CIERRE PERSONALIZADO.HTML */
+  body main .gridContactos {
+    grid-template-areas: "titulo    titulo" " conteinerC conteinerC" "subtituloC     form" "complemento   form" "adicionalC    form";
+    margin-bottom: 1.5rem; }
+    body main .gridContactos .tituloContacto {
+      grid-area: titulo;
+      text-align: center;
+      font-size: 2.3rem;
+      font-family: "Space Mono", monospace;
+      padding: 1.2rem;
+      font-weight: bold; }
+    body main .gridContactos .conteinerContacto {
+      grid-area: conteinerC;
+      margin-bottom: 1.5rem; }
+      body main .gridContactos .conteinerContacto .areaContacto .itemC {
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        font-size: 2rem;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center; }
+      body main .gridContactos .conteinerContacto .areaContacto .redesC {
+        display: flex;
+        flex-flow: column wrap;
+        width: 35vh;
+        height: 35vh;
+        margin-top: 0.3125rem;
+        border-radius: 0 1rem 1rem 0;
+        justify-content: space-evenly;
+        background-color: #eec4ea; }
+    body main .gridContactos .parrafoC {
+      font-size: 1.2rem;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+      padding-left: 4rem;
+      text-transform: uppercase;
+      grid-area: subtituloC;
+      font-size: 1.5rem; }
+    body main .gridContactos .formulario {
+      grid-area: form;
+      margin-right: 3rem;
+      padding: 1rem; }
+    body main .gridContactos .complemento {
+      grid-area: complemento;
+      font-size: 1.2rem;
+      text-align: left;
+      padding-left: 4rem;
+      margin: 0; }
+    body main .gridContactos .adicionalConteiner {
+      grid-area: adicionalC;
+      display: grid;
+      grid-template-areas: "C1 text1" "C2 text2" "C3 text3";
+      padding-left: 4rem;
+      justify-content: left; }
+      body main .gridContactos .adicionalConteiner .imgC1 {
+        grid-area: C1; }
+      body main .gridContactos .adicionalConteiner .imgC2 {
+        grid-area: C2; }
+      body main .gridContactos .adicionalConteiner .imgC3 {
+        grid-area: C3; }
+      body main .gridContactos .adicionalConteiner .textoC1 {
+        grid-area: text1; }
+      body main .gridContactos .adicionalConteiner .textoC2 {
+        grid-area: text2; }
+      body main .gridContactos .adicionalConteiner .textoC3 {
+        grid-area: text3; }
+      body main .gridContactos .adicionalConteiner img {
+        width: 30px;
+        align-self: center; }
+      body main .gridContactos .adicionalConteiner .textoC {
+        font-size: 1.5rem;
+        text-align: left;
+        padding-left: 1.5rem;
+        align-self: center;
+        margin: 0; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -2781,7 +2768,19 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* ATRIBUTOS GLOBALES */
+  /*CIERRE GLOBALES*/
   /* INDEX.HTML */
+  /* MATETIPS.HTML */
+  /* CIERRE MATETIPS.HTML*/
+  /*MOMENTOS.HTML*/
+  /* CIERRE MOMENTOS.HTML */
+  /*CONTACTO.HTML*/
+  /* CIERRE CONTACTOS.HTML */
+  /*PRODUCTOS.HTML*/
+  /* CIERRE PRODUCTOS.HTML */
+  /*PERSONALIZADO.HTML*/
+  /* CIERRE PERSONALIZADO.HTML */
   body main .gridPro .tituloPro {
     text-align: center;
     font-size: 2.3rem;
@@ -2828,6 +2827,9 @@ footer div {
         margin: 0;
         width: 12rem;
         border-radius: 0.8rem; }
+        body main .gridPro .contenedorCatalogo .contenedorcard .card:hover {
+          transition: 0.2s;
+          transform: scale(1.05); }
         body main .gridPro .contenedorCatalogo .contenedorcard .card .texto {
           width: 12rem;
           height: 19rem; }
@@ -2899,7 +2901,19 @@ footer div {
     justify-content: space-between; }
   /* PHONE */
   /*  DESKTOP  */
+  /* ATRIBUTOS GLOBALES */
+  /*CIERRE GLOBALES*/
   /* INDEX.HTML */
+  /* MATETIPS.HTML */
+  /* CIERRE MATETIPS.HTML*/
+  /*MOMENTOS.HTML*/
+  /* CIERRE MOMENTOS.HTML */
+  /*CONTACTO.HTML*/
+  /* CIERRE CONTACTOS.HTML */
+  /*PRODUCTOS.HTML*/
+  /* CIERRE PRODUCTOS.HTML */
+  /*PERSONALIZADO.HTML*/
+  /* CIERRE PERSONALIZADO.HTML */
   body main .gridPzadoo .tituloPzadoo {
     text-align: center;
     font-size: 2.3rem;

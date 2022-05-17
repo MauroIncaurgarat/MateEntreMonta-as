@@ -11,10 +11,14 @@
 body{
     main{
         .gridContactos{
+            @include grid-contactos;
             .tituloContacto{
+                grid-area: titulo;
                 @include titulos-ppales-D;
             }
             .conteinerContacto{ 
+                grid-area: conteinerC;
+                margin-bottom: 1.5rem;
                 .areaContacto{
                     .itemC{
                         @include item;
@@ -25,16 +29,53 @@ body{
                 }
             }
             .parrafoC{  
-                @include subtitulos;
-                margin: 1.5rem 3.5rem 1.5rem 3.5rem;
+                @include titulo-contacto;
+                grid-area: subtituloC;
+                font-size: 1.5rem;
+            }
+            .formulario{    
+                grid-area: form;
+                margin-right: 3rem;
+                padding: 1rem;
             }
             .complemento{
-                @include subtitulos;
+                
+                grid-area: complemento;
+                @include complemento; 
             }
             .adicionalConteiner{
+                grid-area: adicionalC;
                 @include conteinerDatos; 
+                .imgC1{
+                    grid-area: C1;
+                }
+                .imgC2{
+                    grid-area: C2;
+                }
+                .imgC3{
+                    grid-area: C3;
+                }
+                .textoC1{
+                    grid-area: text1; 
+                }
+                .textoC2{
+                    grid-area: text2; 
+                }
+                .textoC3{
+                    grid-area: text3;
+                }
+                img{
+                 width: 30px;
+                 align-self: center;
+                    
+                }
                 .textoC{
-                    font-size: 2rem; 
+                    font-size: 1.5rem; 
+                    text-align: left;
+                    padding-left: 1.5rem;
+                    align-self: center;
+                    margin: 0;
+                  
                 }
             }
         }

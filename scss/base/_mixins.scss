@@ -37,17 +37,11 @@
     color: $color-tipografia;
     font-weight: bold;
 }
-//PERSONALIZADO.HTML
-
-//Contacto
-//Form
 
 
-
-
-    /*  DESKTOP  */
+                    /*  DESKTOP  */
     
-    //GLOBALES
+        /* ATRIBUTOS GLOBALES */
 //titulos footer
 @mixin texto-titulo-FD{
     font-size: 1.2rem;
@@ -89,9 +83,9 @@
     padding-left: 2rem;
     margin: 0;
 }
-//CIERRE GLOBALES
+        /*CIERRE GLOBALES*/
 
-/* INDEX.HTML */
+    /* INDEX.HTML */
 //htmls botones
 @mixin item{
     height: 35vh;
@@ -120,20 +114,31 @@
     height: 35vh;
     border-radius: 0 1rem 1rem 0; 
 }
-//CIERRE INDEX.HTML
 
+    //CIERRE INDEX.HTML
+
+    /* MATETIPS.HTML */
 @mixin listas{
-    text-align: justify;
-    padding-right: 1.5rem;
-    font-family: $tipografia-sdaria;
-    font-weight: bold;
-    font-size: 1.2rem;  
-    list-style: none;
-    padding-right: 20rem;
-    padding-left: 3rem;
+    text-align: left;
+    font-size: 1.2rem;
+    width: 65vw;
+    justify-items: left;   
+    
 }
+@mixin elementos-lista {
+    padding: 0.2rem;
+   margin-right: 2.5rem;
+   
+}
+@mixin titulo-list{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 1.3rem 0 1rem 2rem;
+    
+}
+    /* CIERRE MATETIPS.HTML*/
 
-//MOMENTOS.HTML
+    /*MOMENTOS.HTML*/
 @mixin texto-galeria-desktop{
     //space
     width: 17rem;
@@ -153,7 +158,6 @@
     -moz-box-shadow: 0px 0px 4px 5px #545175;
     box-shadow: 0px 0px 4px 5px #545175;
 }
-
 @mixin imagenes-galeria-desktop{
     //space
     width: 17rem;
@@ -164,18 +168,32 @@
     -moz-box-shadow: 0px 0px 4px 5px #545175;
     box-shadow: 0px 0px 4px 5px #545175;
 }
+    /* CIERRE MOMENTOS.HTML */
 
-//CONTACTO.HTML
-@mixin conteinerDatos{
-display: flex;
-justify-content: space-evenly;
-flex-flow: column;
-align-items: center;
-margin-bottom: 1.5rem;
-font-family: $tipografia-sdaria;
-font-weight: bolder;
+    /*CONTACTO.HTML*/
+@mixin titulo-contacto{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 4rem;
+    text-transform: uppercase;
 }
-
+@mixin conteinerDatos{
+display: grid;
+grid-template-areas: "C1 text1"
+                     "C2 text2"
+                     "C3 text3";
+                     
+padding-left: 4rem;
+justify-content: left;
+}
+@mixin complemento{
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 4rem;
+    margin: 0;  
+}
 @mixin acopleContacto{
     display: flex;
     flex-flow: column wrap;
@@ -186,8 +204,9 @@ font-weight: bolder;
     justify-content: space-evenly;
     background-color: $color-acople-Contacto;
 }
+    /* CIERRE CONTACTOS.HTML */
 
-//PRODUCTOS.HTML
+    /*PRODUCTOS.HTML*/
 @mixin contenedor-catalogo{ 
     grid-area: cards;
     display: flex;
@@ -221,7 +240,6 @@ font-weight: bolder;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-
 @mixin card-prise{
     font-size: 1rem;
     text-align: center;
@@ -229,7 +247,6 @@ font-weight: bolder;
     margin: 0;
     padding-bottom: 0.5rem;
 }
-
 @mixin caracteristicas {
     font-size: 0.8rem;
     font-family: $tipografia-sdaria;
@@ -273,10 +290,9 @@ font-weight: bolder;
     font-weight: bold;
     font-size: 1rem;
 }
+    /* CIERRE PRODUCTOS.HTML */
 
-
-//PERSONALIZADO.HTML
-
+    /*PERSONALIZADO.HTML*/
 @mixin titulo-catalogo{
     text-align: left;
     font-family: $tipografia-ppal;
@@ -284,7 +300,6 @@ font-weight: bolder;
     font-weight: bold;
     padding-left: 10rem;
 }
-
 @mixin alineacion-pasos{
     text-align: left;
     padding-left: 10rem;
@@ -320,21 +335,18 @@ font-weight: bolder;
     width: 30vw;
     text-align: center;
 }
-@mixin img-Pzado-Dimension{
-    
+@mixin img-Pzado-Dimension{  
     width: 80%;
     margin: 0.5rem;
     border-radius: 2rem;
     padding: 0.5rem;
     background-color: #A38787; 
 }
-@mixin alineacion-pieCatalogo{
-    
+@mixin alineacion-pieCatalogo{   
     margin-left: 7rem;
     margin-right: 2rem;
     margin-bottom: 0;
 }
-
 @mixin texto-catalogo{
     font-family: $tipografia-sdaria;
     font-weight: bold;
@@ -344,3 +356,4 @@ font-weight: bolder;
     background-color: $color-bg-listaPzado;
     border-radius: 1rem;
 }
+    /* CIERRE PERSONALIZADO.HTML */

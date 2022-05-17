@@ -35,6 +35,10 @@ body{
                     @include contenedor-card;
                     .card{  
                         @include card;
+                        &:hover{
+                            transition: 0.2s;
+                            transform: scale(1.05);
+                        }
                         .texto{
                             @include contenedor-texto;
                             .tituloCard{

@@ -6,23 +6,28 @@
 @import "utilities/colores";
 
             //PHONE
-// HEADER
+
 @import "layaout/header";
-// index.html HOME
 @import "views/phone/homePhone";
-// Productos.html
 @import "views/phone/produtosPhone";
-// Pzado.html
 @import "views/phone/pzadoPhone";
-// Momentos.html
 @import "views/phone/momentosPhone";
-// MateTips.html
 @import "views/phone/mateTipsPhone";
-// Contacto.html
 @import "views/phone/contactoPhone";
-// FOOTER IMPORT
 @import "layaout/footer";
 
+            //TABLET
+@media only screen and (min-width: 768px){
+    .phone{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+   
+    
+    
+}
 
             //DESKTOP
 @media only screen and (min-width: 1200px){
@@ -33,12 +38,11 @@
         display: block;
     }
    
-    @import "layaout/navegation";
+    
     @import "views/desktop/homeDesktop";
     @import "views/desktop/mateTipsDesktop";
     @import "views/desktop/momentos";
     @import "views/desktop/contacto";
     @import "views/desktop/productos";
     @import "views/desktop/personalizado";
-    
 }

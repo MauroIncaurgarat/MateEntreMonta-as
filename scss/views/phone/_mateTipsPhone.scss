@@ -42,7 +42,7 @@ body{
                 grid-area: 4;
                 @extend %listas;
                 li{
-                    padding: 0.5rem;
+                    @extend %elementos-listas;
                 }
             }
             .cebado{
@@ -50,10 +50,11 @@ body{
                 @extend %subtitulos;
             }
             .listaCebado{
+                
                 grid-area: 6;
                 @extend %listas;
                 li{
-                    padding: 0.5rem;
+                    @extend %elementos-listas;
                 }
             }
         }

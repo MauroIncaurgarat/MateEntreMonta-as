@@ -10,10 +10,22 @@
 body{
     main{
         .gridMateTips{
+            display: grid;
+            grid-template-areas: "tituloMT tituloMT"
+                                "conteiner  conteiner"
+                                "curado       video"
+                                "lista1      video"
+                                "cebado      video"
+                                "lista2      video";
+            margin: 0;
+            padding: 0;
             .tituloM{
+                grid-area: tituloMT;
                 @include titulos-ppales-D;
+                
             }
             .conteinerMateTips{
+                grid-area: conteiner;
                 .areaMT{
                     .itemM{
                         @include item;    
@@ -26,29 +38,37 @@ body{
                 }
             }
             .curado{
-                @include subtitulos;
+                grid-area: curado;
+                @include titulo-list;
                 text-align: left;
-            }
+            } 
             .listaCurado{
+                grid-area: lista1;
                 @include listas;
                 li{
-                    margin: 0.7rem;
+                    
+                    @include elementos-lista;
                     background-color: $color-lista-MateTip;
-                    border-radius: 1rem;
+                    
                 }
             }
             .cebado{
-                @include subtitulos;
+                grid-area: cebado;
+                @include titulo-list;
                 text-align: left;
             }
             .listaCebado{
+                grid-area: lista2;
                 @include listas;
                 margin-bottom: 1.5rem;
-                li{
-                    background-color: $color-lista-MateTip;
-                    border-radius: 1rem;
-                    margin: 0.7rem;
+                li{ 
+                    @include elementos-lista;
+                    background-color: $color-lista-MateTip;  
                 }
+            }
+            .videoInsta{
+                grid-area: video;
+                width: 50%;
             }
         }
     }

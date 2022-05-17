@@ -9,6 +9,11 @@
     display: flex;
     justify-content: center;
 }
+%flex-3{
+    display: flex;
+    justify-self: center;
+    flex-flow: column nowrap;
+}
 
 @mixin dimension-acople-S{
     display: flex;

@@ -26,6 +26,7 @@
                "5"
                "6";
     background-color: $color-grid;
+    justify-content: center;
 }
 @mixin grid-footer {
     display: grid;
@@ -116,5 +117,16 @@
                         "pie img";
     margin-top: 2rem;
     margin-bottom:  2rem;
+    
+}
+
+//Contacto
+@mixin grid-contactos{
+    grid-template-areas: "titulo    titulo"
+                        " conteinerC conteinerC"
+                        "subtituloC     form"
+                        "complemento   form"
+                        "adicionalC    form";
+    margin-bottom: 1.5rem;
     
 }
