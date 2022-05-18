@@ -22,6 +22,7 @@ body{
                 grid-area: 2;
                 .areaContacto{
                     @include flex-1;
+
                     .itemC{
                         @include dimension-Seccion-S;
                         @extend %texto-seccion-S;
@@ -37,31 +38,40 @@ body{
                 grid-area: 3;
                 @extend %subtitulos;
             }
+
             .formulario{
                 grid-area: 4;
                 @include flex-2;
+
                 div{
                     @extend %contenedor-form;
+
                     .tituloForm{    
                         @extend %titulo-form;
+                    
+                        input{
+                            @extend %text-form;
+                        }
+
+                        textarea{
+                            @extend %text-form;
+                            margin-bottom: 1rem;
+                        } 
+                    
                     }
-                    input{
-                        @extend %text-form;
-                        
-                    }
-                    textarea{
-                        @extend %text-form;
-                        margin-bottom: 1rem;
-                    }
+
                     .formButton{
                         margin-bottom: 0.5rem;
                         @include flex-2;
+
                         button{
                             @extend %buttom-form;
                         }
+
                         .enviar{
                             background-color: $color-form-enviar;
                         }
+
                         .restear{
                             background-color: $color-form-reset;
                         }
@@ -72,9 +82,11 @@ body{
                 grid-area: 5;
                 @extend %subtitulos;
             }
+
             .adicionalConteiner{
                 grid-area: 6;
                 @include adicionalConteiner;
+                
                 .textoC3, .imgC3, .textoC2, .imgC2, .textoC1, .imgC1{
                     padding: 0.2rem 0 0.2rem 0;
                 }

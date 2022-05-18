@@ -10,33 +10,16 @@
 body{
     main{
         .gridMomentos{
-            .tituloMo{
-                @include titulos-ppales-D;
-            }
-            .conteinerMo{
-                .areaMo{
-                    .itemMo{
-                        @include item;
-                    }
-                    .contenedorImg{
-                        .imgItemMo{
-                            @include imgItem;
-                        }
-                    }
-                }
-            }
-            .subtituloMo{
-                @include subtitulos;
-            }
-
-            .contenedorGaleria{
-                @include flex-galeria-desktop;
+            .contenedorGaleria{   
                 /* Atributos Globales */
                 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10{
-                @include imagenes-galeria-desktop;
+                    width: 17rem;
+                    height: 20rem; 
                 }
                 .texto1, .texto2, .texto3, .texto4,.texto5, .texto6, .texto7, .texto8, .texto9, .texto10{
-                @include texto-galeria-desktop;
+                    width: 17rem;
+                    height: 20rem;
+                    font-size: 1.2rem;
                 }
                 img, div{
                     &:hover{
@@ -46,5 +29,6 @@ body{
                 }
             }
         }
+            
     }
 }

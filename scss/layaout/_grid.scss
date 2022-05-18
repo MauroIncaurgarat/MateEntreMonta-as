@@ -74,6 +74,20 @@
     gap: 1rem;
 }
 
+//GridTablet
+@mixin grid-contacto-tablet{
+    display: grid;
+    grid-template-areas: "title title"
+                        "seccion seccion"
+                        "titulo   titulo"
+                        "texto     form"
+                        "pie        form";
+    padding-bottom: 1.5rem;
+}
+
+
+
+
 //GRIDS DESKTOP
 //Header
 @mixin grid-header-desktop{
@@ -120,13 +134,12 @@
     
 }
 
-//Contacto
+//Contacto Desktop
 @mixin grid-contactos{
     grid-template-areas: "titulo    titulo"
                         " conteinerC conteinerC"
                         "subtituloC     form"
                         "complemento   form"
                         "adicionalC    form";
-    margin-bottom: 1.5rem;
-    
+    padding-bottom: 1.5rem;  
 }

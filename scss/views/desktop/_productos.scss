@@ -32,6 +32,8 @@ body{
             .contenedorCatalogo{
                 @include grid-productos;
                 .contenedorcard{   
+                    
+                    
                     @include contenedor-card;
                     .card{  
                         @include card;

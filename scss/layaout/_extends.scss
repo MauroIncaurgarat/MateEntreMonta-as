@@ -58,9 +58,9 @@
     display: flex;
     align-items: center;
     font-size: 1rem;
-    background-color: $color-galeria;
+    background-color: nth($color-borde-s, 3 );
     padding: 0.3rem;
-    font-family: $tipografia-sdaria;
+    font-family: $tipografia-ppal;
     font-weight: bold;
 }
 
@@ -140,6 +140,7 @@
 $logo: (
     logophone: 8rem,
     logodesktop:75%,
+    logotablet: 50%,
 );
 
 //CONTACTOS
@@ -178,6 +179,7 @@ $logo: (
     background-color: $color-bg-listaPzado;
     padding: 0.3rem;
     border-radius: 1rem;
+    
 }
 
 %lista-pasos{

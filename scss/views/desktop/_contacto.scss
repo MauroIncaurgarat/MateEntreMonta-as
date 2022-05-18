@@ -20,6 +20,7 @@ body{
                 grid-area: conteinerC;
                 margin-bottom: 1.5rem;
                 .areaContacto{
+
                     .itemC{
                         @include item;
                     }
@@ -30,24 +31,46 @@ body{
             }
             .parrafoC{  
                 @include titulo-contacto;
-                grid-area: subtituloC;
-                font-size: 1.5rem;
-            }
+                grid-area: subtituloC; 
+                border-bottom: none;
+
+                span{  
+                    border-bottom: 5px solid nth($color-borde-s, 5 ) ;
+                    padding: 0.2rem;
+                }
+            }  
             .formulario{    
                 grid-area: form;
-                margin-right: 3rem;
-                padding: 1rem;
+                margin-right: 5vw;
+                padding: 2rem 1rem 0rem 1rem;
+                width: 35vw;
+
+                div{
+                    width: 100%;
+
+                    .tituloForm{
+                        font-size: 1.2rem;
+                        text-align: left;
+                    }
+                }
             }
             .complemento{
-                
                 grid-area: complemento;
-                @include complemento; 
+                padding-left: 4rem;
+                padding-right: 4rem;
+                span{
+                    text-align: left;
+                    font-size: 1.5rem;
+                    font-weight: normal;
+                }
             }
+
             .adicionalConteiner{
                 grid-area: adicionalC;
                 @include conteinerDatos; 
+
                 .imgC1{
-                    grid-area: C1;
+                    grid-area: C1;          
                 }
                 .imgC2{
                     grid-area: C2;
@@ -65,17 +88,21 @@ body{
                     grid-area: text3;
                 }
                 img{
-                 width: 30px;
-                 align-self: center;
-                    
+                    width: 30px;
+                    align-self: center;
+                    background-color: $color-fondo-contacto;
+                    border-radius: 0.5rem;
+                    padding: 0.5rem;
                 }
                 .textoC{
                     font-size: 1.5rem; 
                     text-align: left;
-                    padding-left: 1.5rem;
+                    padding-left: 1rem;
+                    padding-right: 1.5rem;
                     align-self: center;
                     margin: 0;
-                  
+                    background-color: $color-fondo-contacto;
+                    border-radius: 1rem;
                 }
             }
         }

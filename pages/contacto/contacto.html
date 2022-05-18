@@ -39,26 +39,32 @@
                 <img class="phone logotipo" src="../main/logophone.png" alt="">
                 <img class="desktop logotipo" src="../main/logo.png" alt="">
             </a> 
-                
-            <!-- Redeso sociales-->
+            <!-- Redes sociales-->
             <div class="redesSociales">
                 <a class="redesI" href="http://www.instagram.com/mates.entremontanas/" target="_blank" >
-                    <img src="../../pages/contacto/img/instagram.png" alt="" class="redes animate__animated animate__pulse">    
+
+                    <img src="../../pages/contacto/img/instagram.png" alt="" class="redes none animate__animated animate__pulse"> 
+                    <img src="../../pages/contacto/img/instaphone.png" class="redes tablet animate__animated animate__pulse" alt="">      
                 </a>
     
                 <a class="redesI" href="http://www.tiktok.com/@mates.entremontanas?" target="_blank" >
-                    <img src="../../pages/contacto/img/tiktok.png" alt="" class="redes animate__animated animate__pulse">
+
+                    <img src="../../pages/contacto/img/tiktok.png" alt="" class="redes none animate__animated animate__pulse">
+                    <img src="../../pages/contacto/img/tiktokphone.png" class="tablet redes tablet animate__animated animate__pulse" alt="">
                 </a>
             
                 <a class="redesI" href="" target="_blank">
-                    <img src="../../pages/contacto/img/whatsapp.png" alt="" class="redes animate__animated animate__pulse">
+
+                    <img src="../../pages/contacto/img/whatsapp.png" alt="" class="redes none animate__animated animate__pulse">
+                    <img src="../../pages/contacto/img/whatsapphone.png" alt="" class="tablet redes animate__animated animate__pulse">
                 </a>
             
             </div>
-            <!-- Carro compras -->
 
+            <!-- Carro compras -->
             <img class="phone carroCompra" src="../../pages/main/carrophone.png" alt="">
-            <img class="desktop carroCompra" src="../../pages/main/carro.png" alt="">
+            <img class="tablet carroCompra" src="../../pages/main/carrophone.png" alt="">
+            <img class="desktop none carroCompra" src="../../pages/main/carro.png" alt="">
 
             <!-- Boostrap dropdown-->
             <div class="dropdown phone menuphone">
@@ -66,24 +72,28 @@
                     <img src="../main/hamburguesa.png " alt="">
                 </button>
                     
-                <ul style="background-color: #D9D9D9;" class="dropdown-menu "> <!-- ¿Como lo alinio al centro? Boostrap-->
+                <ul style="background-color: #D9D9D9;" class="dropdown-menu ">
+                    
                     <li ><a class="dropdown-item" href="../../index.html">Home</a></li>
                     <li><a class="dropdown-item" href="../productos/productos.html">Productos</a></li>
                     <li><a class="dropdown-item" href="../personalizado/personalizado.html">Personallizado</a></li>
                     <li><a class="dropdown-item" href="../momentos/momentos.html">Momentos</a></li>
                     <li><a class="dropdown-item" href="../matetips/matetips.html">Mate Tips</a></li>
                     <li><a class="dropdown-item" href="../contacto/contacto.html">Contactos</a></li>
+
                 </ul>
             </div>
 
             <!-- Header Desktop -->
             <nav class="navHome desktop">   
                 <ul class="menuNav">
-                    
+
                     <li>
                         <a href="../../pages/productos/productos.html">
                         Productos
-                        </a>       
+                        </a>    
+                    </li>
+                         
                     <li>
                         <a href="../../pages/personalizado/personalizado.html">
                         Personalizado
@@ -125,42 +135,46 @@
                     <div class="redesC">
                         <a href="http://www.instagram.com/mates.entremontanas/" target="_blank" ><img src="../../pages/contacto/img/instagram.png" alt="" class="redesCo"></a>
                         <a href="http://www.tiktok.com/@mates.entremontanas?" target="_blank" ><img src="../../pages/contacto/img/tiktok.png" alt="" class="redesCo"></a>
-                
                         <a href="" target="_blank"><img src="../../pages/contacto/img/whatsapp.png" alt="" class="redesCo"></a>
                 
                     </div>
                 </div>
             </div>
            
-            <h2 class="parrafoC animate__animated animate__fadeIn"> Para cualquier duda o consulta, comunicarse utilizando cualquier medio disponible</h2>
+            <h2 class="parrafoC animate__animated animate__fadeIn"> <span>¡Estamos a tu disposición!</span> </h2>
 
             <form class="formulario animate__animated animate__fadeIn" action="" method="POST"> 
                 
                 <div>  
                     <div for="nombre" class="tituloForm">
                         Nombre
+                        <input type="text" name="nombre" id="nombre" placeholder="Mauro">  
                     </div>
-                    <input type="text" name="nombre" id="nombre" placeholder="Mauro">                        
+                                          
                 
                     <div for="apellido" class="tituloForm">
                         Apellido
+                        <input id="apellido" type="text" name="apellido" placeholder="Incaurgarat">  
                     </div>
-                    <input id="apellido" type="text" name="apellido" placeholder="Incaurgarat">                         
+                                           
                                 
                     <div for="celular" class="tituloForm">
                         Celular
+                        <input type="tel" name="celular" id="celular" placeholder="(cod-area)+(Celular)">       
                     </div>
-                    <input type="tel" name="celular" id="celular" placeholder="(cod-area)+(Celular)">                         
+                                      
                     
                     <div for="email" class="tituloForm">
                         Correo
+                        <input type="email" name="celular" id="email" placeholder="mauroincaurgarat@..."> 
                     </div>
-                    <input type="email" name="celular" id="email" placeholder="mauroincaurgarat@...">                         
+                                            
             
                     <div for="comentario" class="tituloForm">
                         Comentario
+                        <textarea cols="30" rows="5" id="comentario" placeholder="Ingrese comentario"></textarea>
                     </div>
-                    <textarea cols="30" rows="5" id="comentario" placeholder="Ingrese comentario"></textarea>
+
                     <div class="formButton">
                         <button class="enviar" type="submit" value="enviar tabla">Enviar</button>
                         <button class="restear" type="reset" value="resetear tabla">Resetear</button>
@@ -169,19 +183,21 @@
                
             </form>
             
-            <h3 class="complemento">Nuestro personal de atención se encargará a la brevedad !</h3>
+            <h3 class="complemento desktop"> <span class="fondo">Para cualquier duda o consulta, comunicarse utilizando cualquier medio disponible. Nuestro personal de atención se encargará a la brevedad !</span></h3>
             
             <div class="adicionalConteiner">  
+                
                 <img  class="imgC1 phone" src="img/tlefonophone.png" alt="">
-                <img  class="imgC1 desktop" src="img/telefono.png" alt="">
-                <p class="textoC1 textoC" > 26138372985 </p>
+                <img  class="imgC1 desktop none" src="img/telefono.png" alt="">
+                <p class="textoC1 textoC"> 26138372985 </p>
            
                 <img class="imgC2 phone" src="img/emailphone.png" alt="">
-                <img class="imgC2 desktop" src="img/email.png" alt="">
+                
+                <img class="imgC2 desktop none" src="img/email.png" alt="">
                 <p class="textoC2 textoC">mates.mdz2019@gmail.com</p>
            
                 <img class="imgC3 phone" src="img/ubicacionphone.png" alt="">                
-                <img class="imgC3 desktop" src="img/ubicacion.png" alt="">
+                <img class="imgC3 desktop none " src="img/ubicacion.png" alt="">
                 <p class="textoC3 textoC">Chile 1840</p>
             </div>
         </div>

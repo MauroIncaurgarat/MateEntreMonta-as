@@ -1,0 +1,44 @@
+@import "../../utilities/colores";
+@import "../../utilities/iconos";
+@import "../../utilities/variables";
+@import "../../layaout/grid";
+@import "../../layaout/flex";
+@import "../../base/typo";
+@import "../../base/mixins";
+
+
+body{
+    main{
+        .gridMomentos{
+            .tituloMo{
+                @include titulos-ppales-D;
+            }
+            .conteinerMo{
+                .areaMo{
+                    .itemMo{
+                        @include item;
+                    }
+                    .contenedorImg{
+                        .imgItemMo{
+                            @include imgItem;
+                        }
+                    }
+                }
+            }
+            .subtituloMo{
+                @include subtitulos;
+            }
+
+            .contenedorGaleria{
+                @include flex-galeria-desktop;
+                /* Atributos Globales */
+                .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10{
+                @include imagenes-galeria-desktop;
+                }
+                .texto1, .texto2, .texto3, .texto4,.texto5, .texto6, .texto7, .texto8, .texto9, .texto10{
+                @include texto-galeria-desktop;
+                }
+            }
+        }
+    }
+}

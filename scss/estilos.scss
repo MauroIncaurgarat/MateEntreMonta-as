@@ -7,26 +7,30 @@
 
             //PHONE
 
-@import "layaout/header";
-@import "views/phone/homePhone";
-@import "views/phone/produtosPhone";
-@import "views/phone/pzadoPhone";
-@import "views/phone/momentosPhone";
-@import "views/phone/mateTipsPhone";
-@import "views/phone/contactoPhone";
-@import "layaout/footer";
+    @import "layaout/header";
+    @import "views/phone/homePhone";
+    @import "views/phone/produtosPhone";
+    @import "views/phone/pzadoPhone";
+    @import "views/phone/momentosPhone";
+    @import "views/phone/mateTipsPhone";
+    @import "views/phone/contactoPhone";
+    @import "layaout/footer";
+
 
             //TABLET
 @media only screen and (min-width: 768px){
+    
     .phone{
         display: none;
     }
     .desktop{
         display: block;
     }
-   
+    @import "layaout/navegationTablet";
+    @import "views/tablet/momentos";
+    @import "views/tablet/contactoTablet";
     
-    
+
 }
 
             //DESKTOP
@@ -34,11 +38,17 @@
     .phone{
         display: none;
     }
+    .tablet{
+        display: none;
+    }
     .desktop{
         display: block;
     }
+    .none{
+        display: inline-block;
+    }
    
-    
+    @import "layaout/navegation";
     @import "views/desktop/homeDesktop";
     @import "views/desktop/mateTipsDesktop";
     @import "views/desktop/momentos";

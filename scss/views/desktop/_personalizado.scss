@@ -11,14 +11,18 @@ body{
     main{
         .gridPzadoo{
             .tituloPzadoo{
+
                 @include titulos-ppales-D;
             }
             .conteinerPzadoo{
+                
                 .areaPzadoo{
+
                     .itemPzadoo{
                         @include itemPzado;
                     }
                     .contenedorImgPzadoo{
+
                         .imgPzadoo{
                             @include imgItem;
                         }
@@ -27,15 +31,14 @@ body{
             }
             .catalogoPzado{
                 @include grid-personalizado;
+
                 h2{
                     grid-area: titulo;
                     @include titulo-catalogo;
                     margin-bottom: 0;
-
                 }
                 .pasosPzado{
-                    
-                    width: 70vw;  
+                    width: 60vw;  
 
                     ul{
                         grid-area: expl;
@@ -55,7 +58,8 @@ body{
                     }
                 }
                 .imgPzado{    
-                    @include img-Pzado;       
+                    @include img-Pzado;   
+
                     img{
                         @include img-Pzado-Dimension; 
                     }
@@ -63,6 +67,7 @@ body{
                 .pieCatalogo{
                     grid-area: pie;
                     @include alineacion-pieCatalogo;
+
                     .textoPiePzado{
                     @include texto-catalogo;
                     }
