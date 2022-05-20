@@ -7,7 +7,7 @@
     margin-left: $right;
     margin-right: $right;
 }
-    /* PHONE */
+            // PHONE 
 // bordes Seccion Home
 @mixin bordes{
     border: 0.25rem solid;
@@ -39,22 +39,29 @@
 }
 
 
-                    /*  DESKTOP  */
-    
-        /* ATRIBUTOS GLOBALES */
+            //  DESKTOP    
+
+        // ATRIBUTOS GLOBALES 
 //titulos footer
 @mixin texto-titulo-F{
     font-size: 1rem;
     
 }
 @mixin text-subt-footer{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-family: $tipografia-sdaria;
     font-weight: bold;
     margin: 0;
 }
 
 //subtitulo footer
+@mixin seccion-P-T{
+    height: 20rem;
+    width: 20rem;
+    padding-top: 7%;
+    margin: 0;
+    border: none;  
+}
 
 //htmls
 @mixin seccion-P-D{
@@ -71,23 +78,19 @@
 @mixin titulos-ppales-D{
     text-align: center;
     font-size: 2.3rem;
-    font-family: $tipografia-ppal;
     padding: 1.2rem;
-    font-weight: bold; 
 }
 @mixin subtitulos{
-    font-family: $tipografia-ppal;
     text-transform: uppercase;
     font-size: 2.1rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    padding-left: 2rem;
-    margin: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
 }
-        /*CIERRE GLOBALES*/
 
-    /* INDEX.HTML */
+
+        // INDEX.HTML 
 //htmls botones
 @mixin item{
     height: 35vh;
@@ -99,17 +102,6 @@
     align-items: center;
     justify-content: center;
 }    
-@mixin itemPzado{
-    height: 35vh;
-    width: 35vh;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    font-size: 1.7rem;
-    text-align: center;
-}
 @mixin imgItem{
     margin: 0.3125rem 0 0 0;
     width: 35vh ;
@@ -117,62 +109,47 @@
     border-radius: 0 1rem 1rem 0; 
 }
 
-    //CIERRE INDEX.HTML
 
-    /* MATETIPS.HTML */
+        // MATETIPS.HTML
 @mixin listas{
     text-align: left;
-    font-size: 1.2rem;
     width: 65vw;
     justify-items: left;   
-    
 }
+
 @mixin elementos-lista {
-    padding: 0.2rem;
-   margin-right: 2.5rem;
-   
+    padding: 0.5rem;
+    margin-right: 6rem;
+    font-size: 1.3rem;
 }
+
 @mixin titulo-list{
     text-transform: uppercase;
     font-size: 2rem;
-    padding: 1.3rem 0 1rem 2rem;
-    
+    padding: 1.3rem 0 1rem 0rem;
+    text-align: left;
 }
-    /* CIERRE MATETIPS.HTML*/
 
-    /*MOMENTOS.HTML*/
+
+        // MOMENTOS.HTML
 @mixin texto-galeria-desktop{
-    //space
-    width: 13rem;
-    height: 16rem;
-    display: flex;
-    border-radius: 1rem;
-    align-items: center;
-    background-color: nth($color-borde-s, 3 );
     //tipo
-    text-align: center;
     text-transform: uppercase;
-    font-size: 1.2rem;
-    font-family: $tipografia-ppal;
-    font-weight: bold;
-    //shadow
-    -webkit-box-shadow: 0px 0px 4px 5px nth($color-hover-s, 3 );
-    -moz-box-shadow: 0px 0px 4px 5px nth($color-hover-s, 3 );
-    box-shadow: 0px 0px 4px 5px nth($color-hover-s, 3 );
+    font-size: 1.5rem;
 }
 @mixin imagenes-galeria-desktop{
     //space
-    width: 13rem;
-    height: 16rem;
+    width: 16rem;
+    height: 21rem;
     border-radius: 1rem;
     //shadow
     -webkit-box-shadow: 0px 0px 4px 5px nth($color-hover-s, 3 );
     -moz-box-shadow: 0px 0px 4px 5px nth($color-hover-s, 3 );
     box-shadow: 0px 0px 4px 5px nth($color-hover-s, 3 );
 }
-    /* CIERRE MOMENTOS.HTML */
 
-    /*CONTACTO.HTML*/
+
+        //  CONTACTO.HTML
 @mixin titulo-contacto{
     font-size: 1.8rem;
     text-align: left;
@@ -192,7 +169,6 @@
     justify-content: left;
     margin: 0;
 }
-
 @mixin acopleContacto{
     display: flex;
     flex-flow: column wrap;
@@ -203,124 +179,54 @@
     justify-content: space-evenly;
     background-color: $color-acople-Contacto;
 }
-    /* CIERRE CONTACTOS.HTML */
 
-    /*PRODUCTOS.HTML*/
-@mixin contenedor-catalogo{ 
-    grid-area: cards;
-    display: flex;
-    flex-flow: row wrap;
-    width: 80vw;
-    justify-content: space-evenly;
-    margin: 0;
-    row-gap: 2rem;
-}
+
+        //PRODUCTOS.HTML
 //catalogo   
 @mixin contenedor-card{
-    grid-area: cards;  
     justify-content: center;
     margin: 0;
-    
 }                                                       
-@mixin card{
-    margin: 0;
-    width: 12rem; 
-    border-radius: 0.8rem; 
-    
-}
-@mixin contenedor-texto{
-    width: 12rem;
-    height: 19rem;
-}
-@mixin card-title{
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase; 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-@mixin card-prise{
-    font-size: 1rem;
-    text-align: center;
-    font-family: $tipografia-ppal;
-    margin: 0;
-    padding-bottom: 0.5rem;
-}
-@mixin caracteristicas {
-    font-size: 0.8rem;
-    font-family: $tipografia-sdaria;
-    font-weight: bold;
-    align-items: end;
-    margin: 0;
-    padding-right: 1rem;
-   
-}
-@mixin titulo-descripcion{
-    font-size: 0.8rem;
-    font-family: $tipografia-ppal;
-    text-transform: uppercase;
-    text-decoration: underline; 
-    padding-bottom: 0.5rem;
-}
-@mixin comprar-b{
-    background-color: $color-grid; 
-    font-family: $tipografia-ppal; 
-    font-weight: bold;
-    padding: 0.2rem; 
-    font-size: 0.9rem;
-    border-radius: 0.3rem;
-    margin: 1rem;
-    border-color:nth($color-hover-s, 1 );
-    background-color: nth($color-ppal-s, 1 );
-}
-
 //filtros
 @mixin titulo-filtros{
     font-family: $tipografia-ppal;
     font-size: 1.2rem;
-    background-color: #8AE3A8;
-    padding: 0.2rem;
+    padding: 0.2rem;  
+    background-color: #DAE8CC;
+    border: 2px solid nth($color-borde-s, 1 );
     border-radius: 0.3rem;
 }
 @mixin lista-filtros{
-    padding: 0.5rem 0 0 0;
+    margin-top: 1.1rem;
     list-style: none;
-    font-family: $tipografia-sdaria;
+    font-family: $tipografia-ppal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
-    /* CIERRE PRODUCTOS.HTML */
 
-    /*PERSONALIZADO.HTML*/
+
+        //PERSONALIZADO.HTML
 @mixin titulo-catalogo{
     text-align: left;
-    font-family: $tipografia-ppal;
-    padding-bottom: 0;
-    font-weight: bold;
-    padding-left: 10rem;
+    padding-left: 5rem;
+    margin-top: 0;
 }
+//Instrucciones
 @mixin alineacion-pasos{
     text-align: left;
-    padding-left: 10rem;
+    padding-left: 5rem;
     padding-right: 0rem;
 }
 @mixin titulo-pasos{
-    font-family: $tipografia-ppal;
     font-size: 1.5rem;
-    background-color: $color-bg-listaPzado;
     padding: 0.3rem;
-    border-radius: 1rem;
 }
 @mixin lista-pasos{
     text-align: left;
     list-style: none;
-    font-family: $tipografia-sdaria;
-    font-weight: bold;
     font-size: 1.2rem;
     margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-    background-color: $color-bg-listaPzado2;
-    padding: 0.2rem;
+    padding: 0.5rem;
     border-radius: 1rem;
 }
 @mixin enlaces-pasos{
@@ -334,24 +240,14 @@
     width: 30vw;
     text-align: center;
 }
-@mixin img-Pzado-Dimension{  
-    width: 80%;
-    padding: 0.5rem;
-    border-radius: 2rem;
-    padding: 0.5rem;
-    background-color: #A38787; 
-}
+//Info Complementaria
 @mixin alineacion-pieCatalogo{   
-    padding-left: 7rem;
+    padding-left: 5rem;
     margin-bottom: 0;
 }
 @mixin texto-catalogo{
-    font-family: $tipografia-sdaria;
-    font-weight: bold;
+    margin: 0 2rem 1rem 0;
     font-size: 1.2rem;
-    padding-bottom: 0;
+    padding: 0.5rem;
     text-align: justify;
-    background-color: $color-bg-listaPzado;
-    border-radius: 1rem;
 }
-    /* CIERRE PERSONALIZADO.HTML */

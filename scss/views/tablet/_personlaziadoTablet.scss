@@ -1,0 +1,56 @@
+@import "../../utilities/colores";
+@import "../../utilities/iconos";
+@import "../../utilities/variables";
+@import "../../layaout/grid";
+@import "../../layaout/flex";
+@import "../../base/typo";
+@import "../../base/mixins";
+
+
+body{
+    main{
+        .gridPzadoo{
+            .catalogoPzado{
+                @include grid-personalizado;
+                h2{
+                    grid-area: titulo;
+                    text-align: left;
+                    margin-bottom: 1.5rem;
+                    padding-left: 3rem;
+                }
+                .pasosPzado{
+                    ul{
+                        grid-area: expl;
+                        text-align: left;   
+                        padding-right: 0;       
+
+                        .tituloLista{
+                            font-size: 1.3rem;
+                            margin: 0;  
+                        }
+
+                        li{
+                           font-size: 1.2rem;
+                           text-align: left;
+                           padding-left: 1rem;
+                        }
+                    }
+                }
+                .imgPzado{    
+                     grid-area: img;
+
+                    img{
+                        width: 80%;
+                    }
+                }
+                .pieCatalogo{
+                    grid-area: pie;
+                    .textoPiePzado{
+                        font-size: 1.1rem;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

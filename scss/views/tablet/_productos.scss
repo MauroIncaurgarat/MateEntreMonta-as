@@ -1,0 +1,72 @@
+@import "../../base/mixins";
+@import "../../base/typo";
+
+@import "../../utilities/colores";
+
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+
+// PERSONALIZADO.HTML 
+body{
+    main{
+        .gridPro{ 
+           .card{ 
+               grid-template: "img" 240px
+                                "texto" 355px
+                                "buttom" 42px;
+                text-align: center;
+                
+                .img{
+                    grid-area: img;
+                }
+                .texto{
+                    grid-area: texto;
+                    background-color: $color-white;    
+                    .tituloCard{
+                        
+                        display: inline-block;
+                        background-color: nth($color-ppal-s, 1);
+                        padding: 0.2rem;
+                        border-radius: 0.5rem;
+                    }
+                    .precio{
+                        display: inline-block;
+                        background-color: nth($color-ppal-s, 1);
+                        margin: 0.5rem;
+                        padding: 0.2rem;
+                        padding-right: 0.8rem;
+                        border-radius: 0.5rem;
+                        font-size: 1rem;
+                    }
+                    
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        span{
+                            display: inline-block;
+                            background-color: $color-cards;
+                            font-family: $tipografia-ppal;
+                            padding: 0.2rem;
+                            margin: 0.5rem 0 0rem 0rem;
+                            font-weight: bold;
+                            border-radius: 0.5rem;
+                        }
+                        
+                        li{
+                            background-color: $color-cards;
+                            text-align: left;
+                            padding-left: 0.3rem;
+                            margin: 0.5rem;
+                            border-radius: 0.5rem;
+                        }
+                    }
+                }
+                .contedorButtom{
+                    background-color: $color-white;
+                    grid-area: buttom;
+                }
+            }
+        }
+    }
+}

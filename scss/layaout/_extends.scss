@@ -2,28 +2,18 @@
 @import "../utilities/colores";
 @import "../utilities/variables";
 
+//UTILICE LOS EXTENDS EN LA VISTA PHONE YA QUE AL QUERER UTILIZARLOS EN EN LAS OTRAS VISTAS NO ME LO PERMITIA
+
+//Logo
+$logo: (
+    logophone: 8rem,
+    logodesktop:75%,
+    logotablet: 50%,
+);
 
 // <a> Botones Secciones Phone
 %enlaces-seccion-P {
     text-decoration: none; 
-}
-// HOME BOTONES
-%dimension-Seccion-P{
-    width: $ancho-bottom-S;
-    height: $ancho-bottom-S;
-    overflow: hidden;
-    margin: 0.3125rem;
-    padding-top: 1rem;
-    position: relative;
-    font-size: 1.2rem;
-}
-
-%texto-botones{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: $tipografia-ppal;
-    color: $color-tipografia;
-    font-weight: bold;
 }
 // Botones de los htmls Phone
 %texto-seccion-S{
@@ -33,7 +23,6 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
-
 // <h1> Titulos principales/Encabezado Phone
 %titulos-ppales{
     text-align: center;
@@ -52,7 +41,28 @@
     font-weight: bold;
     padding: 1rem;
 }
-//MOMENTOS
+
+
+    //INDEX
+%dimension-Seccion-P{
+    width: $ancho-bottom-S;
+    height: $ancho-bottom-S;
+    overflow: hidden;
+    margin: 0.3125rem;
+    padding-top: 1rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+%texto-botones{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $tipografia-ppal;
+    color: $color-tipografia;
+    font-weight: bold;
+}
+
+    
+    //MOMENTOS
 //texto galeria
 %texto-galeria-M{
     display: flex;
@@ -60,11 +70,13 @@
     font-size: 1rem;
     background-color: nth($color-borde-s, 3 );
     padding: 0.3rem;
+    text-align: center;
     font-family: $tipografia-ppal;
     font-weight: bold;
 }
 
-//CONTACTO
+
+    //CONTACTO
 //form
 %contenedor-form{
     display: flex;
@@ -99,8 +111,14 @@
     margin-bottom: 0.5rem;
     border: 2px solid nth($color-hover-s, 5 ); 
 }
+//contenedor adicional
+@mixin adicionalConteiner{
+    text-align: center;
+    margin: 1rem;
+}
 
 
+    //MATETIPS PHONE
 //Matetips Textos Instructivos
 %listas{
     text-align: justify;
@@ -118,7 +136,8 @@
     margin-bottom: 0.5rem;
 }
 
-// BOTONES HTMLS
+
+    // BOTONES HTMLS 
 @mixin dimension-Seccion-S{
     width: $ancho-bottom-S;
     height: $alto-bottom-S;
@@ -136,20 +155,8 @@
     font-weight: bold;
 }
 
-//Logo
-$logo: (
-    logophone: 8rem,
-    logodesktop:75%,
-    logotablet: 50%,
-);
 
-//CONTACTOS
-//contenedor adicional
-@mixin adicionalConteiner{
-    text-align: center;
-    margin: 1rem;
-}
-
+    //MOMENTOS PHONE
 //Galeria Momentos
 %borde-GM{
     width: 100%;
@@ -158,7 +165,8 @@ $logo: (
     text-align: center;
 }
 
-//Personalizado.html
+
+    //PERSONALIZADO PHONE
 %titulo-catalogo{
     text-align: center;
     font-family: $tipografia-ppal;
@@ -166,13 +174,11 @@ $logo: (
     font-weight: bold;
     margin-top: 1.5rem;
 }
-
 %alineacion-pasos-phone{
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
 }
-
 %titulo-pasos{
     font-family: $tipografia-ppal;
     font-size: 1.2rem;
@@ -181,7 +187,6 @@ $logo: (
     border-radius: 1rem;
     
 }
-
 %lista-pasos{
     text-align: center;
     list-style: none;
@@ -194,7 +199,6 @@ $logo: (
     padding: 0.2rem;
     border-radius: 1rem;
 }
-
 %textoPiePzado{
     font-family: $tipografia-sdaria;
     font-weight: bold;
@@ -204,7 +208,9 @@ $logo: (
     border-radius: 1rem;
     padding: 0.3rem;
 }
-//Productos-Phone
+
+
+    //Productos-Phone
 %contenedor-card{
     display: flex;
     flex-flow: row wrap;
@@ -212,16 +218,14 @@ $logo: (
     margin: 1rem 0.5rem 1rem 0.5rem;
     gap: 1.5rem;
 }
-
 %card{
     display: grid;
     grid-template-areas: "img"
                         "texto"
                         "button";
     border-radius: 0.5rem;
-    background-color: #DAE8CC;
+    background-color: whitesmoke;
 }
-
 %card-img{
     margin: 0;
     width: 100%;
@@ -229,7 +233,6 @@ $logo: (
     padding: 0;
     border-radius: 0.5rem 0.5rem 0 0;
 }
-
 %card-text{
     width:  12rem;
     height: 100%;
@@ -237,7 +240,6 @@ $logo: (
     padding: 0;  
     
 }
-
 %titulo-card{
     font-family: $tipografia-ppal;
     font-size: 1rem;
@@ -246,14 +248,12 @@ $logo: (
     padding-top: 0.2rem;
     font-weight: bold;
 }
-
 %card-precio{
     font-size: 1rem;
     text-align: center;
     margin: 0;
     font-family: $tipografia-ppal;
 }
-
 %card-button{
     font-family: $tipografia-ppal;
     width: 5rem;

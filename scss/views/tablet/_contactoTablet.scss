@@ -7,15 +7,14 @@
 @import "../../base/typo";
 @import "../../base/mixins";
 
-
+//Tablet
 body{
     main{
         .gridContactos{
             @include grid-contacto-tablet;
                 .tituloContacto{
                     grid-area: title; 
-                    font-size: 2rem;   
-                    
+                       
                 }
                 .conteinerContacto{
                     grid-area: seccion;
@@ -24,43 +23,45 @@ body{
                 }
                 .parrafoC{
                     grid-area: titulo;
-                    font-size: 1.5rem;  
-                    text-align: left; 
                     padding-bottom: 0;
-                    border-bottom: 2px solid nth($color-borde-s, 5 );
+                   span{
+                        font-size: 1.5rem;
+                   }
                 }
                 .complemento{
                     grid-area: texto;
                     text-align: left;
-                    font-size: 1.2rem;
-                    font-weight: normal;
-                    margin: 0;
+                    margin-right: 2rem;
+                
                     .fondo{
                         display: block;
                         background-color: $color-fondo-contacto;
                         border-radius: 1rem;
-                        padding: 0.5rem;    
+                        padding: 0.5rem;  
+                        font-size: 1.2rem;  
+                        font-weight: normal;
                     }  
-                    
+                
                 }
                 .formulario{
                     grid-area: form;
                     padding-top: 1rem;
-                    
+                    padding-right: 2rem;
                 }
+
                 .adicionalConteiner{
                     grid-area: pie;
                     text-align: left;
+                    margin-left: 2rem;
                     .none{
-                        display: none;
+                        display: none; //video
                     }
                     img{
-                        display: inline;
+                        display: inline-block;
                     }
                     p{
                         font-size: 1.2rem;
                         font-family: $tipografia-ppal;
-                        
                     }
                     
                 }

@@ -8,6 +8,9 @@
 @import "../../layaout/grid";
 
 // MOMENTOS.HTML 
+.desktop{
+    display: none;
+}
 body{
     main{
         .gridMomentos{
@@ -40,47 +43,20 @@ body{
             
             .contenedorGaleria{
                 grid-area: 4;
-                @include galeria-momentos;
-                //acomodamiento grid
-                //borde radius izquierdo
-                .img1{
-                    grid-area: img1;
+                display: flex;
+                flex-flow: row wrap;
+                margin:2rem 3rem 2rem 3rem;
+                justify-content: center;
+                gap: 1rem;
+                img, div{
+                    border-radius: 2rem;
+                    width: 10rem;
+                    height: 15rem;
                 }
-                .img3{
-                    grid-area: img3;
-                }
-                .img5{
-                    grid-area: img5;
-                }
-                .texto2{
-                    grid-area: p2;
-                }
-                .texto4{
-                    grid-area: p4;
-                }          
-                //borde radius derecho
-                .img2{
-                    grid-area: img2;
-                }
-                .img4{
-                    grid-area: img4;
-                }
-                .texto1{
-                    grid-area: p1;
-                }
-                .texto3{
-                    grid-area: p3;
-                }
-                .texto5{
-                    grid-area: p5;
-                }
-                /* Atributos Globales */
-                .img2, .img4, .texto1, .texto3, .texto5, .img1, .img3, .img5, .texto2, .texto4{
-                    @extend %borde-GM;
-                }
-                .texto1, .texto2, .texto3, .texto4, .texto5{
+                div{
                     @extend %texto-galeria-M; 
                 }
+                
                
             }     
         }

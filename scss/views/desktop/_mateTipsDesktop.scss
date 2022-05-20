@@ -10,23 +10,15 @@
 body{
     main{
         .gridMateTips{
-            display: grid;
-            grid-template-areas: "tituloMT tituloMT"
-                                "conteiner  conteiner"
-                                "curado       video"
-                                "lista1      video"
-                                "cebado      video"
-                                "lista2      video";
-            margin: 0;
-            padding: 0;
+            @include grid-mateTips;
+            
             .tituloM{
                 grid-area: tituloMT;
-                @include titulos-ppales-D;
-                
-                
+                @include titulos-ppales-D;       
             }
             .conteinerMateTips{
                 grid-area: conteiner;
+                padding-bottom: 1.5rem;
                 .areaMT{
                     .itemM{
                         @include item;    
@@ -41,22 +33,19 @@ body{
             .curado{
                 grid-area: curado;
                 @include titulo-list;
-                text-align: left;
+                
             } 
             .listaCurado{
                 grid-area: lista1;
                 @include listas;
-                li{
-                    
+
+                li{ 
                     @include elementos-lista;
-                    background-color: $color-lista-MateTip;
-                    
                 }
             }
             .cebado{
                 grid-area: cebado;
                 @include titulo-list;
-                text-align: left;
             }
             .listaCebado{
                 grid-area: lista2;

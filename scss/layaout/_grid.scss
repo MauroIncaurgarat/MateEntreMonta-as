@@ -62,7 +62,7 @@
     justify-content: space-between;
 }
 
-@mixin galeria-momentos{
+%galeria-momentos{
     display: grid;
     grid-template-areas:     "img1   p1"
                              "p2  img2"
@@ -86,14 +86,12 @@
 }
 
 
-
-
 //GRIDS DESKTOP
 //Header
 @mixin grid-header-desktop{
     display: grid;
     grid-template-areas: "logo   redes     compra"
-                            "navd    navd   navd";
+                         "navd    navd   navd";
     background-color: $color-header;  
 }
 //footer
@@ -142,4 +140,17 @@
                         "complemento   form"
                         "adicionalC    form";
     padding-bottom: 1.5rem;  
+}
+
+//MateTips
+@mixin grid-mateTips{
+    display: grid;
+    grid-template-areas: "tituloMT tituloMT"
+                        "conteiner  conteiner"
+                        "curado       video"
+                        "lista1      video"
+                        "cebado      video"
+                        "lista2      video";
+    margin: 0;
+    padding: 0;
 }

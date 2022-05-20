@@ -1,0 +1,28 @@
+@import "../../base/mixins";
+@import "../../base/typo";
+
+@import "../../utilities/colores";
+
+@import "../../layaout/extends";
+@import "../../layaout/flex";
+@import "../../layaout/grid";
+
+@import "../../utilities/iconos";
+
+// INDEX.HTML
+body{   
+    main{
+        .gridHome{
+            .conteinerSeccion{
+                a{
+                    //secciones
+                    .item{
+                        img{
+                            width: 25%;
+                        }
+                    }   
+                }
+            }
+        }
+    }
+}

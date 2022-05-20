@@ -10,25 +10,38 @@
 body{
     main{
         .gridMomentos{
-            .contenedorGaleria{   
+            .tituloMo{
+                @include titulos-ppales-D;
+            }
+            .conteinerMo{
+                .areaMo{
+                    .itemMo{
+                        @include item;
+                    }
+                    .contenedorImg{
+                        .imgItemMo{
+                            @include imgItem;
+                        }
+                    }
+                }
+            }
+            .subtituloMo{
+                @include subtitulos;
+            }
+            .contenedorGaleria{
+                @include flex-galeria-desktop;
                 /* Atributos Globales */
-                .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10{
-                    width: 17rem;
-                    height: 20rem; 
-                }
-                .texto1, .texto2, .texto3, .texto4,.texto5, .texto6, .texto7, .texto8, .texto9, .texto10{
-                    width: 17rem;
-                    height: 20rem;
-                    font-size: 1.2rem;
-                }
                 img, div{
+                    @include imagenes-galeria-desktop;
                     &:hover{
                         transition: 0.2s;
                         transform: scale(1.05);
                     }
+                }  
+                div{
+                    @include texto-galeria-desktop;  
                 }
             }
-        }
-            
+        }       
     }
 }

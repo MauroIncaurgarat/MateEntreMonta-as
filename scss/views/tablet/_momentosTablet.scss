@@ -1,0 +1,22 @@
+@import "../../utilities/colores";
+@import "../../utilities/iconos";
+@import "../../utilities/variables";
+@import "../../layaout/grid";
+@import "../../layaout/flex";
+@import "../../base/typo";
+@import "../../base/mixins";
+
+
+body{
+    main{
+        .gridMomentos{
+            .contenedorGaleria{
+                img, div{
+                    border-radius: 2rem;
+                    width: 14rem;
+                    height: 19rem;
+                }
+            }     
+        }
+    }
+}

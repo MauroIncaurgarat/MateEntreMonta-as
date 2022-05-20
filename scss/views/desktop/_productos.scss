@@ -32,37 +32,13 @@ body{
             .contenedorCatalogo{
                 @include grid-productos;
                 .contenedorcard{   
-                    
-                    
                     @include contenedor-card;
+                    grid-area: cards;  
                     .card{  
-                        @include card;
                         &:hover{
                             transition: 0.2s;
                             transform: scale(1.05);
-                        }
-                        .texto{
-                            @include contenedor-texto;
-                            .tituloCard{
-                                @include card-title;
-                            }
-                            .precio{
-                                @include card-prise;
-                            }
-                            .caracteristicas{
-                                @include caracteristicas;
-                                
-                                span{
-                                    @include titulo-descripcion;
-                                }   
-                            }
-                        }
-                        div{
-                            button{
-                                margin: 0.5rem;
-                                
-                            }
-                        }
+                        } 
                     }
                 }
                 .izq{
@@ -72,19 +48,10 @@ body{
                         padding: 0;
                         margin-top: 0.5rem;
                         span{
-                            font-family: $tipografia-ppal;
-                            font-size: 1.2rem;
-                            padding: 0.2rem;  
-                            background-color: #DAE8CC;
-                            border: 2px solid nth($color-borde-s, 1 );
-                            border-radius: 0.3rem;
+                            @include titulo-filtros;
                         }
                         li{
-                            margin-top: 1.1rem;
-                            list-style: none;
-                            font-family: $tipografia-ppal;
-                            font-weight: bold;
-                            font-size: 1rem;
+                            @include lista-filtros;
                         }
                     }
                 }
