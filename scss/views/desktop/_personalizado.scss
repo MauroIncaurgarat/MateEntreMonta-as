@@ -16,8 +16,8 @@ body{
             .conteinerPzadoo{             
                 .areaPzadoo{
                     .itemPzadoo{
-                        font-size: 1.7rem;
-                        @include item;
+                        @include itemPzado;
+                        
                     }
                     .contenedorImgPzadoo{
                         .imgPzadoo{

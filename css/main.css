@@ -91,19 +91,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -199,6 +201,9 @@ body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
 .desktop {
   display: none; }
 
+.logotablet {
+  display: none; }
+
 header {
   background-color: #949C8C; }
   header .headerHome .redesSociales {
@@ -207,14 +212,18 @@ header {
     grid-area: logo; }
     header .headerHome a .logotipo {
       width: 8rem;
-      padding: 0.5rem; }
+      padding: 0.5rem 0 0.5rem 0.5rem; }
   header .headerHome .carroCompra {
     grid-area: compra;
-    padding: 0.5rem; }
+    padding: 0.5rem;
+    align-self: right; }
   header .headerHome .menuphone {
     grid-area: navH;
     font-family: "Space Mono", monospace;
-    font-size: 0.7rem; }
+    font-size: 0.7rem;
+    align-self: center; }
+    header .headerHome .menuphone button {
+      padding: 0; }
 
 body main .gridPro .conteinerPro .areaPro .itemPro, body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo, body main .gridMomentos .conteinerMo .areaMo .itemMo, body main .gridMateTips .conteinerMateTips .areaMT .itemM, body main .gridContactos .conteinerContacto .areaContacto .itemC {
   text-align: center;
@@ -299,19 +308,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -553,19 +564,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -788,19 +801,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -1038,19 +1053,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -1279,19 +1296,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -1513,19 +1532,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -1793,19 +1814,21 @@ body main .gridContactos .formulario div .formButton button {
   border: 2px solid #714D75; }
 
 body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+  justify-self: center;
   text-align: justify;
   width: 75vw;
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1rem;
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
   padding: 0.5rem;
   background-color: #F9D896;
   border-radius: 1rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 body main .gridPzadoo .catalogoPzado h2 {
   text-align: center;
@@ -1977,6 +2000,8 @@ footer div {
     display: none; }
   .desktop {
     display: block; }
+  .logotablet {
+    display: block; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -2070,18 +2095,20 @@ footer div {
     margin-bottom: 0.5rem;
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
     padding: 0.5rem;
     background-color: #F9D896;
     border-radius: 1rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1rem; }
   body main .gridPzadoo .catalogoPzado h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -2171,7 +2198,6 @@ footer div {
       padding: 0;
       margin: 0; }
       body header .headerHome a .logotipo {
-        width: 8rem;
         padding: 0.5rem 0 0.5rem 0.5rem; }
     body header .headerHome .redesSociales {
       grid-area: redes;
@@ -2274,18 +2300,20 @@ footer div {
     margin-bottom: 0.5rem;
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
     padding: 0.5rem;
     background-color: #F9D896;
     border-radius: 1rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1rem; }
   body main .gridPzadoo .catalogoPzado h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -2544,18 +2572,20 @@ footer div {
     margin-bottom: 0.5rem;
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
     padding: 0.5rem;
     background-color: #F9D896;
     border-radius: 1rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1rem; }
   body main .gridPzadoo .catalogoPzado h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -2752,18 +2782,20 @@ footer div {
     margin-bottom: 0.5rem;
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
     padding: 0.5rem;
     background-color: #F9D896;
     border-radius: 1rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1rem; }
   body main .gridPzadoo .catalogoPzado h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -2846,17 +2878,24 @@ footer div {
     display: grid;
     grid-template-areas: "logo navH compra";
     justify-content: space-between; }
-  body main .gridMateTips .curado {
-    text-align: left; }
-  body main .gridMateTips .listaCurado {
-    padding-left: 0;
-    font-size: 1rem; }
-  body main .gridMateTips .cebado {
-    text-align: left; }
-  body main .gridMateTips .listaCebado {
-    padding-left: 0; }
-    body main .gridMateTips .listaCebado li {
-      font-size: 1rem; }
+  body main .gridMateTips {
+    display: grid;
+    grid-template-areas: "1" "2" "3" "4" "5" "6" "7"; }
+    body main .gridMateTips .curado {
+      text-align: left;
+      font-size: 1.5rem; }
+    body main .gridMateTips .listaCurado {
+      padding-left: 0;
+      font-size: 1.2rem; }
+    body main .gridMateTips .cebado {
+      text-align: left; }
+    body main .gridMateTips .listaCebado {
+      padding-left: 0;
+      font-size: 1.2rem; }
+      body main .gridMateTips .listaCebado li {
+        font-size: 1.2rem; }
+    body main .gridMateTips .video {
+      display: none; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -3010,18 +3049,20 @@ footer div {
     margin-bottom: 0.5rem;
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
     padding: 0.5rem;
     background-color: #F9D896;
     border-radius: 1rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1rem; }
   body main .gridPzadoo .catalogoPzado h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -3205,18 +3246,20 @@ footer div {
     margin-bottom: 0.5rem;
     border: 2px solid #714D75; }
   body main .gridMateTips .listaCurado, body main .gridMateTips .listaCebado {
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   body main .gridMateTips .listaCurado li, body main .gridMateTips .listaCebado li {
     padding: 0.5rem;
     background-color: #F9D896;
     border-radius: 1rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1rem; }
   body main .gridPzadoo .catalogoPzado h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -3400,8 +3443,7 @@ footer div {
   body main .gridMateTips {
     display: grid;
     grid-template-areas: "tituloMT tituloMT" "conteiner  conteiner" "curado       video" "lista1      video" "cebado      video" "lista2      video";
-    margin: 0;
-    padding: 0; }
+    padding: 1rem; }
     body main .gridMateTips .tituloM {
       grid-area: tituloMT;
       text-align: center;
@@ -3427,38 +3469,38 @@ footer div {
     body main .gridMateTips .curado {
       grid-area: curado;
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 1.6rem;
       padding: 1.3rem 0 1rem 0rem;
       text-align: left; }
     body main .gridMateTips .listaCurado {
       grid-area: lista1;
       text-align: left;
-      width: 65vw;
+      width: 60vw;
       justify-items: left; }
       body main .gridMateTips .listaCurado li {
         padding: 0.5rem;
-        margin-right: 6rem;
-        font-size: 1.3rem; }
+        margin-right: 5rem;
+        font-size: 1.2rem; }
     body main .gridMateTips .cebado {
       grid-area: cebado;
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 1.6rem;
       padding: 1.3rem 0 1rem 0rem;
       text-align: left; }
     body main .gridMateTips .listaCebado {
       grid-area: lista2;
       text-align: left;
-      width: 65vw;
+      width: 60vw;
       justify-items: left;
       margin-bottom: 1.5rem; }
       body main .gridMateTips .listaCebado li {
         padding: 0.5rem;
-        margin-right: 6rem;
-        font-size: 1.3rem;
+        margin-right: 5rem;
+        font-size: 1.2rem;
         background-color: #F9D896; }
-    body main .gridMateTips .videoInsta {
+    body main .gridMateTips .video {
       grid-area: video;
-      width: 50%; }
+      display: block; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
     bottom: 7%;
@@ -3745,11 +3787,10 @@ footer div {
     font-size: 2.3rem;
     padding: 1.2rem; }
   body main .gridPzadoo .conteinerPzadoo .areaPzadoo .itemPzadoo {
-    font-size: 1.7rem;
     height: 35vh;
     width: 35vh;
     overflow: hidden;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
     padding: 0;
     align-items: center;

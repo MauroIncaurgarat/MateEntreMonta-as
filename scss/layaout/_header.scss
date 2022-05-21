@@ -10,6 +10,9 @@
 .desktop{
     display: none;
 }
+.logotablet{
+    display: none;
+}
 header{
     background-color: $color-header;
     .headerHome{
@@ -19,19 +22,27 @@ header{
         }  
         a{
             grid-area: logo;
+           
             .logotipo{
                 width: map-get($map: $logo, $key: logophone);
-                padding: 0.5rem;
+                padding: 0.5rem 0 0.5rem 0.5rem;
             }
         }
         .carroCompra{
             grid-area: compra;
             padding: 0.5rem;
+            align-self: right;
+           
         }
         .menuphone{
+           
             grid-area: navH;
             font-family: $tipografia-ppal;
             font-size: 0.7rem;
+            align-self: center;
+            button{
+                padding: 0;
+            }
         }    
     }
 }

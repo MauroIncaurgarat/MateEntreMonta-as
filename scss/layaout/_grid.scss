@@ -60,6 +60,7 @@
     display: grid;
     grid-template-areas: "logo navH compra";
     justify-content: space-between;
+    
 }
 
 %galeria-momentos{
@@ -151,6 +152,6 @@
                         "lista1      video"
                         "cebado      video"
                         "lista2      video";
-    margin: 0;
-    padding: 0;
+   
+    padding: 1rem;
 }

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 @import "utilities/colores";
-
+    
             //PHONE
     @import "layaout/header";
     @import "views/phone/homePhone";
@@ -24,6 +24,10 @@
     .desktop{
         display: block;
     }
+    .logotablet{
+        display: block;
+    }
+    
     @import "layaout/navegationTablet";
     @import "views/tablet/homeTablet";
     @import "views/tablet/momentosTablet";

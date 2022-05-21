@@ -56,9 +56,10 @@ body{
                     background-color: $color-lista-MateTip;  
                 }
             }
-            .videoInsta{
+            .video{
+                
                 grid-area: video;
-                width: 50%;
+                display: block;
             }
         }
     }

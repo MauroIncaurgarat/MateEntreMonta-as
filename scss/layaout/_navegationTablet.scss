@@ -13,14 +13,14 @@ body{
     header{
         .headerHome{
             @include grid-header-desktop;  
-                    
+
             a{    
                 grid-area: logo;
                 padding: 0;
                 margin: 0;
 
                 .logotipo{
-                    width: map-get($map: $logo, $key: logophone);
+                    
                     padding: 0.5rem 0 0.5rem 0.5rem; 
                 }
             }

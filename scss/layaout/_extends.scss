@@ -121,19 +121,21 @@ $logo: (
     //MATETIPS PHONE
 //Matetips Textos Instructivos
 %listas{
+    justify-self: center;
     text-align: justify;
     width: 75vw;
     font-family: $tipografia-sdaria;
     font-weight: bold;
     margin-bottom: 0.3rem;
     font-size: 1rem;  
-    list-style: none;  
+    list-style: none;
+    padding: 0;  
 }
 %elementos-listas{
     padding: 0.5rem;
     background-color: $color-lista-MateTip;
     border-radius: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 
