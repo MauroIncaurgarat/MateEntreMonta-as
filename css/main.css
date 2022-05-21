@@ -205,7 +205,7 @@ body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
   display: none; }
 
 header {
-  background-color: #949C8C; }
+  background-color: #dfdfdf; }
   header .headerHome .redesSociales {
     display: none; }
   header .headerHome a {
@@ -443,7 +443,7 @@ footer div .imgE, footer div .imgP, footer div .imgS {
 body main .gridHome {
   display: grid;
   grid-template-areas: "titulo" "seccion";
-  background-color: #e2e3e7;
+  background-color: #f9f9f7;
   height: 100%;
   width: 100%; }
   body main .gridHome .tituloHome {
@@ -678,7 +678,7 @@ header .headerHome {
 body main .gridPro {
   display: grid;
   grid-area: "1" "2" "3" "4";
-  background-color: #e2e3e7; }
+  background-color: #f9f9f7; }
   body main .gridPro .tituloPro {
     grid-area: 1; }
   body main .gridPro .conteinerPro {
@@ -915,7 +915,7 @@ header .headerHome {
 body main .gridPzadoo {
   display: grid;
   grid-area: "1" "2" "3";
-  background-color: #e2e3e7; }
+  background-color: #f9f9f7; }
   body main .gridPzadoo .tituloPzadoo {
     grid-area: 1; }
   body main .gridPzadoo .conteinerPzadoo {
@@ -1170,7 +1170,7 @@ header .headerHome {
 body main .gridMomentos {
   display: grid;
   grid-area: "1" "2" "3" "4";
-  background-color: #e2e3e7; }
+  background-color: #f9f9f7; }
   body main .gridMomentos .tituloMo {
     grid-area: 1; }
   body main .gridMomentos .conteinerMo {
@@ -1410,7 +1410,7 @@ header .headerHome {
 body main .gridMateTips {
   display: grid;
   grid-area: "1" "2" "3" "4" "5" "6";
-  background-color: #e2e3e7;
+  background-color: #f9f9f7;
   justify-content: center; }
   body main .gridMateTips .tituloM {
     grid-area: 1; }
@@ -1646,7 +1646,7 @@ header .headerHome {
 body main .gridContactos {
   display: grid;
   grid-area: "1" "2" "3" "4" "5" "6";
-  background-color: #e2e3e7;
+  background-color: #f9f9f7;
   justify-content: center; }
   body main .gridContactos .tituloContacto {
     grid-area: 1; }
@@ -1928,7 +1928,7 @@ footer div {
   text-align: center;
   justify-items: center;
   position: absolute;
-  background-color: #949C8C;
+  background-color: #dfdfdf;
   padding: 1rem 0 0.5rem 0; }
   footer div .imgE {
     grid-area: imgE; }
@@ -1967,7 +1967,7 @@ footer div {
       text-align: center;
       justify-items: center;
       position: absolute;
-      background-color: #949C8C;
+      background-color: #dfdfdf;
       padding: 0.5rem; }
       footer div .compraPie, footer div .pagosPie, footer div .enviosPie {
         display: block;
@@ -2192,7 +2192,7 @@ footer div {
   body header .headerHome {
     display: grid;
     grid-template-areas: "logo   redes     compra" "navd    navd   navd";
-    background-color: #949C8C; }
+    background-color: #dfdfdf; }
     body header .headerHome a {
       grid-area: logo;
       padding: 0;
@@ -2208,7 +2208,9 @@ footer div {
       grid-area: compra;
       align-self: end; }
     body header .headerHome .navHome {
-      grid-area: navd; }
+      grid-area: navd;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black; }
       body header .headerHome .navHome ul {
         display: flex;
         flex-flow: row wrap;
@@ -2216,7 +2218,7 @@ footer div {
         width: 100%;
         justify-content: space-evenly;
         list-style: none;
-        background-color: #CCCFCA;
+        background-color: #efefef;
         margin-bottom: 0;
         padding: 0.2rem; }
         body header .headerHome .navHome ul li {
@@ -3730,7 +3732,7 @@ footer div {
   body main .gridPro .contenedorCatalogo {
     display: grid;
     grid-template-areas: "izq cards";
-    background-color: #e2e3e7;
+    background-color: #f9f9f7;
     gap: 1rem;
     padding: 1rem;
     margin: 1.5rem 1rem 1.5rem 1rem;
