@@ -38,9 +38,11 @@ body{
                 }
                 .imgPzado{    
                      grid-area: img;
-
+                     margin-right: 0;
                     img{
                         width: 80%;
+                        
+                        
                     }
                 }
                 .pieCatalogo{

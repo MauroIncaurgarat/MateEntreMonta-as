@@ -1,10 +1,6 @@
 @import "../base/typo";
 
 //Iconos
-
-//logotipo
-
-
 //secciones
 %iconosIzquierda {
     position: absolute;
@@ -17,22 +13,6 @@
     left: 40%;
 }
 %iconosDerecha {
-    position: absolute;
-    bottom: 7%;
-    left: 70%;
-}
-
-@mixin iconosIzquierda{
-    position: absolute;
-    bottom: 7%;
-    left: 10%;
-}
-@mixin iconosMedio {
-    position: absolute;
-    bottom: 7%;
-    left: 40%;
-}
-@mixin iconosDerecha {
     position: absolute;
     bottom: 7%;
     left: 70%;

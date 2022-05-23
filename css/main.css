@@ -205,7 +205,7 @@ body main .gridPro .contenedorCatalogo .contenedorcard .card div button {
   display: none; }
 
 header {
-  background-color: #dfdfdf; }
+  background-color: #c8c8c8; }
   header .headerHome .redesSociales {
     display: none; }
   header .headerHome a {
@@ -443,7 +443,7 @@ footer div .imgE, footer div .imgP, footer div .imgS {
 body main .gridHome {
   display: grid;
   grid-template-areas: "titulo" "seccion";
-  background-color: #f9f9f7;
+  background-color: #969696;
   height: 100%;
   width: 100%; }
   body main .gridHome .tituloHome {
@@ -455,6 +455,9 @@ body main .gridHome {
     justify-content: center; }
     body main .gridHome .conteinerSeccion .aSeccion {
       text-decoration: none; }
+      body main .gridHome .conteinerSeccion .aSeccion .item img {
+        width: 32px;
+        height: 32px; }
       body main .gridHome .conteinerSeccion .aSeccion .itemProductos {
         border: 0.25rem solid;
         border-radius: 0.8rem;
@@ -678,7 +681,7 @@ header .headerHome {
 body main .gridPro {
   display: grid;
   grid-area: "1" "2" "3" "4";
-  background-color: #f9f9f7; }
+  background-color: #969696; }
   body main .gridPro .tituloPro {
     grid-area: 1; }
   body main .gridPro .conteinerPro {
@@ -915,7 +918,7 @@ header .headerHome {
 body main .gridPzadoo {
   display: grid;
   grid-area: "1" "2" "3";
-  background-color: #f9f9f7; }
+  background-color: #969696; }
   body main .gridPzadoo .tituloPzadoo {
     grid-area: 1; }
   body main .gridPzadoo .conteinerPzadoo {
@@ -961,7 +964,8 @@ body main .gridPzadoo {
       body main .gridPzadoo .catalogoPzado .imgPzado img {
         width: 40%;
         border-radius: 2rem;
-        padding: 1rem; }
+        padding: 1rem;
+        margin-right: 0; }
     body main .gridPzadoo .catalogoPzado .pieCatalogo {
       grid-area: 4;
       margin-top: 1.5rem;
@@ -1170,7 +1174,7 @@ header .headerHome {
 body main .gridMomentos {
   display: grid;
   grid-area: "1" "2" "3" "4";
-  background-color: #f9f9f7; }
+  background-color: #969696; }
   body main .gridMomentos .tituloMo {
     grid-area: 1; }
   body main .gridMomentos .conteinerMo {
@@ -1410,7 +1414,7 @@ header .headerHome {
 body main .gridMateTips {
   display: grid;
   grid-area: "1" "2" "3" "4" "5" "6";
-  background-color: #f9f9f7;
+  background-color: #969696;
   justify-content: center; }
   body main .gridMateTips .tituloM {
     grid-area: 1; }
@@ -1646,7 +1650,7 @@ header .headerHome {
 body main .gridContactos {
   display: grid;
   grid-area: "1" "2" "3" "4" "5" "6";
-  background-color: #f9f9f7;
+  background-color: #969696;
   justify-content: center; }
   body main .gridContactos .tituloContacto {
     grid-area: 1; }
@@ -1928,8 +1932,9 @@ footer div {
   text-align: center;
   justify-items: center;
   position: absolute;
-  background-color: #dfdfdf;
-  padding: 1rem 0 0.5rem 0; }
+  background-color: #e0b0ff;
+  padding: 1rem 0 0.5rem 0;
+  border-top: 1px solid #969696; }
   footer div .imgE {
     grid-area: imgE; }
   footer div .imgP {
@@ -1967,7 +1972,7 @@ footer div {
       text-align: center;
       justify-items: center;
       position: absolute;
-      background-color: #dfdfdf;
+      background-color: #e0b0ff;
       padding: 0.5rem; }
       footer div .compraPie, footer div .pagosPie, footer div .enviosPie {
         display: block;
@@ -2192,13 +2197,14 @@ footer div {
   body header .headerHome {
     display: grid;
     grid-template-areas: "logo   redes     compra" "navd    navd   navd";
-    background-color: #dfdfdf; }
+    background-color: #c8c8c8; }
     body header .headerHome a {
       grid-area: logo;
       padding: 0;
-      margin: 0; }
+      margin: 0;
+      align-self: center; }
       body header .headerHome a .logotipo {
-        padding: 0.5rem 0 0.5rem 0.5rem; }
+        padding: 0rem 0 0rem 0.5rem; }
     body header .headerHome .redesSociales {
       grid-area: redes;
       text-decoration: none;
@@ -2209,8 +2215,8 @@ footer div {
       align-self: end; }
     body header .headerHome .navHome {
       grid-area: navd;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black; }
+      border-top: 1px solid #969696;
+      border-bottom: 1px solid #969696; }
       body header .headerHome .navHome ul {
         display: flex;
         flex-flow: row wrap;
@@ -2218,7 +2224,7 @@ footer div {
         width: 100%;
         justify-content: space-evenly;
         list-style: none;
-        background-color: #efefef;
+        background-color: #c8c8c8;
         margin-bottom: 0;
         padding: 0.2rem; }
         body header .headerHome .navHome ul li {
@@ -2481,7 +2487,7 @@ footer div {
       margin-right: 2rem; }
       body main .gridContactos .complemento .fondo {
         display: block;
-        background-color: #FFFFFF;
+        background-color: #c8c8c8;
         border-radius: 1rem;
         padding: 0.5rem;
         font-size: 1.2rem;
@@ -2940,7 +2946,8 @@ footer div {
         text-align: left;
         padding-left: 1rem; }
     body main .gridPzadoo .catalogoPzado .imgPzado {
-      grid-area: img; }
+      grid-area: img;
+      margin-right: 0; }
       body main .gridPzadoo .catalogoPzado .imgPzado img {
         width: 80%; }
     body main .gridPzadoo .catalogoPzado .pieCatalogo {
@@ -3143,11 +3150,15 @@ footer div {
     border-color: #4D7571;
     background-color: #8DD7CF;
     margin: 0.5rem; }
-  body header .headerHome a .logotipo {
-    width: 75%;
-    padding: 1rem 0 1rem 1rem; }
-  body header .headerHome .redesSociales img {
-    width: 25%; }
+  body header .headerHome a {
+    margin: 0; }
+    body header .headerHome a .logotipo {
+      width: 75%;
+      padding: 0rem 0 0rem 1rem; }
+  body header .headerHome .redesSociales {
+    align-self: center; }
+    body header .headerHome .redesSociales img {
+      width: 25%; }
   body header .headerHome .carroCompra {
     align-self: center; }
   body header .headerHome .navHome ul li {
@@ -3354,18 +3365,9 @@ footer div {
     font-family: "Space Mono", monospace;
     font-size: 1.8rem;
     border: none; }
-    body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
-      position: absolute;
-      bottom: 7%;
-      left: 10%; }
-    body main .gridHome .conteinerSeccion .aSeccion .item .i2 {
-      position: absolute;
-      bottom: 7%;
-      left: 40%; }
-    body main .gridHome .conteinerSeccion .aSeccion .item .i3 {
-      position: absolute;
-      bottom: 7%;
-      left: 70%; }
+    body main .gridHome .conteinerSeccion .aSeccion .item img {
+      width: 64px;
+      height: 64px; }
     body main .gridHome .conteinerSeccion .aSeccion .item:hover {
       transition: 0.3s;
       transform: scale(1.05); }
@@ -3682,7 +3684,7 @@ footer div {
         padding-right: 1.5rem;
         align-self: center;
         margin: 0;
-        background-color: #FFFFFF;
+        background-color: #c8c8c8;
         border-radius: 1rem; }
   body main .gridHome .conteinerSeccion .aSeccion .item .i1 {
     position: absolute;
@@ -3732,7 +3734,7 @@ footer div {
   body main .gridPro .contenedorCatalogo {
     display: grid;
     grid-template-areas: "izq cards";
-    background-color: #f9f9f7;
+    background-color: #969696;
     gap: 1rem;
     padding: 1rem;
     margin: 1.5rem 1rem 1.5rem 1rem;

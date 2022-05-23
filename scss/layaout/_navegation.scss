@@ -10,12 +10,16 @@ body{
     header{
         .headerHome{
             a{    
+               
+                margin: 0;
                 .logotipo{
                     width: map-get($map: $logo, $key: logodesktop);
-                    padding: 1rem 0 1rem 1rem;
+                    padding: 0rem 0 0rem 1rem;
+                    
                 }
             }
             .redesSociales{
+                align-self: center;
                 img{
                     width: 25%;
                 }

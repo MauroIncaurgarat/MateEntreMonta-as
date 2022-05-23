@@ -21,16 +21,11 @@ body{
                     .item{
                         @include seccion-P-D;
                         //iconos
-                        .i1{
-                            @include iconosIzquierda;
+                        img{
+                            //tamaño nativo de pngs
+                            width: 64px;
+                            height: 64px;
                         }
-                        .i2{
-                            @include iconosMedio;
-                        }
-                        .i3{
-                            @include iconosDerecha;
-                        }
-                        
                         &:hover{
                             transition: 0.3s;
                             transform: scale(1.05);

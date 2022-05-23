@@ -8,6 +8,7 @@
 footer{
     div{
         @include grid-footer;
+        border-top: 1px solid $color-borde-nav;
         .imgE{
             grid-area: imgE;
             @extend %padding-ic-f;

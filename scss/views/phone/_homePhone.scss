@@ -27,7 +27,11 @@ body{
                     //secciones
                     .item{
                         @extend %dimension-Seccion-P;
-                        
+                        img{
+                            //tamaño nativo imagenes
+                            width: 32px;
+                            height: 32px;
+                        }
                         //iconos
                         .i1{
                             @extend %iconosIzquierda;
