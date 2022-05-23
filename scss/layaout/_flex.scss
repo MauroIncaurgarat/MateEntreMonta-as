@@ -1,6 +1,6 @@
+//si uso un extend, me da error en las media queries
 
-
-@mixin flex-1{  //si uso un extend, me da error en las media queries
+@mixin flex-1{  
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -26,8 +26,8 @@
     justify-content: center;
     flex-flow: row wrap;
 }
-//galeria momentos
 
+//galeria momentos
 @mixin flex-galeria-desktop{
     display: flex;
     flex-flow: row wrap; 

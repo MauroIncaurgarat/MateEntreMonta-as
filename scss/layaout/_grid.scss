@@ -1,6 +1,6 @@
 @import "../utilities/colores";
 
-
+//GRIDS PHONE
 @mixin grid-3{
     display: grid;
     grid-area: "1"
@@ -75,7 +75,9 @@
     gap: 1rem;
 }
 
-//GridTablet
+
+//GRIDS TABLET
+//Contacto
 @mixin grid-contacto-tablet{
     display: grid;
     grid-template-areas: "title title"

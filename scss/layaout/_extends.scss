@@ -16,6 +16,7 @@ $logo: (
 %enlaces-seccion-P {
     text-decoration: none; 
 }
+
 // Botones de los htmls Phone
 %texto-seccion-S{
     text-align: center; 
@@ -24,6 +25,7 @@ $logo: (
     font-weight: bold;
     font-size: 1.2rem;
 }
+
 // <h1> Titulos principales/Encabezado Phone
 %titulos-ppales{
     text-align: center;
@@ -32,6 +34,7 @@ $logo: (
     padding: 0.3rem;
     font-weight: bold; 
 }
+
 // <h2> Subtitulos Phine
 %subtitulos{
     font-family: $tipografia-ppal;
@@ -140,7 +143,7 @@ $logo: (
 }
 
 
-    // BOTONES HTMLS 
+    // BOTONES HTMLS DESKTOP
 @mixin dimension-Seccion-S{
     width: $ancho-bottom-S;
     height: $alto-bottom-S;
